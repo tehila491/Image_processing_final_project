@@ -5,6 +5,6 @@ For our final project, we have chosen to use the **PASCAL VOC dataset**, specifi
 
 PASCAL VOC is a classic and widely used dataset in the field of computer vision. It contains real RGB images from different scenes, annotated with objects from **20 distinct categories**. The dataset is relatively lightweight, convenient to use, and easy to process, which makes it suitable for an academic project.
 
-We chose this dataset because it allows us to work with both low-level and high-level computer vision tasks. In addition, its annotations make it useful for advanced tasks such as **Object Detection** and **Semantic Segmentation**.
+We chose this dataset because it allows us to work with both low-level and high-level computer vision tasks. In addition, its annotations make it useful for advanced tasks.
 
 Overall, PASCAL VOC provides a strong foundation for our project, since it enables us to test how different algorithms and models perform on clean images and later compare their robustness under different image distortions.
