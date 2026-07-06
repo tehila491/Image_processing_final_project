@@ -114,20 +114,173 @@ Overall, the clean-image baseline shows that GrabCut achieves reasonable foregro
 These clean-image results are used as the reference point for the next stage, where we evaluate performance degradation under Salt & Pepper noise, overexposure, and motion blur.
 
 
-## 5. Evaluating Robustness (Applied Distortions)
-We applied our 3 distortions to the dataset and measured the degradation in performance. 
+## 5. Evaluating Robustness on Distorted Images
 
-### Visualizing the Distortions
-> 🖼️ **[INSERT IMAGE HERE: Side-by-side grid showing Original vs. Noise vs. Rain vs. Low-light]**
+After establishing the clean-image baseline, we evaluated the robustness of the three selected methods under image distortions.  
+Each clean image was distorted using three different distortion types, and each distortion was applied at six increasing severity levels.
 
-### Performance Degradation Results
-| Model | Metric | Clean (Baseline) | Speckle Noise | Rain | Low-Light |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Canny | Edge Density | [Score] | [Score] | [Score] | [Score] |
-| GrabCut | IoU | [Score] | [Score] | [Score] | [Score] |
-| ResNet50 | Accuracy | [Score] | [Score] | [Score] | [Score] |
+The evaluated distortions were:
 
-> 📉 **[INSERT IMAGE HERE: A line graph or bar chart showing the performance drop for ResNet/GrabCut across the distortions]**
+1. **Salt & Pepper Noise** — random black and white pixels are inserted into the image.
+2. **Overexposure** — brightness and intensity are increased, causing saturated and washed-out regions.
+3. **Motion Blur** — directional blur is applied to simulate camera or object motion.
+
+For each distorted image, we measured the performance of the three selected tasks and compared the results to the clean-image reference.
+
+---
+
+### Distortion Levels and SNR
+
+Each distortion was applied at six severity levels.  
+For every distorted image, we computed the Signal-to-Noise Ratio (SNR) relative to the original clean image.  
+Lower SNR indicates a stronger distortion.
+
+<img width="3426" height="1431" alt="image" src="https://github.com/user-attachments/assets/6b76ab9b-ffad-4ee4-9628-7446c41882d7" />
+
+The figure above shows visual examples of the three distortions across severity levels 1 to 6.  
+As the severity level increases, the visual quality decreases and the SNR becomes lower.
+
+---
+
+### Evaluation Metrics
+
+We used task-specific metrics because each computer vision task produces a different type of output.
+
+| Task / Model | Metric on Distorted Images | Meaning |
+| :--- | :--- | :--- |
+| Canny Edge Detection | Edge-Map IoU vs Clean Reference | Measures how similar the distorted edge map is to the clean edge map |
+| GrabCut Segmentation | Segmentation IoU vs Ground Truth | Measures overlap between the predicted foreground mask and the PASCAL VOC segmentation mask |
+| ResNet50 Multi-Label Classification | Multi-label F1-score | Measures classification quality when multiple object labels may exist in the same image |
+| Distortion Strength | SNR | Lower SNR means stronger image degradation |
+
+For **Canny**, PASCAL VOC does not provide ground-truth edge maps.  
+Therefore, we use the clean Canny edge map as the reference and measure how much the edge structure changes under distortions.
+
+For **GrabCut**, the predicted foreground mask is compared directly against the PASCAL VOC segmentation ground truth using IoU.
+
+For **ResNet50**, we use multi-label F1-score because PASCAL VOC images may contain multiple object classes.
+
+---
+
+### Performance Degradation vs. SNR
+
+The following plots show how each method behaves as the distortion severity increases and the SNR decreases.  
+The red dashed line represents the clean reference or clean baseline.
+
+#### Canny — Edge-Map IoU vs Clean Reference
+
+<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/08bcafb0-6a3c-454a-9c36-146e5bd1a5ca" />
+
+
+Canny is highly sensitive to distortions.  
+Salt & Pepper noise introduces many false edges, while Motion Blur removes sharp edges, causing a strong decrease in edge-map similarity.
+
+#### GrabCut — Segmentation IoU vs Ground Truth
+
+<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/d1427778-24f7-4208-b9db-824483c24192" />
+
+GrabCut performance decreases when image distortions damage foreground/background color separation or object boundaries.  
+The degradation is strongest under severe Salt & Pepper noise and severe Overexposure.
+
+#### ResNet50 — Multi-Label F1-Score
+
+<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/15a6e144-20f3-4049-b59b-dfe496372380" />
+
+
+ResNet50 is relatively stable under mild distortions, but its performance drops under severe Motion Blur and strong Salt & Pepper noise.  
+This shows that the high-level classification model is more robust than Canny at mild distortion levels, but still sensitive to strong image degradation.
+
+---
+
+### Quantitative Results Across Distortion Levels
+
+The table below summarizes the average performance for each distortion type and severity level.
+
+| Condition | Mean SNR | Canny Edge-Map IoU | GrabCut Segmentation IoU | ResNet50 Multi-Label F1 |
+| :--- | ---: | ---: | ---: | ---: |
+| Clean | inf | 1.000 | 0.653 | 0.842 |
+| Motion Blur L1 | 24.05 | 0.556 | 0.666 | 0.855 |
+| Motion Blur L2 | 19.79 | 0.247 | 0.630 | 0.796 |
+| Motion Blur L3 | 18.24 | 0.174 | 0.599 | 0.713 |
+| Motion Blur L4 | 17.22 | 0.136 | 0.575 | 0.677 |
+| Motion Blur L5 | 15.68 | 0.092 | 0.540 | 0.607 |
+| Motion Blur L6 | 14.26 | 0.060 | 0.517 | 0.380 |
+| Overexposure L1 | 16.08 | 0.879 | 0.658 | 0.845 |
+| Overexposure L2 | 8.81 | 0.715 | 0.620 | 0.836 |
+| Overexposure L3 | 4.81 | 0.516 | 0.561 | 0.813 |
+| Overexposure L4 | 2.56 | 0.368 | 0.505 | 0.823 |
+| Overexposure L5 | 0.97 | 0.252 | 0.419 | 0.713 |
+| Overexposure L6 | -0.02 | 0.162 | 0.304 | 0.643 |
+| Salt & Pepper L1 | 21.97 | 0.730 | 0.631 | 0.848 |
+| Salt & Pepper L2 | 18.98 | 0.586 | 0.566 | 0.880 |
+| Salt & Pepper L3 | 14.25 | 0.341 | 0.515 | 0.773 |
+| Salt & Pepper L4 | 10.66 | 0.201 | 0.475 | 0.750 |
+| Salt & Pepper L5 | 7.53 | 0.130 | 0.451 | 0.590 |
+| Salt & Pepper L6 | 4.86 | 0.101 | 0.297 | 0.447 |
+
+Some mild distortions slightly improve a score compared to the clean case.  
+This can happen because of threshold effects, small sample size, or because a mild blur/noise can occasionally suppress irrelevant details.  
+However, the overall trend is clear: stronger distortions generally reduce performance.
+
+---
+
+### Main Task Comparison Across Distortion Levels
+
+The following bar plots compare the clean reference with all distortion levels for each task.
+
+#### Canny Robustness
+
+<img width="1484" height="883" alt="image" src="https://github.com/user-attachments/assets/b26cda11-3e14-4d63-916e-87b9f6d0dbc7" />
+
+#### GrabCut Robustness
+
+<img width="1484" height="883" alt="image" src="https://github.com/user-attachments/assets/f2ce1a63-848c-4186-89c9-2ef96fd5bb98" />
+
+
+#### ResNet50 Robustness
+
+<img width="1484" height="883" alt="image" src="https://github.com/user-attachments/assets/93dd41b5-8d25-4b59-8059-f78cf1b6a254" />
+
+
+These plots provide a direct comparison between the clean reference and the distorted-image performance.  
+The red dashed line marks the clean baseline or clean reference for each task.
+
+---
+
+### Qualitative Results on Distorted Images
+
+The figure below shows qualitative examples of the algorithms applied to distorted images.  
+Each row presents a distortion condition and the corresponding outputs: distorted input image, Canny edge map, GrabCut mask, ResNet50 prediction, and ground-truth segmentation mask.
+
+<img width="2893" height="2065" alt="image" src="https://github.com/user-attachments/assets/b312b593-eb2f-4838-bd52-8ef8e41995c6" />
+
+
+The qualitative examples show that different distortions affect different tasks in different ways.  
+Salt & Pepper noise creates many false local structures, Motion Blur removes fine details and object boundaries, and Overexposure reduces contrast and saturates bright regions.
+
+---
+
+### Per-Class Performance Under Distortions
+
+We also analyzed average performance per target object class across the distorted images.
+
+<img width="2384" height="880" alt="image" src="https://github.com/user-attachments/assets/e34a6440-66bb-4d0e-883b-8150efcbc080" />
+
+
+The per-class analysis shows that some object categories are more robust to distortions than others.  
+Classes with clearer shapes and stronger foreground/background separation tend to preserve better performance, while visually complex or smaller objects are more sensitive to degradation.
+
+---
+
+### Robustness Summary
+
+The distortion experiments show that all three methods degrade as image quality decreases, but each method is affected differently:
+
+- **Canny Edge Detection** is the most sensitive to distortions because it depends directly on local intensity gradients.
+- **GrabCut Segmentation** is strongly affected when distortions damage object boundaries or foreground/background color distributions.
+- **ResNet50 Classification** is more stable under mild distortions, but severe Motion Blur and strong Salt & Pepper noise significantly reduce its multi-label classification performance.
+
+These results motivate the next stage of the project: applying image enhancement and restoration methods before re-evaluating the models.
 
 ## 6. Enhancements & Improvements
 To recover the lost performance, we applied pre-processing enhancements (e.g., denoising, brightness adjustments) and fine-tuned our deep learning model.
