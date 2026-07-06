@@ -3,7 +3,7 @@
 ## 1. Project Overview
 This project evaluates the robustness of various computer vision algorithms and deep learning models under different image distortions. We analyze how classical and modern methods degrade when facing noise, bad lighting, and weather conditions, and attempt to recover performance through enhancements and fine-tuning.
 
-**Team Members:** Tehila Segal, Hadar Cemama
+**Team Members:** Tehila Segal, Hadar Semama
 
 ## 2. Project Decisions & Setup
 Based on the project requirements, we selected the following dataset, tasks, and distortions:
