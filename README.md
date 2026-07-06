@@ -282,15 +282,209 @@ The distortion experiments show that all three methods degrade as image quality 
 
 These results motivate the next stage of the project: applying image enhancement and restoration methods before re-evaluating the models.
 
-## 6. Enhancements & Improvements
-To recover the lost performance, we applied pre-processing enhancements (e.g., denoising, brightness adjustments) and fine-tuned our deep learning model.
+## 6. Image Enhancement and Restoration
 
-### Pre-processing Enhancements (Canny & GrabCut)
-> 🖼️ **[INSERT IMAGE HERE: Visual of Distorted Image -> Enhanced Image -> Output]**
+After evaluating model robustness on distorted images, we applied image enhancement and restoration methods in order to recover part of the lost performance.  
+This stage focuses on pre-processing based restoration: each distorted image is first enhanced, and then the same three computer vision tasks are evaluated again.
 
-### Fine-Tuning (ResNet50)
-We fine-tuned ResNet50 on the distorted data to improve its robustness.
-* **Weights:** `[Link to checkpoint/model weights if applicable]`
+The restoration methods were selected according to the distortion type:
+
+| Distortion | Restoration / Enhancement Method | Motivation |
+| :--- | :--- | :--- |
+| Salt & Pepper Noise | Median Filtering | Removes isolated black/white impulse noise while preserving edges |
+| Overexposure | Gamma correction + CLAHE | Reduces excessive brightness and improves local contrast |
+| Motion Blur | Sharpening filter + Median Filtering | Attempts to recover edge sharpness and reduce artifacts |
+
+---
+
+### Restoration Visual Examples
+
+The following figures show clean, distorted, and restored images for each distortion type.
+
+#### Salt & Pepper Noise Restoration
+
+<img width="2235" height="1420" alt="image" src="https://github.com/user-attachments/assets/4dbb7cf1-067e-4d11-a706-c7f8cc77eb37" />
+
+
+#### Overexposure Restoration
+
+<img width="2235" height="1420" alt="image" src="https://github.com/user-attachments/assets/22a982be-29c8-400a-8ded-17b585f7b903" />
+
+
+#### Motion Blur Restoration
+
+<img width="2235" height="1420" alt="image" src="https://github.com/user-attachments/assets/42c85b8c-13d2-48ef-a3cf-1aa3b0a976ca" />
+
+
+These examples illustrate the visual effect of the restoration stage.  
+Salt & Pepper noise is reduced effectively by median filtering. Overexposure correction restores some local contrast, although saturated regions cannot always be fully recovered. Motion blur restoration is more challenging because sharpening can also amplify artifacts.
+
+---
+
+### Evaluation Metrics on Restored Images
+
+We used the same task-specific metrics as in the distorted-image evaluation:
+
+| Task / Model | Metric | Meaning |
+| :--- | :--- | :--- |
+| Canny Edge Detection | Edge-Map IoU vs Clean Reference | Measures how similar the restored edge map is to the clean edge map |
+| GrabCut Segmentation | Segmentation IoU vs Ground Truth | Measures overlap between the predicted foreground mask and the PASCAL VOC segmentation mask |
+| ResNet50 Multi-Label Classification | Multi-label F1-score | Measures classification quality for multi-label object prediction |
+| Image Quality | SNR | Measures how close the distorted/restored image is to the original clean image |
+
+---
+
+### Quantitative Restoration Results
+
+The table below summarizes the average performance before and after restoration.
+
+| Distortion | Distorted SNR | Restored SNR | Distorted Canny Edge-Map IoU | Restored Canny Edge-Map IoU | Distorted GrabCut Segmentation IoU | Restored GrabCut Segmentation IoU | Distorted ResNet50 F1 | Restored ResNet50 F1 |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Salt & Pepper | 10.66 | 19.77 | 0.201 | 0.253 | 0.471 | 0.674 | 0.700 | 0.839 |
+| Overexposure | 5.16 | 4.27 | 0.527 | 0.381 | 0.568 | 0.528 | 0.819 | 0.793 |
+| Motion Blur | 17.22 | 14.80 | 0.136 | 0.141 | 0.583 | 0.488 | 0.677 | 0.617 |
+
+The restoration stage improves performance most clearly for **Salt & Pepper noise**.  
+For Overexposure and Motion Blur, the restoration methods do not consistently improve all metrics. This is expected because saturated pixels and motion blur can remove image information that cannot be fully recovered using simple pre-processing.
+
+---
+
+### Relative Performance: Distorted vs Enhanced
+
+The following plots compare the relative performance of distorted and enhanced images.  
+The red dashed line represents the clean reference level. A score closer to 1.0 means performance is closer to the clean-image baseline.
+
+#### Canny Edge Stability
+
+<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/77a20a52-288a-47a4-a327-c4f6ef33a840" />
+
+
+#### GrabCut Segmentation
+
+<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/0429b87b-e0cb-41d7-bfc4-af3401416d7f" />
+
+
+#### ResNet50 Multi-Label Classification
+
+<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/2f0f7d4d-bbfe-4a97-85a6-041236a6110e" />
+
+
+These results show that restoration is highly distortion-dependent.  
+Median filtering improves Salt & Pepper noise significantly, especially for GrabCut and ResNet50. However, the selected enhancement methods for Overexposure and Motion Blur do not fully recover performance and sometimes reduce it.
+
+---
+
+### SNR Before and After Restoration
+
+The following graph compares image quality before and after restoration using SNR.
+
+<img width="1484" height="886" alt="image" src="https://github.com/user-attachments/assets/4938517a-c8dc-4872-9b31-af39175773f4" />
+
+
+SNR improves strongly for Salt & Pepper noise after median filtering.  
+For Overexposure and Motion Blur, SNR decreases after enhancement, meaning that the restored image is not necessarily closer to the original image at the pixel level. This can happen because enhancement methods such as contrast correction or sharpening change pixel values even if they improve some visual properties.
+
+---
+
+### Running the Algorithms on Enhanced Images
+
+The figure below shows how the algorithms behave before and after enhancement.  
+It includes GrabCut segmentation outputs and ResNet50 predictions for clean, distorted, and enhanced images.
+
+<img width="2820" height="1071" alt="image" src="https://github.com/user-attachments/assets/219fb010-5d52-47e4-8fd8-74d7c94d7dcb" />
+
+
+This qualitative comparison shows that enhancement can improve some outputs, but the effect depends on the distortion type and the task.  
+For example, denoising can improve noisy images, while sharpening blurred images may introduce artifacts that harm segmentation or classification.
+
+---
+
+### Per-Class Performance on Enhanced Images
+
+We also measured enhanced-image performance per target class.  
+The following plots show representative per-class results for the restored images.
+
+#### Enhanced Canny Edge-Map IoU per Class — Salt & Pepper
+
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/7d1d9d89-1f0b-4211-aa0a-2da456c37265" />
+
+
+#### Enhanced GrabCut Segmentation IoU per Class — Salt & Pepper
+
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/4f5ef1e5-613d-4d9b-a7a1-ead0c27c34cf" />
+
+
+#### Enhanced ResNet50 Multi-Label F1-Score per Class — Salt & Pepper
+
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/61cbb67f-1082-45e1-b6d6-49be66419001" />
+
+
+The per-class analysis shows that some object categories benefit more from restoration than others.  
+Classes with clear shapes and stronger foreground/background separation tend to preserve better performance, while visually complex or small objects remain more sensitive to distortions.
+
+<details>
+<summary>Additional per-class enhanced performance plots</summary>
+
+#### Overexposure
+
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/2d435fda-5b50-4369-a457-cb8ab90ac5d4" />
+
+
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/e35b044b-1d79-4527-95d8-ce8ba764034f" />
+
+
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/ebd73c5e-1d9c-484f-9183-8b6584b0a767" />
+
+
+#### Motion Blur
+
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/a4581e35-9f48-45a7-89de-784dfb4e2c45" />
+
+
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/5ce86e69-cedc-411c-941a-fa506cc11230" />
+
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/7082256f-a572-4868-b3bf-abc3f4142a07" />
+
+
+</details>
+
+---
+
+### Per-Class SNR on Restored Images
+
+In addition to task performance, we also analyzed restored-image SNR per class.
+
+<details>
+<summary>Restored SNR per class</summary>
+
+#### Salt & Pepper
+
+<img width="2084" height="884" alt="image" src="https://github.com/user-attachments/assets/3d1194a6-2e38-4e89-9610-fc79c02fc876" />
+
+
+#### Overexposure
+
+<img width="2084" height="884" alt="image" src="https://github.com/user-attachments/assets/38c96e52-d25d-4c7c-ba1e-a1b5dad0fffa" />
+
+
+#### Motion Blur
+
+<img width="2084" height="884" alt="image" src="https://github.com/user-attachments/assets/3df3ea2d-cb61-47af-abe0-1cc57476ceb5" />
+
+
+</details>
+
+---
+
+### Restoration Summary
+
+The restoration experiments show that pre-processing can recover performance in some cases, but not universally.
+
+- **Salt & Pepper noise:** Median filtering improves SNR and improves all three task metrics.
+- **Overexposure:** Enhancement restores some contrast visually, but does not consistently improve task performance.
+- **Motion Blur:** Sharpening provides only limited recovery and may introduce artifacts, making this distortion the hardest to restore with simple pre-processing.
+
+Overall, the restoration stage demonstrates that enhancement methods must be matched carefully to the distortion type and the downstream vision task.
 
 ### Final Comparison (Improvement)
 | Model | Distorted Score | Enhanced / Fine-Tuned Score | Recovery (%) |
