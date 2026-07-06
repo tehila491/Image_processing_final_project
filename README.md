@@ -95,7 +95,7 @@ The method performs better on objects with clear foreground-background separatio
 The ResNet50 classifier was evaluated using multi-label IoU / Jaccard score for each of the 20 PASCAL VOC classes.  
 This per-class analysis shows which categories are recognized more reliably on clean images and which classes are more challenging.
 
-<img width="1784" height="730" alt="image" src="https://github.com/user-attachments/assets/4e15a46c-e6ab-49fc-b073-60d4ec4bde82" />
+<img width="1189" height="489" alt="image" src="https://github.com/user-attachments/assets/c1f23fe8-a1bc-41b8-843f-3af5a16a9191" />
 
 
 #### Canny — Edge Density per Class
