@@ -511,15 +511,3 @@ The restoration stage shows that preprocessing can recover part of the lost perf
 Overall, the results show that restoration is useful, but it must be matched carefully to the distortion type.  
 The improvement is strongest when the distortion can be reduced without introducing new artifacts.
 
-### Final Comparison (Improvement)
-| Model | Distorted Score | Enhanced / Fine-Tuned Score | Recovery (%) |
-| :--- | :--- | :--- | :--- |
-| GrabCut (Rain) | [Score] | [Score] | [X%] |
-| ResNet50 (Noise) | [Score] | [Score] | [X%] |
-
-## 7. How to Run This Project
-1. Clone the repository: `git clone [Your Repo URL]`
-2. Install requirements: `pip install -r requirements.txt`
-3. Download the data: Run `data_download_and_eda.py`
-4. Run baseline evaluation: `python baseline_evaluation.py`
-5. Apply distortions and evaluate: `python evaluate_distortions.py`
