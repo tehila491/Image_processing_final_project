@@ -35,10 +35,22 @@ Based on the project requirements, we selected a public dataset, three computer 
 | **Distortions** | Salt & Pepper Noise, Overexposure, Motion Blur | Applied at multiple severity levels to evaluate robustness. |
 
 ## 3. Exploratory Data Analysis (EDA)
-Here is a sample of our clean data with ground truth annotations:
+### Clean Images with Ground Truth Bounding Boxes
+The figure below shows clean PASCAL VOC images with their ground-truth bounding box annotations and object class labels.
 <img width="1189" height="946" alt="image" src="https://github.com/user-attachments/assets/ca2f3a3a-531c-44ee-b529-6309531b4400" />
 
- 
+### Class Distribution
+The following plot shows the distribution of object classes in the selected PASCAL VOC split.  
+This helps verify that the evaluation includes a variety of object categories.
+<img width="1190" height="590" alt="image" src="https://github.com/user-attachments/assets/058e2453-c825-4cc1-b12c-efa295522d67" />
+
+### Ground Truth Segmentation Masks
+
+The PASCAL VOC segmentation masks are used as ground truth for evaluating the GrabCut foreground segmentation task.  
+For each selected image, we extract the binary mask of the target object class and compare the GrabCut output against this mask using Segmentation IoU.
+
+<img width="1389" height="1166" alt="image" src="https://github.com/user-attachments/assets/5bb17913-b5b0-4bb8-a0f4-6ddb0d4d5599" />
+
 ## 4. Baseline Performance (Clean Images)
 
 Before applying distortions, we evaluated all three selected tasks on clean PASCAL VOC 2012 images.  
@@ -302,53 +314,67 @@ These results motivate the next stage of the project: applying image enhancement
 
 ## 6. Image Enhancement and Restoration
 
-After evaluating model robustness on distorted images, we applied image enhancement and restoration methods in order to recover part of the lost performance.  
-This stage focuses on pre-processing based restoration: each distorted image is first enhanced, and then the same three computer vision tasks are evaluated again.
+After evaluating the degradation caused by image distortions, we applied restoration and enhancement methods in order to recover part of the lost performance.
 
-The restoration methods were selected according to the distortion type:
+For this stage, each distorted image was enhanced using a restoration method matched to the specific distortion type.  
+Then, the same three computer vision tasks were evaluated again:
 
-| Distortion | Restoration / Enhancement Method | Motivation |
-| :--- | :--- | :--- |
-| Salt & Pepper Noise | Median Filtering | Removes isolated black/white impulse noise while preserving edges |
-| Overexposure | Gamma correction + CLAHE | Reduces excessive brightness and improves local contrast |
-| Motion Blur | Sharpening filter + Median Filtering | Attempts to recover edge sharpness and reduce artifacts |
+1. **Canny Edge Detection**
+2. **GrabCut Foreground Segmentation**
+3. **ResNet50 Multi-Label Classification**
+
+The goal was to compare performance before and after restoration using the same metrics as in the distorted-image evaluation.
 
 ---
 
-### Restoration Visual Examples
+### Restoration Methods
 
-The following figures show clean, distorted, and restored images for each distortion type.
+Each distortion type was restored using a different method, because each distortion damages the image in a different way.
+
+| Distortion | Restoration / Enhancement Method | Motivation |
+| :--- | :--- | :--- |
+| Salt & Pepper Noise | Median Filtering | Removes isolated black and white impulse noise while preserving object boundaries |
+| Overexposure | Inverse brightness correction + mild CLAHE | Reduces excessive brightness and restores local contrast |
+| Motion Blur | Richardson-Lucy deconvolution + bilateral filtering + mild luminance sharpening | Attempts to recover blurred edges while controlling artifacts |
+
+---
+
+### Visual Restoration Examples
+
+The following figures show examples of clean, distorted, and restored images for each distortion type.
 
 #### Salt & Pepper Noise Restoration
 
-<img width="2235" height="1420" alt="image" src="https://github.com/user-attachments/assets/4dbb7cf1-067e-4d11-a706-c7f8cc77eb37" />
-
+<img width="2235" height="1420" alt="image" src="https://github.com/user-attachments/assets/58fa6192-7d5a-4f19-968e-26724a80bb11" />
 
 #### Overexposure Restoration
 
-<img width="2235" height="1420" alt="image" src="https://github.com/user-attachments/assets/22a982be-29c8-400a-8ded-17b585f7b903" />
-
+<img width="2235" height="1420" alt="image" src="https://github.com/user-attachments/assets/8e9f55b9-23f6-40bf-b789-f85ae6bf6813" />
 
 #### Motion Blur Restoration
 
-<img width="2235" height="1420" alt="image" src="https://github.com/user-attachments/assets/42c85b8c-13d2-48ef-a3cf-1aa3b0a976ca" />
+<img width="2235" height="1420" alt="image" src="https://github.com/user-attachments/assets/e630a5be-9767-4cfc-8de4-d43a2173c11c" />
 
-
-These examples illustrate the visual effect of the restoration stage.  
-Salt & Pepper noise is reduced effectively by median filtering. Overexposure correction restores some local contrast, although saturated regions cannot always be fully recovered. Motion blur restoration is more challenging because sharpening can also amplify artifacts.
+The visual examples show that Salt & Pepper noise is strongly reduced by median filtering.  
+Overexposure correction restores part of the original brightness and contrast.  
+Motion Blur restoration is more challenging, but the Richardson-Lucy based method recovers some edge sharpness while avoiding the severe artifacts caused by more aggressive deconvolution.
 
 ---
 
 ### Evaluation Metrics on Restored Images
 
-We used the same task-specific metrics as in the distorted-image evaluation:
+We used task-specific metrics because each task produces a different type of output.
 
 | Task / Model | Metric | Meaning |
 | :--- | :--- | :--- |
 | Canny Edge Detection | Edge-Map IoU vs Clean Reference | Measures how similar the restored edge map is to the clean edge map |
 | GrabCut Segmentation | Segmentation IoU vs Ground Truth | Measures overlap between the predicted foreground mask and the PASCAL VOC segmentation mask |
-| ResNet50 Multi-Label Classification | Multi-label F1-score | Measures classification quality for multi-label object prediction |
+| ResNet50 Multi-Label Classification | Multi-label F1-score | Measures classification quality when multiple object labels may exist in the same image |
 | Image Quality | SNR | Measures how close the distorted/restored image is to the original clean image |
+
+For Canny, the clean edge map is used as the reference because PASCAL VOC does not provide ground-truth edge maps.  
+For GrabCut, the predicted foreground mask is compared against the PASCAL VOC segmentation ground truth.  
+For ResNet50, we use multi-label F1-score because a PASCAL VOC image may contain more than one object class.
 
 ---
 
@@ -358,137 +384,117 @@ The table below summarizes the average performance before and after restoration.
 
 | Distortion | Distorted SNR | Restored SNR | Distorted Canny Edge-Map IoU | Restored Canny Edge-Map IoU | Distorted GrabCut Segmentation IoU | Restored GrabCut Segmentation IoU | Distorted ResNet50 F1 | Restored ResNet50 F1 |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Salt & Pepper | 10.66 | 19.77 | 0.201 | 0.253 | 0.471 | 0.674 | 0.700 | 0.839 |
-| Overexposure | 5.16 | 4.27 | 0.527 | 0.381 | 0.568 | 0.528 | 0.819 | 0.793 |
-| Motion Blur | 17.22 | 14.80 | 0.136 | 0.141 | 0.583 | 0.488 | 0.677 | 0.617 |
+| Salt & Pepper | 10.660 | 19.772 | 0.201 | 0.253 | 0.467 | 0.674 | 0.700 | 0.839 |
+| Overexposure | 5.164 | 12.498 | 0.527 | 0.576 | 0.561 | 0.613 | 0.819 | 0.833 |
+| Motion Blur | 17.219 | 18.248 | 0.136 | 0.204 | 0.578 | 0.622 | 0.677 | 0.680 |
 
-The restoration stage improves performance most clearly for **Salt & Pepper noise**.  
-For Overexposure and Motion Blur, the restoration methods do not consistently improve all metrics. This is expected because saturated pixels and motion blur can remove image information that cannot be fully recovered using simple pre-processing.
+The restoration methods improved performance for all three distortion types, but the improvement was not uniform across tasks.
+
+Salt & Pepper noise showed the strongest recovery, mainly because median filtering is highly effective for impulse noise.  
+Overexposure also improved after inverse brightness correction and local contrast enhancement.  
+Motion Blur showed a clear improvement in Canny Edge-Map IoU and GrabCut Segmentation IoU, but only a very small improvement in ResNet50 Multi-Label F1-score. This indicates that motion blur is harder to recover using classical preprocessing methods.
 
 ---
 
 ### Relative Performance: Distorted vs Enhanced
 
 The following plots compare the relative performance of distorted and enhanced images.  
-The red dashed line represents the clean reference level. A score closer to 1.0 means performance is closer to the clean-image baseline.
+The dashed red line represents the clean-image reference level. A value closer to 1.0 means that the method performs closer to its clean-image baseline.
 
 #### Canny Edge Stability
 
-<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/77a20a52-288a-47a4-a327-c4f6ef33a840" />
-
+<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/397d892e-2659-4ab5-bf00-007bd2c135d6" />
 
 #### GrabCut Segmentation
 
-<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/0429b87b-e0cb-41d7-bfc4-af3401416d7f" />
-
+<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/119fb527-5dcf-4ed9-be34-05a1c1cf30e5" />
 
 #### ResNet50 Multi-Label Classification
 
-<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/2f0f7d4d-bbfe-4a97-85a6-041236a6110e" />
+<img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/55356b22-deef-43e9-9cf2-f6fc62d48532" />
 
-
-These results show that restoration is highly distortion-dependent.  
-Median filtering improves Salt & Pepper noise significantly, especially for GrabCut and ResNet50. However, the selected enhancement methods for Overexposure and Motion Blur do not fully recover performance and sometimes reduce it.
+These plots show that restoration improves the low-level and segmentation tasks more clearly than the high-level classification task.  
+The strongest improvement appears under Salt & Pepper noise, while Motion Blur remains the most difficult distortion to restore.
 
 ---
 
 ### SNR Before and After Restoration
 
-The following graph compares image quality before and after restoration using SNR.
+The following plot compares image quality before and after restoration using Signal-to-Noise Ratio.
 
-<img width="1484" height="886" alt="image" src="https://github.com/user-attachments/assets/4938517a-c8dc-4872-9b31-af39175773f4" />
+<img width="1484" height="886" alt="image" src="https://github.com/user-attachments/assets/9d66009b-5a63-402a-a59d-0d27e22bcea5" />
 
-
-SNR improves strongly for Salt & Pepper noise after median filtering.  
-For Overexposure and Motion Blur, SNR decreases after enhancement, meaning that the restored image is not necessarily closer to the original image at the pixel level. This can happen because enhancement methods such as contrast correction or sharpening change pixel values even if they improve some visual properties.
+SNR improves for all three distortions after restoration.  
+The largest improvement occurs for Salt & Pepper noise and Overexposure.  
+Motion Blur has a smaller SNR improvement, which is expected because motion blur removes high-frequency details that are difficult to reconstruct without a stronger learned restoration model.
 
 ---
 
 ### Running the Algorithms on Enhanced Images
 
-The figure below shows how the algorithms behave before and after enhancement.  
-It includes GrabCut segmentation outputs and ResNet50 predictions for clean, distorted, and enhanced images.
+The following figure shows the outputs of GrabCut and ResNet50 on clean, distorted, and enhanced images for all three distortion types.
 
-<img width="2820" height="1071" alt="image" src="https://github.com/user-attachments/assets/219fb010-5d52-47e4-8fd8-74d7c94d7dcb" />
+<img width="3584" height="1787" alt="image" src="https://github.com/user-attachments/assets/b9397593-3388-46f1-abd7-48880fa4395d" />
 
-
-This qualitative comparison shows that enhancement can improve some outputs, but the effect depends on the distortion type and the task.  
-For example, denoising can improve noisy images, while sharpening blurred images may introduce artifacts that harm segmentation or classification.
+This comparison demonstrates how the downstream algorithms respond to restoration.  
+For Salt & Pepper and Overexposure, enhancement visibly improves the input quality and improves the measured task performance.  
+For Motion Blur, restoration mainly improves edge and segmentation quality, while the ResNet50 prediction changes only slightly.
 
 ---
 
 ### Per-Class Performance on Enhanced Images
 
-We also measured enhanced-image performance per target class.  
-The following plots show representative per-class results for the restored images.
+We also measured enhanced-image performance per target object class.  
+This analysis helps identify which classes benefit more from restoration and which classes remain sensitive to distortions.
 
-#### Enhanced Canny Edge-Map IoU per Class — Salt & Pepper
+#### Enhanced Canny Edge-Map IoU per Class
 
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/7d1d9d89-1f0b-4211-aa0a-2da456c37265" />
+<img width="3584" height="1787" alt="image" src="https://github.com/user-attachments/assets/e5923d81-d64f-47c4-9f95-17ba725ae6ea" />
 
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/79a86a72-cad7-432f-90c2-594864744ea7" />
 
-#### Enhanced GrabCut Segmentation IoU per Class — Salt & Pepper
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/05772ee2-3e45-4e6f-92d3-174cad281ea1" />
 
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/4f5ef1e5-613d-4d9b-a7a1-ead0c27c34cf" />
+#### Enhanced GrabCut Segmentation IoU per Class
 
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/ab817473-4c72-4aed-9f29-812b6e31e855" />
 
-#### Enhanced ResNet50 Multi-Label F1-Score per Class — Salt & Pepper
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/a562ed5c-867d-4e6c-a386-0af9897d0f3a" />
 
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/61cbb67f-1082-45e1-b6d6-49be66419001" />
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/787baef7-954e-4ab8-b37d-b572d773e869" />
 
+#### Enhanced ResNet50 Multi-Label F1-Score per Class
 
-The per-class analysis shows that some object categories benefit more from restoration than others.  
-Classes with clear shapes and stronger foreground/background separation tend to preserve better performance, while visually complex or small objects remain more sensitive to distortions.
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/584e64ca-ed62-44a6-831c-2fd5d6e59da0" />
 
-<details>
-<summary>Additional per-class enhanced performance plots</summary>
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/6d3ca5e9-21db-45e6-ae29-016caa66b735" />
 
-#### Overexposure
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/192be864-778e-447c-a4b6-66ba332e558d" />
 
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/2d435fda-5b50-4369-a457-cb8ab90ac5d4" />
-
-
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/e35b044b-1d79-4527-95d8-ce8ba764034f" />
-
-
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/ebd73c5e-1d9c-484f-9183-8b6584b0a767" />
-
-
-#### Motion Blur
-
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/a4581e35-9f48-45a7-89de-784dfb4e2c45" />
-
-
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/5ce86e69-cedc-411c-941a-fa506cc11230" />
-
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/7082256f-a572-4868-b3bf-abc3f4142a07" />
-
-
-</details>
+The per-class results show that restoration does not affect all object categories equally.  
+Classes with clearer shapes and stronger foreground-background separation tend to benefit more from restoration, especially for GrabCut.  
+Smaller objects or visually complex categories remain more sensitive to distortion.
 
 ---
 
 ### Per-Class SNR on Restored Images
 
-In addition to task performance, we also analyzed restored-image SNR per class.
+In addition to task performance, we also analyzed the restored-image SNR per class.
 
 <details>
 <summary>Restored SNR per class</summary>
 
 #### Salt & Pepper
 
-<img width="2084" height="884" alt="image" src="https://github.com/user-attachments/assets/3d1194a6-2e38-4e89-9610-fc79c02fc876" />
-
+<img width="2084" height="884" alt="image" src="https://github.com/user-attachments/assets/8ed5be1b-1eff-45bc-a3f1-0fc0875c10fd" />
 
 #### Overexposure
 
-<img width="2084" height="884" alt="image" src="https://github.com/user-attachments/assets/38c96e52-d25d-4c7c-ba1e-a1b5dad0fffa" />
-
+<img width="2084" height="884" alt="image" src="https://github.com/user-attachments/assets/618ea237-22bb-4057-9c96-b944f72d0aca" />
 
 #### Motion Blur
 
-<img width="2084" height="884" alt="image" src="https://github.com/user-attachments/assets/3df3ea2d-cb61-47af-abe0-1cc57476ceb5" />
-
+<img width="2084" height="884" alt="image" src="https://github.com/user-attachments/assets/28267f74-4ef7-4e4d-b156-2c14b179b4b9" />
 
 </details>
 
@@ -496,13 +502,14 @@ In addition to task performance, we also analyzed restored-image SNR per class.
 
 ### Restoration Summary
 
-The restoration experiments show that pre-processing can recover performance in some cases, but not universally.
+The restoration stage shows that preprocessing can recover part of the lost performance, but the amount of recovery depends strongly on the distortion type and the downstream task.
 
-- **Salt & Pepper noise:** Median filtering improves SNR and improves all three task metrics.
-- **Overexposure:** Enhancement restores some contrast visually, but does not consistently improve task performance.
-- **Motion Blur:** Sharpening provides only limited recovery and may introduce artifacts, making this distortion the hardest to restore with simple pre-processing.
+- **Salt & Pepper Noise:** Median filtering produced the strongest improvement across SNR, Canny, GrabCut, and ResNet50.
+- **Overexposure:** Inverse brightness correction and mild CLAHE improved both image quality and task performance.
+- **Motion Blur:** Richardson-Lucy based restoration improved edge-map similarity and segmentation IoU, but classification improvement was limited.
 
-Overall, the restoration stage demonstrates that enhancement methods must be matched carefully to the distortion type and the downstream vision task.
+Overall, the results show that restoration is useful, but it must be matched carefully to the distortion type.  
+The improvement is strongest when the distortion can be reduced without introducing new artifacts.
 
 ### Final Comparison (Improvement)
 | Model | Distorted Score | Enhanced / Fine-Tuned Score | Recovery (%) |
