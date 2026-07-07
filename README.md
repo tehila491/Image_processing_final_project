@@ -1,20 +1,38 @@
 # Evaluating Robustness of Computer Vision Models 👁️
 
 ## 1. Project Overview
-This project evaluates the robustness of various computer vision algorithms and deep learning models under different image distortions. We analyze how classical and modern methods degrade when facing noise, bad lighting, and weather conditions, and attempt to recover performance through enhancements and fine-tuning.
+
+This project evaluates the robustness of classical image processing algorithms and deep learning models under different image distortions.  
+The goal is to analyze how visual degradation affects computer vision performance across low-level, mid-level, and high-level tasks.
+
+We evaluate three representative tasks:
+
+1. **Low-level vision:** Edge Detection using the Canny Edge Detector  
+2. **Mid-level vision:** Foreground Segmentation using GrabCut  
+3. **High-level vision:** Multi-label Image Classification using ResNet50  
+
+The selected distortions are:
+
+- **Salt & Pepper Noise**
+- **Overexposure**
+- **Motion Blur**
+
+For each task, we first measure performance on clean images, then evaluate performance degradation under distorted images, and finally test whether image restoration/enhancement methods can recover part of the lost performance.  
+For the deep learning task, we also evaluate model behavior under distortions and compare it with the clean-image baseline.
 
 **Team Members:** Tehila Segal, Hadar Semama
 
 ## 2. Project Decisions & Setup
-Based on the project requirements, we selected the following dataset, tasks, and distortions:
+
+Based on the project requirements, we selected a public dataset, three computer vision tasks, three distortion types, and suitable evaluation metrics for each task.
 
 | Category | Selection | Description |
 | :--- | :--- | :--- |
-| **Dataset** | [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/) | High-quality dataset for object detection and segmentation. |
-| **Task 1 (Low-Level)** | Edge Detection | **Model:** Canny Edge Detector |
-| **Task 2 (Mid-Level)** | Image Segmentation | **Model:** GrabCut Algorithm |
-| **Task 3 (High-Level)**| Image Classification | **Model:** ResNet50 (Pre-trained) |
-| **Distortions** | Salt & Pepper Noise, High Exposure, Motion Blur | Applied at varying severities to test robustness. |
+| **Dataset** | [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/) | Public computer vision dataset containing RGB images with object labels, bounding boxes, and segmentation masks. |
+| **Task 1 — Low-Level Vision** | Edge Detection | **Algorithm:** Canny Edge Detector |
+| **Task 2 — Mid-Level Vision** | Foreground Segmentation | **Algorithm:** GrabCut initialized using ground-truth bounding boxes |
+| **Task 3 — High-Level Vision** | Multi-Label Image Classification | **Model:** ResNet50 initialized with ImageNet pretrained weights |
+| **Distortions** | Salt & Pepper Noise, Overexposure, Motion Blur | Applied at multiple severity levels to evaluate robustness. |
 
 ## 3. Exploratory Data Analysis (EDA)
 Here is a sample of our clean data with ground truth annotations:
