@@ -462,7 +462,7 @@ This analysis helps identify which classes benefit more from restoration and whi
 
 <img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/79a86a72-cad7-432f-90c2-594864744ea7" />
 
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/05772ee2-3e45-4e6f-92d3-174cad281ea1" />
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/80992c88-dc3f-4c02-89df-6d46fbbf87ae" />
 
 #### Enhanced GrabCut Segmentation IoU per Class
 
