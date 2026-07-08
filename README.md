@@ -474,7 +474,7 @@ This analysis helps identify which classes benefit more from restoration and whi
 
 #### Enhanced ResNet50 Multi-Label F1-Score per Class
 
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/584e64ca-ed62-44a6-831c-2fd5d6e59da0" />
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/838d6281-0078-4a10-8245-5474e12d75d0" />
 
 <img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/6d3ca5e9-21db-45e6-ae29-016caa66b735" />
 
