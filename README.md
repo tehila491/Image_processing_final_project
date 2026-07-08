@@ -432,13 +432,22 @@ Motion Blur has a smaller SNR improvement, which is expected because motion blur
 
 ### Running the Algorithms on Enhanced Images
 
-The following figure shows the outputs of GrabCut and ResNet50 on clean, distorted, and enhanced images for all three distortion types.
+The following figures show the outputs of the three vision tasks — Canny Edge Detection, GrabCut Foreground Segmentation, and ResNet50 Multi-Label Classification — on clean, distorted, and enhanced images for all three distortion types.
+**Canny Edge Detection: Clean vs Distorted vs Enhanced**
+<img width="1914" height="1858" alt="image" src="https://github.com/user-attachments/assets/cd50dbbe-9908-4dfc-8198-e981c3194525" />
+**GrabCut Foreground Segmentation: Clean vs Distorted vs Enhanced**
+<img width="1914" height="1858" alt="image" src="https://github.com/user-attachments/assets/9adfb78f-0274-4be7-a2fe-d54294201068" />
+**ResNet50 Multi-Label Classification: Clean vs Distorted vs Enhanced**
+<img width="2063" height="2004" alt="image" src="https://github.com/user-attachments/assets/e0803d7a-2fd2-49d3-9aca-b8bc50a2d2fa" />
 
-<img width="3584" height="1787" alt="image" src="https://github.com/user-attachments/assets/b9397593-3388-46f1-abd7-48880fa4395d" />
 
-This comparison demonstrates how the downstream algorithms respond to restoration.  
-For Salt & Pepper and Overexposure, enhancement visibly improves the input quality and improves the measured task performance.  
-For Motion Blur, restoration mainly improves edge and segmentation quality, while the ResNet50 prediction changes only slightly.
+This comparison demonstrates how image restoration affects both visual quality and downstream task outputs.
+
+For **Canny Edge Detection**, restoration reduces false edges caused by Salt & Pepper noise and partially restores edge structure after Motion Blur.  
+For **GrabCut Segmentation**, enhanced images improve foreground/background separation, especially when object boundaries become clearer after restoration.  
+For **ResNet50 Classification**, restoration improves predictions mainly when the object appearance is preserved, while Motion Blur produces only limited recovery.
+
+Overall, Salt & Pepper and Overexposure benefit most from enhancement, while Motion Blur remains the hardest distortion to recover.
 
 ---
 
@@ -449,7 +458,7 @@ This analysis helps identify which classes benefit more from restoration and whi
 
 #### Enhanced Canny Edge-Map IoU per Class
 
-<img width="3584" height="1787" alt="image" src="https://github.com/user-attachments/assets/e5923d81-d64f-47c4-9f95-17ba725ae6ea" />
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/0b120580-8af5-4716-86a4-ad6176b6bd35" />
 
 <img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/79a86a72-cad7-432f-90c2-594864744ea7" />
 
