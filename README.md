@@ -594,7 +594,8 @@ Both models were evaluated during training on clean validation images and fixed 
 
 The selected checkpoint was the epoch with the lowest combined validation loss across the two validation sets.
 
-<img src="results/figures/part4_controlled_finetuning_loss_curves.png" width="100%" alt="Controlled fine-tuning loss curves">
+
+<img width="2234" height="740" alt="part4_controlled_finetuning_loss_curves" src="https://github.com/user-attachments/assets/364b732a-4e17-4f28-9748-0e704bdc49de" />
 
 The Clean-Control model achieved its lowest combined validation loss at epoch 2. Although its training loss continued to decrease, the validation loss began to increase, indicating overfitting after the second epoch.
 
@@ -632,7 +633,8 @@ Because both models received the same amount of additional training, this contro
 
 ### Average Performance per Distortion Type
 
-<img src="results/figures/part4_controlled_finetuning_per_distortion_type.png" width="75%" alt="Average fine-tuning performance per distortion type">
+
+<img width="1484" height="877" alt="part4_controlled_finetuning_per_distortion_type" src="https://github.com/user-attachments/assets/a64505ee-1e77-48b0-95a8-c9ad4901db9e" />
 
 | Distortion | Clean-Control F1 | Distortion-Aware F1 | Improvement |
 | :--- | ---: | ---: | ---: |
@@ -650,7 +652,9 @@ The improvement for Overexposure was smaller because the Clean-Control model was
 
 The following graph compares the models separately at every distortion severity level.
 
-<img src="results/figures/part4_controlled_finetuning_all_conditions.png" width="100%" alt="Fine-tuning performance across all distortion conditions">
+
+<img width="2534" height="1028" alt="part4_controlled_finetuning_all_conditions" src="https://github.com/user-attachments/assets/7f6aaa02-e19d-4d27-beab-89bba281725a" />
+
 
 At mild distortion levels, the performance difference between the models is relatively small. As the severity increases, the advantage of distortion-aware fine-tuning becomes substantially larger.
 
@@ -670,7 +674,8 @@ The largest individual improvement was obtained for Motion Blur L6, where the F1
 
 The following plots show classification performance as a function of mean SNR for each distortion type.
 
-<img src="results/figures/part4_controlled_finetuning_per_snr.png" width="100%" alt="Fine-tuning performance as SNR decreases">
+<img width="2684" height="812" alt="part4_controlled_finetuning_per_snr" src="https://github.com/user-attachments/assets/828db423-dced-47e9-a4b0-ca61e678767f" />
+
 
 Lower SNR generally represents stronger image degradation.
 
@@ -684,7 +689,8 @@ These results demonstrate that distortion-aware fine-tuning reduces the rate at 
 
 We also compared the average F1-score of the two models for each of the 20 PASCAL VOC classes across all distorted conditions.
 
-<img src="results/figures/part4_controlled_per_class_comparison.png" width="100%" alt="Per-class performance of clean-control and distortion-aware models">
+<img width="2384" height="1027" alt="part4_controlled_per_class_comparison" src="https://github.com/user-attachments/assets/f2fd6c20-4508-49b4-a265-f6d6dadd61c4" />
+
 
 The mean per-class F1-score increased from **0.695** for the Clean-Control model to **0.786** for the Distortion-Aware model.
 
