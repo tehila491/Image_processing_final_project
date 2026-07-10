@@ -738,3 +738,22 @@ The main findings are:
 - Performance on clean images was preserved.
 
 Overall, distortion-aware fine-tuning was substantially more effective than additional clean-image training, particularly under severe image degradation.
+
+### Qualitative Prediction Comparison
+
+The following example compares the predictions of the Clean-Control and
+Distortion-Aware models on the same image under clean and distorted
+conditions.
+
+<img width="2859" height="1226" alt="part4_controlled_qualitative_comparison" src="https://github.com/user-attachments/assets/aee0eeb9-eaa4-483f-8873-969433398d11" />
+
+The ground-truth class for this image is **car**.
+
+The Distortion-Aware model achieved a higher image-level F1-score on the
+clean image, Salt & Pepper Noise, and Motion Blur conditions. Under Salt &
+Pepper Noise and Motion Blur, it correctly preserved the car prediction
+while producing fewer incorrect additional labels.
+
+For Overexposure, both models achieved the same F1-score. This example
+illustrates that the benefit of distortion-aware fine-tuning depends on the
+distortion type, while showing clear improvement under noise and blur.
