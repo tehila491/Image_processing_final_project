@@ -81,8 +81,6 @@ For the clean-image baseline, we evaluated three different computer vision tasks
 
 The following plot summarizes the clean-image baseline scores for the three selected tasks.
 
-<img width="1184" height="731" alt="image" src="https://github.com/user-attachments/assets/a669a7a9-7808-4be1-a248-6ec6ab4d4637" />
-
 <img width="790" height="490" alt="overall_baseline_clean" src="https://github.com/user-attachments/assets/50cd1363-cac1-4b33-aba3-169a3718ef16" />
 
 ---
