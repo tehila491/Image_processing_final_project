@@ -520,3 +520,215 @@ The restoration stage shows that preprocessing can recover part of the lost perf
 Overall, the results show that restoration is useful, but it must be matched carefully to the distortion type.  
 The improvement is strongest when the distortion can be reduced without introducing new artifacts.
 
+## 7. Distortion-Aware Fine-Tuning
+
+After evaluating image restoration as a preprocessing approach, we investigated a second method for improving deep-learning robustness: fine-tuning the ResNet50 classifier directly on distorted images.
+
+The objective of this experiment was to determine whether exposure to distorted images during training improves multi-label classification performance under image degradation.
+
+---
+
+### Controlled Experimental Design
+
+To ensure a fair comparison, we trained two ResNet50 models under identical experimental conditions.
+
+Both models were initialized from the same ResNet50 checkpoint previously trained on clean PASCAL VOC images.
+
+The two evaluated models were:
+
+1. **Clean-Control ResNet50** — received additional training using clean images.
+2. **Distortion-Aware ResNet50** — received additional training using distorted versions of the same original images.
+
+Both models used:
+
+- The same original training-image indices
+- The same number of training and validation images
+- The same batch order
+- The same number of epochs
+- The same trainable layers
+- The same optimizer and learning rates
+- The same validation images
+- The same checkpoint-selection criterion
+- The same evaluation threshold and metrics
+
+Therefore, the only intentional difference between the two models was the training input: clean images versus distorted images.
+
+---
+
+### Fine-Tuning Configuration
+
+| Parameter | Setting |
+| :--- | :--- |
+| Base Architecture | ResNet50 |
+| Initial Checkpoint | Clean-trained PASCAL VOC model |
+| Training Images per Model | 4,500 |
+| Validation Images | 800 |
+| Additional Training Epochs | 8 |
+| Trainable Layers | Layer 3, Layer 4, and the final classification layer |
+| Loss Function | Binary Cross-Entropy with Logits |
+| Optimizer | AdamW |
+| Batch Size | 32 |
+| Evaluation Threshold | 0.30 |
+| Evaluation Images per Condition | 400 |
+
+Because PASCAL VOC is a multi-label dataset, each image retained its original 20-dimensional label vector. The distortions modify the visual appearance of the image but do not change which object classes are present.
+
+During distortion-aware training, the input images were randomly modified using Salt & Pepper Noise, Overexposure, or Motion Blur. All three distortions were represented at six severity levels.
+
+Higher severity levels were sampled more frequently so that the model would receive sufficient exposure to challenging degradation.
+
+| Severity Level | Relative Sampling Frequency |
+| :--- | ---: |
+| L1 | 1 |
+| L2 | 1 |
+| L3 | 2 |
+| L4 | 3 |
+| L5 | 4 |
+| L6 | 5 |
+
+---
+
+### Training and Validation Behavior
+
+Both models were evaluated during training on clean validation images and fixed distorted versions of the same validation images.
+
+The selected checkpoint was the epoch with the lowest combined validation loss across the two validation sets.
+
+<img src="results/figures/part4_controlled_finetuning_loss_curves.png" width="100%" alt="Controlled fine-tuning loss curves">
+
+The Clean-Control model achieved its lowest combined validation loss at epoch 2. Although its training loss continued to decrease, the validation loss began to increase, indicating overfitting after the second epoch.
+
+The Distortion-Aware model continued improving until epoch 5 and remained stable during the following epochs.
+
+| Model | Best Epoch | Best Combined Validation Loss |
+| :--- | ---: | ---: |
+| Clean-Control ResNet50 | 2 | 0.1022 |
+| Distortion-Aware ResNet50 | 5 | **0.0811** |
+
+---
+
+### Overall Fine-Tuning Results
+
+The models were evaluated on the same 400 PASCAL VOC validation images under 19 conditions:
+
+- Clean images
+- Six Salt & Pepper severity levels
+- Six Overexposure severity levels
+- Six Motion Blur severity levels
+
+The primary metric was the sample-averaged multi-label F1-score.
+
+| Model | Mean F1 on Distorted Conditions |
+| :--- | ---: |
+| Clean-Control ResNet50 | 0.7195 |
+| Distortion-Aware ResNet50 | **0.8031** |
+| Absolute Improvement | **+0.0837** |
+
+The distortion-aware model achieved an absolute F1 improvement of **0.0837**, corresponding to a relative improvement of approximately **11.6%**.
+
+Because both models received the same amount of additional training, this controlled comparison shows that the improvement resulted from exposure to distorted training inputs rather than from additional training alone.
+
+---
+
+### Average Performance per Distortion Type
+
+<img src="results/figures/part4_controlled_finetuning_per_distortion_type.png" width="75%" alt="Average fine-tuning performance per distortion type">
+
+| Distortion | Clean-Control F1 | Distortion-Aware F1 | Improvement |
+| :--- | ---: | ---: | ---: |
+| Salt & Pepper Noise | 0.7083 | **0.8008** | **+0.0925** |
+| Overexposure | 0.7825 | **0.8213** | **+0.0388** |
+| Motion Blur | 0.6675 | **0.7873** | **+0.1197** |
+
+The largest average improvement was observed for **Motion Blur**, followed by **Salt & Pepper Noise**.
+
+The improvement for Overexposure was smaller because the Clean-Control model was already relatively stable under mild and medium overexposure.
+
+---
+
+### Performance Across Distortion Severity Levels
+
+The following graph compares the models separately at every distortion severity level.
+
+<img src="results/figures/part4_controlled_finetuning_all_conditions.png" width="100%" alt="Fine-tuning performance across all distortion conditions">
+
+At mild distortion levels, the performance difference between the models is relatively small. As the severity increases, the advantage of distortion-aware fine-tuning becomes substantially larger.
+
+At the strongest evaluated levels:
+
+| Condition | Clean-Control F1 | Distortion-Aware F1 | Improvement |
+| :--- | ---: | ---: | ---: |
+| Salt & Pepper L6 | 0.4698 | **0.7395** | **+0.2697** |
+| Overexposure L6 | 0.6074 | **0.7502** | **+0.1428** |
+| Motion Blur L6 | 0.3442 | **0.6441** | **+0.2999** |
+
+The largest individual improvement was obtained for Motion Blur L6, where the F1-score increased by approximately 0.30.
+
+---
+
+### Performance per SNR
+
+The following plots show classification performance as a function of mean SNR for each distortion type.
+
+<img src="results/figures/part4_controlled_finetuning_per_snr.png" width="100%" alt="Fine-tuning performance as SNR decreases">
+
+Lower SNR generally represents stronger image degradation.
+
+For all three distortion types, the Distortion-Aware model preserves higher F1-scores as SNR decreases. The difference is especially pronounced for severe Salt & Pepper Noise and Motion Blur.
+
+These results demonstrate that distortion-aware fine-tuning reduces the rate at which classification performance degrades as image quality becomes worse.
+
+---
+
+### Per-Class Performance
+
+We also compared the average F1-score of the two models for each of the 20 PASCAL VOC classes across all distorted conditions.
+
+<img src="results/figures/part4_controlled_per_class_comparison.png" width="100%" alt="Per-class performance of clean-control and distortion-aware models">
+
+The mean per-class F1-score increased from **0.695** for the Clean-Control model to **0.786** for the Distortion-Aware model.
+
+All 20 PASCAL VOC classes showed a positive average improvement.
+
+The largest improvements were observed for:
+
+| Class | F1 Improvement |
+| :--- | ---: |
+| Sofa | +0.233 |
+| Dining Table | +0.188 |
+| Bicycle | +0.129 |
+| Chair | +0.128 |
+| Sheep | +0.120 |
+
+The results show that the overall improvement is distributed across multiple object categories rather than being caused by only a small number of classes.
+
+---
+
+### Clean-Image Performance
+
+Distortion-aware fine-tuning did not reduce performance on clean images.
+
+| Model | F1 on Clean Images |
+| :--- | ---: |
+| Clean-Control ResNet50 | 0.8511 |
+| Distortion-Aware ResNet50 | **0.8565** |
+
+The Distortion-Aware model slightly improved clean-image performance while achieving a much larger improvement under severe distortions.
+
+---
+
+### Fine-Tuning Summary
+
+The controlled fine-tuning experiment demonstrates that direct training on distorted images significantly improves ResNet50 robustness.
+
+The main findings are:
+
+- Mean F1 across all distorted conditions increased from **0.7195** to **0.8031**.
+- The absolute improvement was **0.0837**, or approximately **11.6% relative improvement**.
+- Motion Blur produced the largest average improvement.
+- The advantage of fine-tuning increased as distortion severity increased and SNR decreased.
+- Mean per-class F1 increased from **0.695** to **0.786**.
+- All 20 PASCAL VOC classes showed a positive improvement.
+- Performance on clean images was preserved.
+
+Overall, distortion-aware fine-tuning was substantially more effective than additional clean-image training, particularly under severe image degradation.
