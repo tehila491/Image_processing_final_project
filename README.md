@@ -58,7 +58,7 @@ This stage establishes the clean baseline performance, which will later be used 
 
 | Task / Model | Evaluation Metric | Baseline Score |
 | :--- | :--- | :--- |
-| Canny Edge Detection | Mean Edge Density | 9.68% |
+| Canny Edge Detection | Mean Edge Density |0.0968 |
 | GrabCut Segmentation | Mean IoU | 65.22% |
 | ResNet50 Multi-Label Classification | Mean Multi-label IoU / Jaccard | 61.12% |
 
