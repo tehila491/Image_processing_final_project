@@ -29,9 +29,9 @@ Based on the project requirements, we selected a public dataset, three computer 
 | Category | Selection | Description |
 | :--- | :--- | :--- |
 | **Dataset** | [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/) | Public computer vision dataset containing RGB images with object labels, bounding boxes, and segmentation masks. |
-| **Task 1 — Low-Level Vision** | Edge Detection | **Algorithm:** Canny Edge Detector |
-| **Task 2 — Mid-Level Vision** | Foreground Segmentation | **Algorithm:** GrabCut initialized using ground-truth bounding boxes |
-| **Task 3 — High-Level Vision** | Multi-Label Image Classification | **Model:** ResNet50 initialized with ImageNet pretrained weights |
+| **Task 1 - Low-Level Vision** | Edge Detection | **Algorithm:** Canny Edge Detector |
+| **Task 2 - Mid-Level Vision** | Foreground Segmentation | **Algorithm:** GrabCut initialized using ground-truth bounding boxes |
+| **Task 3 - High-Level Vision** | Multi-Label Image Classification | **Model:** ResNet50 initialized with ImageNet pretrained weights |
 | **Distortions** | Salt & Pepper Noise, Overexposure, Motion Blur | Applied at multiple severity levels to evaluate robustness. |
 
 ## 3. Exploratory Data Analysis (EDA)
@@ -112,7 +112,7 @@ In addition to the overall baseline scores, we also report per-class performance
 This helps identify which object categories are easier or harder for each method.  
 In the IoU plots, the dashed horizontal line represents the mean IoU (mIoU) across the evaluated classes.
 
-#### GrabCut — IoU per Class
+#### GrabCut - IoU per Class
 
 GrabCut was evaluated by comparing the predicted foreground mask with the PASCAL VOC segmentation ground truth.  
 The method performs better on objects with clear foreground-background separation and usually performs worse on complex scenes, thin structures, or objects with ambiguous boundaries.
@@ -120,7 +120,7 @@ The method performs better on objects with clear foreground-background separatio
 <img width="1484" height="730" alt="image" src="https://github.com/user-attachments/assets/a3ab4917-8424-45da-ae2b-b9cc6e162029" />
 
 
-#### ResNet50 — Multi-Label IoU / Jaccard per Class
+#### ResNet50 - Multi-Label IoU / Jaccard per Class
 
 The ResNet50 classifier was evaluated using multi-label IoU / Jaccard score for each of the 20 PASCAL VOC classes.  
 This per-class analysis shows which categories are recognized more reliably on clean images and which classes are more challenging.
@@ -128,7 +128,7 @@ This per-class analysis shows which categories are recognized more reliably on c
 <img width="1189" height="489" alt="image" src="https://github.com/user-attachments/assets/c1f23fe8-a1bc-41b8-843f-3af5a16a9191" />
 
 
-#### Canny — Edge Density per Class
+#### Canny - Edge Density per Class
 
 Canny edge detection does not output semantic labels or object masks.  
 Therefore, for this low-level task we report the average edge density per class, which measures the proportion of detected edge pixels in the clean images.
@@ -151,9 +151,9 @@ Each clean image was distorted using three different distortion types, and each 
 
 The evaluated distortions were:
 
-1. **Salt & Pepper Noise** — random black and white pixels are inserted into the image.
-2. **Overexposure** — brightness and intensity are increased, causing saturated and washed-out regions.
-3. **Motion Blur** — directional blur is applied to simulate camera or object motion.
+1. **Salt & Pepper Noise** - random black and white pixels are inserted into the image.
+2. **Overexposure** - brightness and intensity are increased, causing saturated and washed-out regions.
+3. **Motion Blur** - directional blur is applied to simulate camera or object motion.
 
 For each distorted image, we measured the performance of the three selected tasks and compared the results to the clean-image reference.
 
@@ -197,7 +197,7 @@ For **ResNet50**, we use multi-label F1-score because PASCAL VOC images may cont
 The following plots show how each method behaves as the distortion severity increases and the SNR decreases.  
 The red dashed line represents the clean reference or clean baseline.
 
-#### Canny — Edge-Map IoU vs Clean Reference
+#### Canny - Edge-Map IoU vs Clean Reference
 
 <img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/08bcafb0-6a3c-454a-9c36-146e5bd1a5ca" />
 
@@ -205,14 +205,14 @@ The red dashed line represents the clean reference or clean baseline.
 Canny is highly sensitive to distortions.  
 Salt & Pepper noise introduces many false edges, while Motion Blur removes sharp edges, causing a strong decrease in edge-map similarity.
 
-#### GrabCut — Segmentation IoU vs Ground Truth
+#### GrabCut - Segmentation IoU vs Ground Truth
 
 <img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/d1427778-24f7-4208-b9db-824483c24192" />
 
 GrabCut performance decreases when image distortions damage foreground/background color separation or object boundaries.  
 The degradation is strongest under severe Salt & Pepper noise and severe Overexposure.
 
-#### ResNet50 — Multi-Label F1-Score
+#### ResNet50 - Multi-Label F1-Score
 
 <img width="1334" height="882" alt="image" src="https://github.com/user-attachments/assets/15a6e144-20f3-4049-b59b-dfe496372380" />
 
@@ -432,7 +432,7 @@ Motion Blur has a smaller SNR improvement, which is expected because motion blur
 
 ### Running the Algorithms on Enhanced Images
 
-The following figures show the outputs of the three vision tasks — Canny Edge Detection, GrabCut Foreground Segmentation, and ResNet50 Multi-Label Classification — on clean, distorted, and enhanced images for all three distortion types.
+The following figures show the outputs of the three vision tasks - Canny Edge Detection, GrabCut Foreground Segmentation, and ResNet50 Multi-Label Classification - on clean, distorted, and enhanced images for all three distortion types.
 **Canny Edge Detection: Clean vs Distorted vs Enhanced**
 <img width="1914" height="1858" alt="image" src="https://github.com/user-attachments/assets/cd50dbbe-9908-4dfc-8198-e981c3194525" />
 **GrabCut Foreground Segmentation: Clean vs Distorted vs Enhanced**
@@ -536,8 +536,8 @@ Both models were initialized from the same ResNet50 checkpoint previously traine
 
 The two evaluated models were:
 
-1. **Clean-Control ResNet50** — received additional training using clean images.
-2. **Distortion-Aware ResNet50** — received additional training using distorted versions of the same original images.
+1. **Clean-Control ResNet50** - received additional training using clean images.
+2. **Distortion-Aware ResNet50** - received additional training using distorted versions of the same original images.
 
 Both models used:
 
