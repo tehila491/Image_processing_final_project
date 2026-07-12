@@ -557,10 +557,6 @@ Overall, GrabCut recovered a larger proportion of its clean-image performance th
 
 ---
 
-## 7. Distortion-Aware Fine-Tuning<img width="989" height="602" alt="task1" src="https://github.com/user-attachments/assets/be2936c4-8022-4178-abd3-d82d1fc73871" />
-
-
-
 ## 7. Distortion-Aware Fine-Tuning
 
 After evaluating image restoration as a preprocessing approach, we investigated a second method for improving deep-learning robustness: fine-tuning the ResNet50 classifier directly on distorted images.
