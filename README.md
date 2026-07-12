@@ -62,6 +62,8 @@ This stage establishes the clean baseline performance, which will later be used 
 | GrabCut Segmentation | Mean IoU | 65.96% |
 | ResNet50 Multi-Label Classification | Mean Multi-label IoU / Jaccard | 57.44% |
 
+**Note:** Each task uses a different evaluation metric. Therefore, the baseline scores should be interpreted separately and should not be directly compared with one another.
+
 ### Baseline Methodology
 
 For the clean-image baseline, we evaluated three different computer vision tasks:
