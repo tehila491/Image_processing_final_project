@@ -521,41 +521,25 @@ The improvement is strongest when the distortion can be reduced without introduc
 
 ---
 
+---
+
 ### Final Summary: Traditional Computer Vision Tasks
 
-The following plots summarize the full evaluation pipeline for the two traditional computer vision tasks: clean-image performance, degradation under distortions, and recovery after restoration.
+The following figures provide a direct visual summary of the complete evaluation pipeline for the two traditional computer vision tasks: performance on clean images, degradation under distortions, and recovery after restoration.
 
 #### Task 1: Canny Edge-Map Stability
 
-For Canny Edge Detection, performance is measured using Edge-Map IoU against the edge map produced from the corresponding clean image.  
-The clean reference equals **1.0** because the clean edge map is compared with itself.
-<img width="989" height="602" alt="task1" src="https://github.com/user-attachments/assets/a470a402-7f78-4905-a25e-1f7ef554045f" />
+For Canny Edge Detection, the clean edge map is used as the reference. Therefore, the clean Edge-Map IoU equals **1.0**.
 
-Restoration improved Canny Edge-Map IoU for all three distortion types:
-
-- Salt & Pepper Noise: **0.201 → 0.253**
-- Overexposure: **0.527 → 0.576**
-- Motion Blur: **0.136 → 0.204**
-
-The restored results remained below the clean reference, showing that classical preprocessing recovered part of the original edge structure but could not fully reconstruct the lost information.
+<img width="989" height="602" alt="Canny clean distorted and restored comparison" src="https://github.com/user-attachments/assets/a470a402-7f78-4905-a25e-1f7ef554045f" />
 
 #### Task 2: GrabCut Segmentation
 
-For GrabCut, performance is measured using Segmentation IoU between the predicted foreground mask and the PASCAL VOC ground-truth segmentation mask.
+GrabCut performance is measured using Segmentation IoU against the PASCAL VOC ground-truth mask.
 
-<img width="989" height="590" alt="task2" src="https://github.com/user-attachments/assets/240752bd-5568-4f91-bb5d-186683114877" />
+<img width="989" height="590" alt="GrabCut clean distorted and restored comparison" src="https://github.com/user-attachments/assets/240752bd-5568-4f91-bb5d-186683114877" />
 
-Restoration improved GrabCut Segmentation IoU for all three distortion types:
-
-- Salt & Pepper Noise: **0.467 → 0.674**
-- Overexposure: **0.561 → 0.613**
-- Motion Blur: **0.578 → 0.622**
-
-The strongest recovery was observed for Salt & Pepper Noise. The restored score slightly exceeded the clean baseline (**0.674 vs. 0.659**), likely because median filtering removed impulse noise and produced more stable foreground and background regions.
-
-Overall, GrabCut recovered a larger proportion of its clean-image performance than Canny.
-
----
+Across all three distortion types, restoration improved both traditional computer vision tasks. GrabCut showed the strongest recovery under Salt & Pepper Noise and slightly exceeded its clean baseline after restoration. Canny also improved in every condition, although its restored edge maps remained below the clean reference, indicating that lost edge structure is more difficult to reconstruct completely.
 
 ## 7. Distortion-Aware Fine-Tuning
 
