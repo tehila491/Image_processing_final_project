@@ -778,3 +778,35 @@ while producing fewer incorrect additional labels.
 For Overexposure, both models achieved the same F1-score. This example
 illustrates that the benefit of distortion-aware fine-tuning depends on the
 distortion type, while showing clear improvement under noise and blur.
+
+
+## 8. Overall Project Summary and Conclusions
+
+This project evaluated the robustness of three computer vision methods under Salt & Pepper Noise, Overexposure, and Motion Blur.
+
+The complete evaluation included:
+
+- Performance on clean images
+- Performance degradation under multiple distortion severity levels
+- Image restoration and enhancement
+- Distortion-aware fine-tuning for the deep-learning model
+
+### Summary by Task
+
+| Task | Main Effect of Distortions | Improvement Method | Main Finding |
+| :--- | :--- | :--- | :--- |
+| Canny Edge Detection | Noise introduced false edges, while Motion Blur removed and shifted edge structure | Distortion-specific image restoration | Restoration improved Edge-Map IoU under all distortions, but did not fully recover the clean reference |
+| GrabCut Segmentation | Distortions damaged object boundaries and foreground-background color separation | Distortion-specific image restoration | Restoration improved Segmentation IoU under all distortions, with the strongest recovery under Salt & Pepper Noise |
+| ResNet50 Multi-Label Classification | Severe Motion Blur and Salt & Pepper Noise caused the largest classification degradation | Distortion-aware fine-tuning | Fine-tuning substantially improved robustness, especially at severe distortion levels, while preserving clean-image performance |
+
+### Main Conclusions
+
+The experiments demonstrate that image distortions affect computer vision tasks differently.
+
+Canny was the most sensitive method because it depends directly on local intensity gradients. Although restoration improved its results, lost or shifted edge information could not be fully reconstructed.
+
+GrabCut benefited strongly from restoration, especially after median filtering of Salt & Pepper Noise. In this condition, the restored segmentation score slightly exceeded the clean baseline, likely because smoothing produced more stable foreground and background regions.
+
+For ResNet50, distortion-aware fine-tuning was more effective than classical image restoration under severe degradation. The largest gains were observed for Motion Blur and strong Salt & Pepper Noise.
+
+Overall, the results show that no single improvement method is optimal for every task. Classical restoration is effective when the distortion can be reduced directly, while distortion-aware fine-tuning provides stronger robustness for high-level deep-learning models.
