@@ -296,10 +296,11 @@ Salt & Pepper noise creates many false local structures, Motion Blur removes fin
 #### Canny and GrabCut Performance by Target Object Class
 
 For Canny and GrabCut, the results are grouped according to the target object class, defined as the largest annotated object in each image. Canny is evaluated using Edge-Map IoU against the clean edge reference, while GrabCut is evaluated using Segmentation IoU against the ground-truth mask.
+Only classes represented in the selected segmentation subset are shown.
 
 <img width="1000" height="371" alt="3_8" src="https://github.com/user-attachments/assets/a85b28ee-cdcc-4e67-abd7-7180c1183139" />
 
-#### True ResNet50 Per-Class Performance
+####  ResNet50 Per-Class Performance
 
 For ResNet50, a separate binary F1-score was calculated for each of the 20 PASCAL VOC classes on a fixed 400-image evaluation subset. For each distortion type, predictions from all six severity levels were combined to measure class-specific robustness across the complete distortion range.
 
