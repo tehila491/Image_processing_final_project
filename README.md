@@ -1,4 +1,3 @@
-<img width="790" height="470" alt="overall_baseline_clean" src="https://github.com/user-attachments/assets/4c58008f-85d9-44af-8348-ccc09fcb2c04" />
 # Evaluating Robustness of Computer Vision Models 👁️
 
 ## 1. Project Overview
