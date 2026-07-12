@@ -451,10 +451,9 @@ Overall, Salt & Pepper and Overexposure benefit most from enhancement, while Mot
 
 ---
 
-### Per-Class Performance on Enhanced Images
+### Performance Grouped by Target Object Class on Enhanced Images
 
-We also measured enhanced-image performance per target object class.  
-This analysis helps identify which classes benefit more from restoration and which classes remain sensitive to distortions.
+The enhanced-image results were grouped by the target object class, defined as the largest annotated object in each image. For ResNet50, the multi-label F1-score was calculated over all labels in the image and then grouped according to this target class.
 
 #### Enhanced Canny Edge-Map IoU per Class
 
