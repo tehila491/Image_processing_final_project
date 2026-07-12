@@ -1,0 +1,3 @@
+model,training_samples,validation_images,epochs,best_epoch,initial_clean_val_loss,initial_distorted_val_loss,initial_combined_val_loss,best_combined_val_loss,trainable_layers
+clean_control,4500,800,8,2,0.0758729101717472,0.1386438164114952,0.10725836329162121,0.10219652950763702,layer3 + layer4 + fc
+distortion_aware,4500,800,8,5,0.0758729101717472,0.1386438164114952,0.10725836329162121,0.08113857828080655,layer3 + layer4 + fc

@@ -1,0 +1,151 @@
+sample_index,condition,distortion_type,notebook02_clean_original_f1,notebook03_distorted_original_f1,notebook04_restored_original_f1,notebook05_distorted_finetuned_f1
+3,Salt & Pepper L4,salt_pepper,0.0,0.0,0.6666666666666666,0.0
+3,Overexposure L3,overexposure,0.0,0.0,0.0,0.0
+3,Motion Blur L4,motion_blur,0.0,0.0,0.0,0.0
+4,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+4,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+4,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+21,Salt & Pepper L4,salt_pepper,1.0,0.0,0.0,0.5
+21,Overexposure L3,overexposure,1.0,0.0,0.6666666666666666,1.0
+21,Motion Blur L4,motion_blur,1.0,0.0,0.0,1.0
+22,Salt & Pepper L4,salt_pepper,0.6666666666666666,1.0,0.5,0.6666666666666666
+22,Overexposure L3,overexposure,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+22,Motion Blur L4,motion_blur,0.6666666666666666,0.5,0.5,1.0
+25,Salt & Pepper L4,salt_pepper,1.0,0.6666666666666666,1.0,1.0
+25,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+25,Motion Blur L4,motion_blur,1.0,0.6666666666666666,1.0,1.0
+29,Salt & Pepper L4,salt_pepper,0.5,0.4,0.3333333333333333,0.2857142857142857
+29,Overexposure L3,overexposure,0.5,0.5,0.6666666666666666,0.5
+29,Motion Blur L4,motion_blur,0.5,0.5,0.5,0.5
+33,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+33,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+33,Motion Blur L4,motion_blur,1.0,0.0,0.0,1.0
+34,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+34,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+34,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+40,Salt & Pepper L4,salt_pepper,1.0,1.0,0.5,0.8
+40,Overexposure L3,overexposure,1.0,1.0,0.0,1.0
+40,Motion Blur L4,motion_blur,1.0,0.0,0.0,0.8
+44,Salt & Pepper L4,salt_pepper,1.0,0.0,1.0,1.0
+44,Overexposure L3,overexposure,1.0,0.0,1.0,1.0
+44,Motion Blur L4,motion_blur,1.0,0.0,0.0,1.0
+51,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+51,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+51,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+52,Salt & Pepper L4,salt_pepper,1.0,0.6666666666666666,1.0,1.0
+52,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+52,Motion Blur L4,motion_blur,1.0,1.0,1.0,0.6666666666666666
+55,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+55,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+55,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+56,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+56,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+56,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+57,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+57,Overexposure L3,overexposure,1.0,1.0,1.0,0.6666666666666666
+57,Motion Blur L4,motion_blur,1.0,0.6666666666666666,0.6666666666666666,1.0
+58,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+58,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+58,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+64,Salt & Pepper L4,salt_pepper,0.4,0.0,0.6666666666666666,0.6666666666666666
+64,Overexposure L3,overexposure,0.4,1.0,1.0,0.4
+64,Motion Blur L4,motion_blur,0.4,0.6666666666666666,1.0,0.6666666666666666
+69,Salt & Pepper L4,salt_pepper,0.8,0.5,0.5,0.5
+69,Overexposure L3,overexposure,0.8,0.5,0.5,0.8
+69,Motion Blur L4,motion_blur,0.8,0.5,0.5,0.8
+70,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+70,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+70,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+85,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+85,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+85,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+88,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+88,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+88,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+96,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+96,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+96,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+98,Salt & Pepper L4,salt_pepper,0.6666666666666666,0.0,1.0,1.0
+98,Overexposure L3,overexposure,0.6666666666666666,1.0,1.0,1.0
+98,Motion Blur L4,motion_blur,0.6666666666666666,0.6666666666666666,0.0,1.0
+112,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+112,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+112,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+115,Salt & Pepper L4,salt_pepper,0.5,0.6666666666666666,0.4,0.5
+115,Overexposure L3,overexposure,0.5,0.5,0.5,0.5
+115,Motion Blur L4,motion_blur,0.5,0.4,0.4,0.8
+118,Salt & Pepper L4,salt_pepper,0.6666666666666666,1.0,0.6666666666666666,0.6666666666666666
+118,Overexposure L3,overexposure,0.6666666666666666,0.6666666666666666,0.5,1.0
+118,Motion Blur L4,motion_blur,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.4
+125,Salt & Pepper L4,salt_pepper,0.6666666666666666,1.0,0.6666666666666666,0.6666666666666666
+125,Overexposure L3,overexposure,0.6666666666666666,0.6666666666666666,1.0,0.6666666666666666
+125,Motion Blur L4,motion_blur,0.6666666666666666,0.5,0.5,0.6666666666666666
+126,Salt & Pepper L4,salt_pepper,0.6666666666666666,1.0,0.6666666666666666,0.6666666666666666
+126,Overexposure L3,overexposure,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+126,Motion Blur L4,motion_blur,0.6666666666666666,1.0,0.6666666666666666,1.0
+132,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+132,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+132,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+144,Salt & Pepper L4,salt_pepper,1.0,0.6666666666666666,0.8,0.6666666666666666
+144,Overexposure L3,overexposure,1.0,1.0,1.0,0.8
+144,Motion Blur L4,motion_blur,1.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+147,Salt & Pepper L4,salt_pepper,0.6666666666666666,0.0,0.6666666666666666,0.5
+147,Overexposure L3,overexposure,0.6666666666666666,1.0,0.6666666666666666,1.0
+147,Motion Blur L4,motion_blur,0.6666666666666666,0.0,0.0,1.0
+149,Salt & Pepper L4,salt_pepper,0.6666666666666666,1.0,1.0,1.0
+149,Overexposure L3,overexposure,0.6666666666666666,1.0,1.0,0.6666666666666666
+149,Motion Blur L4,motion_blur,0.6666666666666666,0.6666666666666666,0.6666666666666666,1.0
+157,Salt & Pepper L4,salt_pepper,0.5,1.0,1.0,1.0
+157,Overexposure L3,overexposure,0.5,0.6666666666666666,0.6666666666666666,1.0
+157,Motion Blur L4,motion_blur,0.5,0.6666666666666666,0.6666666666666666,1.0
+163,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+163,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+163,Motion Blur L4,motion_blur,1.0,0.0,0.0,1.0
+166,Salt & Pepper L4,salt_pepper,0.8,1.0,1.0,0.8
+166,Overexposure L3,overexposure,0.8,0.8,1.0,1.0
+166,Motion Blur L4,motion_blur,0.8,1.0,1.0,1.0
+167,Salt & Pepper L4,salt_pepper,1.0,0.6666666666666666,1.0,0.6666666666666666
+167,Overexposure L3,overexposure,1.0,0.6666666666666666,0.6666666666666666,1.0
+167,Motion Blur L4,motion_blur,1.0,1.0,1.0,0.6666666666666666
+168,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+168,Overexposure L3,overexposure,1.0,1.0,1.0,0.6666666666666666
+168,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+170,Salt & Pepper L4,salt_pepper,0.8,0.6666666666666666,0.6666666666666666,0.8
+170,Overexposure L3,overexposure,0.8,0.8,0.6666666666666666,0.8
+170,Motion Blur L4,motion_blur,0.8,1.0,1.0,0.8
+177,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+177,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+177,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+181,Salt & Pepper L4,salt_pepper,1.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+181,Overexposure L3,overexposure,1.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+181,Motion Blur L4,motion_blur,1.0,0.6666666666666666,0.5,0.5
+183,Salt & Pepper L4,salt_pepper,0.6666666666666666,0.6666666666666666,1.0,0.6666666666666666
+183,Overexposure L3,overexposure,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+183,Motion Blur L4,motion_blur,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+189,Salt & Pepper L4,salt_pepper,1.0,0.0,1.0,0.0
+189,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+189,Motion Blur L4,motion_blur,1.0,0.0,0.0,1.0
+193,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+193,Overexposure L3,overexposure,1.0,1.0,1.0,0.6666666666666666
+193,Motion Blur L4,motion_blur,1.0,0.6666666666666666,0.6666666666666666,0.0
+197,Salt & Pepper L4,salt_pepper,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+197,Overexposure L3,overexposure,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+197,Motion Blur L4,motion_blur,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+203,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+203,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+203,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+211,Salt & Pepper L4,salt_pepper,1.0,1.0,1.0,1.0
+211,Overexposure L3,overexposure,1.0,1.0,1.0,1.0
+211,Motion Blur L4,motion_blur,1.0,1.0,1.0,1.0
+212,Salt & Pepper L4,salt_pepper,0.0,0.0,0.0,0.0
+212,Overexposure L3,overexposure,0.0,0.0,0.0,0.0
+212,Motion Blur L4,motion_blur,0.0,0.0,0.0,0.0
+215,Salt & Pepper L4,salt_pepper,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+215,Overexposure L3,overexposure,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+215,Motion Blur L4,motion_blur,0.6666666666666666,0.5,0.5,0.6666666666666666
+226,Salt & Pepper L4,salt_pepper,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+226,Overexposure L3,overexposure,0.6666666666666666,1.0,1.0,0.6666666666666666
+226,Motion Blur L4,motion_blur,0.6666666666666666,0.0,0.6666666666666666,1.0
+229,Salt & Pepper L4,salt_pepper,0.6666666666666666,0.0,0.6666666666666666,0.6666666666666666
+229,Overexposure L3,overexposure,0.6666666666666666,0.6666666666666666,0.6666666666666666,1.0
+229,Motion Blur L4,motion_blur,0.6666666666666666,0.0,0.6666666666666666,0.6666666666666666

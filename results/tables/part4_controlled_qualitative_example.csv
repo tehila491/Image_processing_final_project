@@ -1,0 +1,5 @@
+condition,distortion_type,severity_level,snr,clean_control_f1,distortion_aware_f1,f1_improvement,ground_truth,clean_control_predicted_labels,distortion_aware_predicted_labels
+clean,clean,0,inf,0.5,0.6666666666666666,0.16666666666666663,car,"bus, car, person","bus, car"
+salt_pepper_L4,salt_pepper,4,12.359891891479492,0.6666666666666666,1.0,0.33333333333333337,car,"car, person",car
+overexposure_L4,overexposure,4,5.1399664878845215,0.6666666666666666,0.6666666666666666,0.0,car,"bus, car","bus, car"
+motion_blur_L4,motion_blur,4,18.110517501831055,0.6666666666666666,1.0,0.33333333333333337,car,"car, person",car

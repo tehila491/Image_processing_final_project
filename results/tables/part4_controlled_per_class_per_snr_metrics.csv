@@ -1,0 +1,761 @@
+model,condition,distortion_type,severity_level,severity_label,params,class,mean_snr,class_f1_score,support,predicted_positive
+clean_control_resnet50,clean,clean,0,Clean,{},aeroplane,inf,0.9818181818181818,27,28
+clean_control_resnet50,clean,clean,0,Clean,{},bicycle,inf,0.8571428571428571,20,15
+clean_control_resnet50,clean,clean,0,Clean,{},bird,inf,0.926829268292683,21,20
+clean_control_resnet50,clean,clean,0,Clean,{},boat,inf,0.9032258064516129,15,16
+clean_control_resnet50,clean,clean,0,Clean,{},bottle,inf,0.6521739130434783,24,22
+clean_control_resnet50,clean,clean,0,Clean,{},bus,inf,0.972972972972973,18,19
+clean_control_resnet50,clean,clean,0,Clean,{},car,inf,0.7012987012987013,42,35
+clean_control_resnet50,clean,clean,0,Clean,{},cat,inf,0.9473684210526315,28,29
+clean_control_resnet50,clean,clean,0,Clean,{},chair,inf,0.675,37,43
+clean_control_resnet50,clean,clean,0,Clean,{},cow,inf,0.75,16,16
+clean_control_resnet50,clean,clean,0,Clean,{},diningtable,inf,0.6875,16,16
+clean_control_resnet50,clean,clean,0,Clean,{},dog,inf,0.9213483146067416,47,42
+clean_control_resnet50,clean,clean,0,Clean,{},horse,inf,0.9302325581395349,21,22
+clean_control_resnet50,clean,clean,0,Clean,{},motorbike,inf,0.8571428571428571,21,21
+clean_control_resnet50,clean,clean,0,Clean,{},person,inf,0.8634920634920635,161,154
+clean_control_resnet50,clean,clean,0,Clean,{},pottedplant,inf,0.6818181818181818,21,23
+clean_control_resnet50,clean,clean,0,Clean,{},sheep,inf,0.8148148148148148,14,13
+clean_control_resnet50,clean,clean,0,Clean,{},sofa,inf,0.8275862068965517,26,32
+clean_control_resnet50,clean,clean,0,Clean,{},train,inf,0.9285714285714286,14,14
+clean_control_resnet50,clean,clean,0,Clean,{},tvmonitor,inf,0.717948717948718,21,18
+distortion_aware_resnet50,clean,clean,0,Clean,{},aeroplane,inf,0.9642857142857143,27,29
+distortion_aware_resnet50,clean,clean,0,Clean,{},bicycle,inf,0.8888888888888888,20,16
+distortion_aware_resnet50,clean,clean,0,Clean,{},bird,inf,0.926829268292683,21,20
+distortion_aware_resnet50,clean,clean,0,Clean,{},boat,inf,0.8387096774193549,15,16
+distortion_aware_resnet50,clean,clean,0,Clean,{},bottle,inf,0.723404255319149,24,23
+distortion_aware_resnet50,clean,clean,0,Clean,{},bus,inf,0.972972972972973,18,19
+distortion_aware_resnet50,clean,clean,0,Clean,{},car,inf,0.75,42,38
+distortion_aware_resnet50,clean,clean,0,Clean,{},cat,inf,0.9454545454545454,28,27
+distortion_aware_resnet50,clean,clean,0,Clean,{},chair,inf,0.7435897435897436,37,41
+distortion_aware_resnet50,clean,clean,0,Clean,{},cow,inf,0.7647058823529411,16,18
+distortion_aware_resnet50,clean,clean,0,Clean,{},diningtable,inf,0.7058823529411765,16,18
+distortion_aware_resnet50,clean,clean,0,Clean,{},dog,inf,0.9318181818181818,47,41
+distortion_aware_resnet50,clean,clean,0,Clean,{},horse,inf,0.95,21,19
+distortion_aware_resnet50,clean,clean,0,Clean,{},motorbike,inf,0.9090909090909091,21,23
+distortion_aware_resnet50,clean,clean,0,Clean,{},person,inf,0.8526645768025078,161,158
+distortion_aware_resnet50,clean,clean,0,Clean,{},pottedplant,inf,0.6666666666666666,21,21
+distortion_aware_resnet50,clean,clean,0,Clean,{},sheep,inf,0.8571428571428571,14,14
+distortion_aware_resnet50,clean,clean,0,Clean,{},sofa,inf,0.7457627118644068,26,33
+distortion_aware_resnet50,clean,clean,0,Clean,{},train,inf,0.9285714285714286,14,14
+distortion_aware_resnet50,clean,clean,0,Clean,{},tvmonitor,inf,0.75,21,19
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},aeroplane,24.021604087352753,0.9642857142857143,27,29
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},bicycle,24.021604087352753,0.8333333333333334,20,16
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},bird,24.021604087352753,0.9,21,19
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},boat,24.021604087352753,0.9032258064516129,15,16
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},bottle,24.021604087352753,0.5957446808510638,24,23
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},bus,24.021604087352753,0.9444444444444444,18,18
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},car,24.021604087352753,0.691358024691358,42,39
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},cat,24.021604087352753,0.9122807017543859,28,29
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},chair,24.021604087352753,0.6329113924050633,37,42
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},cow,24.021604087352753,0.8,16,14
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},diningtable,24.021604087352753,0.6666666666666666,16,17
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},dog,24.021604087352753,0.9195402298850575,47,40
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},horse,24.021604087352753,0.9333333333333333,21,24
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},motorbike,24.021604087352753,0.8780487804878049,21,20
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},person,24.021604087352753,0.8580060422960725,161,170
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},pottedplant,24.021604087352753,0.6666666666666666,21,24
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},sheep,24.021604087352753,0.8461538461538461,14,12
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},sofa,24.021604087352753,0.7931034482758621,26,32
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},train,24.021604087352753,0.9285714285714286,14,14
+clean_control_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},tvmonitor,24.021604087352753,0.7111111111111111,21,24
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},aeroplane,24.021604087352753,0.9473684210526315,27,30
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},bicycle,24.021604087352753,0.8108108108108109,20,17
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},bird,24.021604087352753,0.926829268292683,21,20
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},boat,24.021604087352753,0.8387096774193549,15,16
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},bottle,24.021604087352753,0.6530612244897959,24,25
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},bus,24.021604087352753,0.972972972972973,18,19
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},car,24.021604087352753,0.7407407407407407,42,39
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},cat,24.021604087352753,0.9285714285714286,28,28
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},chair,24.021604087352753,0.6842105263157895,37,39
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},cow,24.021604087352753,0.7647058823529411,16,18
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},diningtable,24.021604087352753,0.7647058823529411,16,18
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},dog,24.021604087352753,0.9318181818181818,47,41
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},horse,24.021604087352753,0.9302325581395349,21,22
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},motorbike,24.021604087352753,0.9545454545454546,21,23
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},person,24.021604087352753,0.8633540372670807,161,161
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},pottedplant,24.021604087352753,0.7142857142857143,21,21
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},sheep,24.021604087352753,0.8148148148148148,14,13
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},sofa,24.021604087352753,0.7636363636363637,26,29
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},train,24.021604087352753,0.9285714285714286,14,14
+distortion_aware_resnet50,motion_blur_L1,motion_blur,1,L1,{'kernel_size': 3},tvmonitor,24.021604087352753,0.7619047619047619,21,21
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},aeroplane,19.591691662073135,0.9454545454545454,27,28
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},bicycle,19.591691662073135,0.7368421052631579,20,18
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},bird,19.591691662073135,0.8780487804878049,21,20
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},boat,19.591691662073135,0.8666666666666667,15,15
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},bottle,19.591691662073135,0.5531914893617021,24,23
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},bus,19.591691662073135,0.9444444444444444,18,18
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},car,19.591691662073135,0.717948717948718,42,36
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},cat,19.591691662073135,0.9122807017543859,28,29
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},chair,19.591691662073135,0.6075949367088608,37,42
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},cow,19.591691662073135,0.6896551724137931,16,13
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},diningtable,19.591691662073135,0.6206896551724138,16,13
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},dog,19.591691662073135,0.9069767441860465,47,39
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},horse,19.591691662073135,0.9333333333333333,21,24
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},motorbike,19.591691662073135,0.8571428571428571,21,21
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},person,19.591691662073135,0.8347826086956521,161,184
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},pottedplant,19.591691662073135,0.6666666666666666,21,18
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},sheep,19.591691662073135,0.75,14,10
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},sofa,19.591691662073135,0.6521739130434783,26,20
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},train,19.591691662073135,0.9629629629629629,14,13
+clean_control_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},tvmonitor,19.591691662073135,0.723404255319149,21,26
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},aeroplane,19.591691662073135,0.9642857142857143,27,29
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},bicycle,19.591691662073135,0.8108108108108109,20,17
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},bird,19.591691662073135,0.9047619047619048,21,21
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},boat,19.591691662073135,0.8387096774193549,15,16
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},bottle,19.591691662073135,0.6666666666666666,24,27
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},bus,19.591691662073135,0.9444444444444444,18,18
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},car,19.591691662073135,0.725,42,38
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},cat,19.591691662073135,0.9285714285714286,28,28
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},chair,19.591691662073135,0.6582278481012658,37,42
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},cow,19.591691662073135,0.6666666666666666,16,20
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},diningtable,19.591691662073135,0.6666666666666666,16,17
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},dog,19.591691662073135,0.9090909090909091,47,41
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},horse,19.591691662073135,0.9302325581395349,21,22
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},motorbike,19.591691662073135,0.9302325581395349,21,22
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},person,19.591691662073135,0.8571428571428571,161,161
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},pottedplant,19.591691662073135,0.6976744186046512,21,22
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},sheep,19.591691662073135,0.8,14,11
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},sofa,19.591691662073135,0.7407407407407407,26,28
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},train,19.591691662073135,0.8888888888888888,14,13
+distortion_aware_resnet50,motion_blur_L2,motion_blur,2,L2,{'kernel_size': 7},tvmonitor,19.591691662073135,0.7619047619047619,21,21
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},aeroplane,18.020308228731157,0.8846153846153846,27,25
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},bicycle,18.020308228731157,0.6486486486486487,20,17
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},bird,18.020308228731157,0.8837209302325582,21,22
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},boat,18.020308228731157,0.8666666666666667,15,15
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},bottle,18.020308228731157,0.5217391304347826,24,22
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},bus,18.020308228731157,0.9444444444444444,18,18
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},car,18.020308228731157,0.7532467532467533,42,35
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},cat,18.020308228731157,0.8620689655172413,28,30
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},chair,18.020308228731157,0.5142857142857142,37,33
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},cow,18.020308228731157,0.6896551724137931,16,13
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},diningtable,18.020308228731157,0.5185185185185185,16,11
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},dog,18.020308228731157,0.8148148148148148,47,34
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},horse,18.020308228731157,0.8636363636363636,21,23
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},motorbike,18.020308228731157,0.8780487804878049,21,20
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},person,18.020308228731157,0.8160919540229885,161,187
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},pottedplant,18.020308228731157,0.6470588235294118,21,13
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},sheep,18.020308228731157,0.5714285714285714,14,7
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},sofa,18.020308228731157,0.3888888888888889,26,10
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},train,18.020308228731157,0.896551724137931,14,15
+clean_control_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},tvmonitor,18.020308228731157,0.6666666666666666,21,21
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},aeroplane,18.020308228731157,0.9642857142857143,27,29
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},bicycle,18.020308228731157,0.7894736842105263,20,18
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},bird,18.020308228731157,0.8888888888888888,21,24
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},boat,18.020308228731157,0.8666666666666667,15,15
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},bottle,18.020308228731157,0.6122448979591837,24,25
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},bus,18.020308228731157,0.918918918918919,18,19
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},car,18.020308228731157,0.7407407407407407,42,39
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},cat,18.020308228731157,0.9122807017543859,28,29
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},chair,18.020308228731157,0.6172839506172839,37,44
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},cow,18.020308228731157,0.6666666666666666,16,20
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},diningtable,18.020308228731157,0.6,16,14
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},dog,18.020308228731157,0.9090909090909091,47,41
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},horse,18.020308228731157,0.9302325581395349,21,22
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},motorbike,18.020308228731157,0.9302325581395349,21,22
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},person,18.020308228731157,0.8562691131498471,161,166
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},pottedplant,18.020308228731157,0.6818181818181818,21,23
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},sheep,18.020308228731157,0.7407407407407407,14,13
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},sofa,18.020308228731157,0.7636363636363637,26,29
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},train,18.020308228731157,0.8888888888888888,14,13
+distortion_aware_resnet50,motion_blur_L3,motion_blur,3,L3,{'kernel_size': 11},tvmonitor,18.020308228731157,0.7317073170731707,21,20
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},aeroplane,17.030956716537474,0.8679245283018868,27,26
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},bicycle,17.030956716537474,0.5714285714285714,20,15
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},bird,17.030956716537474,0.8571428571428571,21,21
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},boat,17.030956716537474,0.8571428571428571,15,13
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},bottle,17.030956716537474,0.45,24,16
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},bus,17.030956716537474,0.9714285714285714,18,17
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},car,17.030956716537474,0.7142857142857143,42,28
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},cat,17.030956716537474,0.8301886792452831,28,25
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},chair,17.030956716537474,0.4918032786885246,37,24
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},cow,17.030956716537474,0.48,16,9
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},diningtable,17.030956716537474,0.36363636363636365,16,6
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},dog,17.030956716537474,0.7435897435897436,47,31
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},horse,17.030956716537474,0.8095238095238095,21,21
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},motorbike,17.030956716537474,0.8292682926829268,21,20
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},person,17.030956716537474,0.7955182072829131,161,196
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},pottedplant,17.030956716537474,0.5517241379310345,21,8
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},sheep,17.030956716537474,0.42105263157894735,14,5
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},sofa,17.030956716537474,0.26666666666666666,26,4
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},train,17.030956716537474,0.7857142857142857,14,14
+clean_control_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},tvmonitor,17.030956716537474,0.6842105263157895,21,17
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},aeroplane,17.030956716537474,0.9310344827586207,27,31
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},bicycle,17.030956716537474,0.7777777777777778,20,16
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},bird,17.030956716537474,0.8444444444444444,21,24
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},boat,17.030956716537474,0.9032258064516129,15,16
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},bottle,17.030956716537474,0.6122448979591837,24,25
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},bus,17.030956716537474,0.918918918918919,18,19
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},car,17.030956716537474,0.7073170731707317,42,40
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},cat,17.030956716537474,0.896551724137931,28,30
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},chair,17.030956716537474,0.6067415730337079,37,52
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},cow,17.030956716537474,0.6666666666666666,16,20
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},diningtable,17.030956716537474,0.625,16,16
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},dog,17.030956716537474,0.896551724137931,47,40
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},horse,17.030956716537474,0.9090909090909091,21,23
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},motorbike,17.030956716537474,0.9523809523809523,21,21
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},person,17.030956716537474,0.8466257668711656,161,165
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},pottedplant,17.030956716537474,0.625,21,27
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},sheep,17.030956716537474,0.7142857142857143,14,14
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},sofa,17.030956716537474,0.7272727272727273,26,29
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},train,17.030956716537474,0.896551724137931,14,15
+distortion_aware_resnet50,motion_blur_L4,motion_blur,4,L4,{'kernel_size': 15},tvmonitor,17.030956716537474,0.7142857142857143,21,21
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},aeroplane,15.498188626766204,0.6956521739130435,27,19
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},bicycle,15.498188626766204,0.45161290322580644,20,11
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},bird,15.498188626766204,0.717948717948718,21,18
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},boat,15.498188626766204,0.7586206896551724,15,14
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},bottle,15.498188626766204,0.2222222222222222,24,12
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},bus,15.498188626766204,0.8387096774193549,18,13
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},car,15.498188626766204,0.6470588235294118,42,26
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},cat,15.498188626766204,0.5531914893617021,28,19
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},chair,15.498188626766204,0.25,37,11
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},cow,15.498188626766204,0.5217391304347826,16,7
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},diningtable,15.498188626766204,0.21052631578947367,16,3
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},dog,15.498188626766204,0.5633802816901409,47,24
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},horse,15.498188626766204,0.5714285714285714,21,14
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},motorbike,15.498188626766204,0.7368421052631579,21,17
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},person,15.498188626766204,0.7450980392156863,161,196
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},pottedplant,15.498188626766204,0.32,21,4
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},sheep,15.498188626766204,0.13333333333333333,14,1
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},sofa,15.498188626766204,0.14285714285714285,26,2
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},train,15.498188626766204,0.64,14,11
+clean_control_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},tvmonitor,15.498188626766204,0.6111111111111112,21,15
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},aeroplane,15.498188626766204,0.9056603773584906,27,26
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},bicycle,15.498188626766204,0.6111111111111112,20,16
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},bird,15.498188626766204,0.7555555555555555,21,24
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},boat,15.498188626766204,0.9032258064516129,15,16
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},bottle,15.498188626766204,0.4583333333333333,24,24
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},bus,15.498188626766204,0.9444444444444444,18,18
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},car,15.498188626766204,0.7654320987654321,42,39
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},cat,15.498188626766204,0.8333333333333334,28,32
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},chair,15.498188626766204,0.5376344086021505,37,56
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},cow,15.498188626766204,0.5789473684210527,16,22
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},diningtable,15.498188626766204,0.6111111111111112,16,20
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},dog,15.498188626766204,0.7710843373493976,47,36
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},horse,15.498188626766204,0.7555555555555555,21,24
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},motorbike,15.498188626766204,0.8292682926829268,21,20
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},person,15.498188626766204,0.8121212121212121,161,169
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},pottedplant,15.498188626766204,0.5333333333333333,21,24
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},sheep,15.498188626766204,0.6428571428571429,14,14
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},sofa,15.498188626766204,0.7037037037037037,26,28
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},train,15.498188626766204,0.8888888888888888,14,13
+distortion_aware_resnet50,motion_blur_L5,motion_blur,5,L5,{'kernel_size': 25},tvmonitor,15.498188626766204,0.6086956521739131,21,25
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},aeroplane,14.129061541557313,0.45714285714285713,27,8
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},bicycle,14.129061541557313,0.09523809523809523,20,1
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},bird,14.129061541557313,0.5789473684210527,21,17
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},boat,14.129061541557313,0.6428571428571429,15,13
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},bottle,14.129061541557313,0.18604651162790697,24,19
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},bus,14.129061541557313,0.10526315789473684,18,1
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},car,14.129061541557313,0.2641509433962264,42,11
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},cat,14.129061541557313,0.38095238095238093,28,14
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},chair,14.129061541557313,0.14285714285714285,37,5
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},cow,14.129061541557313,0.0,16,0
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},diningtable,14.129061541557313,0.0,16,0
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},dog,14.129061541557313,0.3050847457627119,47,12
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},horse,14.129061541557313,0.38461538461538464,21,5
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},motorbike,14.129061541557313,0.41379310344827586,21,8
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},person,14.129061541557313,0.6644518272425249,161,140
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},pottedplant,14.129061541557313,0.0,21,0
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},sheep,14.129061541557313,0.0,14,0
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},sofa,14.129061541557313,0.0,26,0
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},train,14.129061541557313,0.6363636363636364,14,8
+clean_control_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},tvmonitor,14.129061541557313,0.42857142857142855,21,7
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},aeroplane,14.129061541557313,0.8363636363636363,27,28
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},bicycle,14.129061541557313,0.5,20,12
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},bird,14.129061541557313,0.6976744186046512,21,22
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},boat,14.129061541557313,0.8235294117647058,15,19
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},bottle,14.129061541557313,0.32558139534883723,24,19
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},bus,14.129061541557313,0.8947368421052632,18,20
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},car,14.129061541557313,0.6744186046511628,42,44
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},cat,14.129061541557313,0.509090909090909,28,27
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},chair,14.129061541557313,0.5050505050505051,37,62
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},cow,14.129061541557313,0.5294117647058824,16,18
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},diningtable,14.129061541557313,0.5128205128205128,16,23
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},dog,14.129061541557313,0.6585365853658537,47,35
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},horse,14.129061541557313,0.5142857142857142,21,14
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},motorbike,14.129061541557313,0.75,21,19
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},person,14.129061541557313,0.7761194029850746,161,174
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},pottedplant,14.129061541557313,0.5581395348837209,21,22
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},sheep,14.129061541557313,0.5454545454545454,14,8
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},sofa,14.129061541557313,0.6557377049180327,26,35
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},train,14.129061541557313,0.8148148148148148,14,13
+distortion_aware_resnet50,motion_blur_L6,motion_blur,6,L6,{'kernel_size': 41},tvmonitor,14.129061541557313,0.6829268292682927,21,20
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",aeroplane,15.90650263786316,0.9818181818181818,27,28
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",bicycle,15.90650263786316,0.8571428571428571,20,15
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",bird,15.90650263786316,0.9230769230769231,21,18
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",boat,15.90650263786316,0.9032258064516129,15,16
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",bottle,15.90650263786316,0.6521739130434783,24,22
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",bus,15.90650263786316,1.0,18,18
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",car,15.90650263786316,0.7532467532467533,42,35
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",cat,15.90650263786316,0.9473684210526315,28,29
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",chair,15.90650263786316,0.6904761904761905,37,47
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",cow,15.90650263786316,0.6875,16,16
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",diningtable,15.90650263786316,0.6875,16,16
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",dog,15.90650263786316,0.9213483146067416,47,42
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",horse,15.90650263786316,0.9302325581395349,21,22
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",motorbike,15.90650263786316,0.8837209302325582,21,22
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",person,15.90650263786316,0.8634920634920635,161,154
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",pottedplant,15.90650263786316,0.6818181818181818,21,23
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",sheep,15.90650263786316,0.8148148148148148,14,13
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",sofa,15.90650263786316,0.8135593220338984,26,33
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",train,15.90650263786316,0.9285714285714286,14,14
+clean_control_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",tvmonitor,15.90650263786316,0.75,21,19
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",aeroplane,15.90650263786316,0.9642857142857143,27,29
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",bicycle,15.90650263786316,0.8648648648648649,20,17
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",bird,15.90650263786316,0.926829268292683,21,20
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",boat,15.90650263786316,0.8387096774193549,15,16
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",bottle,15.90650263786316,0.723404255319149,24,23
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",bus,15.90650263786316,1.0,18,18
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",car,15.90650263786316,0.75,42,38
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",cat,15.90650263786316,0.9642857142857143,28,28
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",chair,15.90650263786316,0.725,37,43
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",cow,15.90650263786316,0.7428571428571429,16,19
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",diningtable,15.90650263786316,0.7058823529411765,16,18
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",dog,15.90650263786316,0.9213483146067416,47,42
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",horse,15.90650263786316,0.926829268292683,21,20
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",motorbike,15.90650263786316,0.9090909090909091,21,23
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",person,15.90650263786316,0.8535825545171339,161,160
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",pottedplant,15.90650263786316,0.6190476190476191,21,21
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",sheep,15.90650263786316,0.8148148148148148,14,13
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",sofa,15.90650263786316,0.7796610169491526,26,33
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",train,15.90650263786316,0.9285714285714286,14,14
+distortion_aware_resnet50,overexposure_L1,overexposure,1,L1,"{'factor': 1.1, 'bias': 10}",tvmonitor,15.90650263786316,0.7,21,19
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",aeroplane,8.520158138871192,0.9818181818181818,27,28
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",bicycle,8.520158138871192,0.8333333333333334,20,16
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",bird,8.520158138871192,0.9230769230769231,21,18
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",boat,8.520158138871192,0.9032258064516129,15,16
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",bottle,8.520158138871192,0.6666666666666666,24,21
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",bus,8.520158138871192,1.0,18,18
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",car,8.520158138871192,0.7297297297297297,42,32
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",cat,8.520158138871192,0.9473684210526315,28,29
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",chair,8.520158138871192,0.6582278481012658,37,42
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",cow,8.520158138871192,0.7096774193548387,16,15
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",diningtable,8.520158138871192,0.7096774193548387,16,15
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",dog,8.520158138871192,0.9213483146067416,47,42
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",horse,8.520158138871192,0.9302325581395349,21,22
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",motorbike,8.520158138871192,0.8837209302325582,21,22
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",person,8.520158138871192,0.8652037617554859,161,158
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",pottedplant,8.520158138871192,0.6666666666666666,21,21
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",sheep,8.520158138871192,0.8148148148148148,14,13
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",sofa,8.520158138871192,0.8,26,34
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",train,8.520158138871192,0.9285714285714286,14,14
+clean_control_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",tvmonitor,8.520158138871192,0.6666666666666666,21,18
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",aeroplane,8.520158138871192,0.9642857142857143,27,29
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",bicycle,8.520158138871192,0.8333333333333334,20,16
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",bird,8.520158138871192,0.926829268292683,21,20
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",boat,8.520158138871192,0.8387096774193549,15,16
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",bottle,8.520158138871192,0.6938775510204082,24,25
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",bus,8.520158138871192,1.0,18,18
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",car,8.520158138871192,0.7848101265822784,42,37
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",cat,8.520158138871192,0.9473684210526315,28,29
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",chair,8.520158138871192,0.7272727272727273,37,40
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",cow,8.520158138871192,0.7878787878787878,16,17
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",diningtable,8.520158138871192,0.7428571428571429,16,19
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",dog,8.520158138871192,0.9111111111111111,47,43
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",horse,8.520158138871192,0.926829268292683,21,20
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",motorbike,8.520158138871192,0.9090909090909091,21,23
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",person,8.520158138871192,0.8526645768025078,161,158
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",pottedplant,8.520158138871192,0.6190476190476191,21,21
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",sheep,8.520158138871192,0.7857142857142857,14,14
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",sofa,8.520158138871192,0.711864406779661,26,33
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",train,8.520158138871192,0.9285714285714286,14,14
+distortion_aware_resnet50,overexposure_L2,overexposure,2,L2,"{'factor': 1.3, 'bias': 20}",tvmonitor,8.520158138871192,0.7619047619047619,21,21
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",aeroplane,4.196926695853472,0.9818181818181818,27,28
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",bicycle,4.196926695853472,0.8421052631578947,20,18
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",bird,4.196926695853472,0.9230769230769231,21,18
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",boat,4.196926695853472,0.8666666666666667,15,15
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",bottle,4.196926695853472,0.5853658536585366,24,17
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",bus,4.196926695853472,1.0,18,18
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",car,4.196926695853472,0.72,42,33
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",cat,4.196926695853472,0.9310344827586207,28,30
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",chair,4.196926695853472,0.6419753086419753,37,44
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",cow,4.196926695853472,0.75,16,16
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",diningtable,4.196926695853472,0.6875,16,16
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",dog,4.196926695853472,0.9010989010989011,47,44
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",horse,4.196926695853472,0.9523809523809523,21,21
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",motorbike,4.196926695853472,0.8837209302325582,21,22
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",person,4.196926695853472,0.8633540372670807,161,161
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",pottedplant,4.196926695853472,0.7692307692307693,21,18
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",sheep,4.196926695853472,0.7692307692307693,14,12
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",sofa,4.196926695853472,0.8070175438596491,26,31
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",train,4.196926695853472,0.9285714285714286,14,14
+clean_control_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",tvmonitor,4.196926695853472,0.7142857142857143,21,21
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",aeroplane,4.196926695853472,0.9642857142857143,27,29
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",bicycle,4.196926695853472,0.8108108108108109,20,17
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",bird,4.196926695853472,0.926829268292683,21,20
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",boat,4.196926695853472,0.875,15,17
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",bottle,4.196926695853472,0.6086956521739131,24,22
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",bus,4.196926695853472,1.0,18,18
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",car,4.196926695853472,0.7341772151898734,42,37
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",cat,4.196926695853472,0.9642857142857143,28,28
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",chair,4.196926695853472,0.6923076923076923,37,41
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",cow,4.196926695853472,0.7647058823529411,16,18
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",diningtable,4.196926695853472,0.7272727272727273,16,17
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",dog,4.196926695853472,0.9333333333333333,47,43
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",horse,4.196926695853472,0.926829268292683,21,20
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",motorbike,4.196926695853472,0.9090909090909091,21,23
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",person,4.196926695853472,0.8589341692789969,161,158
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",pottedplant,4.196926695853472,0.7317073170731707,21,20
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",sheep,4.196926695853472,0.7692307692307693,14,12
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",sofa,4.196926695853472,0.7666666666666667,26,34
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",train,4.196926695853472,0.9285714285714286,14,14
+distortion_aware_resnet50,overexposure_L3,overexposure,3,L3,"{'factor': 1.6, 'bias': 35}",tvmonitor,4.196926695853472,0.7619047619047619,21,21
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",aeroplane,1.8136414105427685,0.9811320754716981,27,26
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",bicycle,1.8136414105427685,0.7567567567567568,20,17
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",bird,1.8136414105427685,0.8780487804878049,21,20
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",boat,1.8136414105427685,0.8387096774193549,15,16
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",bottle,1.8136414105427685,0.5263157894736842,24,14
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",bus,1.8136414105427685,0.972972972972973,18,19
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",car,1.8136414105427685,0.6933333333333334,42,33
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",cat,1.8136414105427685,0.8771929824561403,28,29
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",chair,1.8136414105427685,0.6666666666666666,37,41
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",cow,1.8136414105427685,0.7333333333333333,16,14
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",diningtable,1.8136414105427685,0.5714285714285714,16,12
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",dog,1.8136414105427685,0.9069767441860465,47,39
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",horse,1.8136414105427685,0.926829268292683,21,20
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",motorbike,1.8136414105427685,0.8780487804878049,21,20
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",person,1.8136414105427685,0.8253968253968254,161,154
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",pottedplant,1.8136414105427685,0.6666666666666666,21,18
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",sheep,1.8136414105427685,0.6666666666666666,14,10
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",sofa,1.8136414105427685,0.7719298245614035,26,31
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",train,1.8136414105427685,0.8666666666666667,14,16
+clean_control_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",tvmonitor,1.8136414105427685,0.7,21,19
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",aeroplane,1.8136414105427685,0.9818181818181818,27,28
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",bicycle,1.8136414105427685,0.7428571428571429,20,15
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",bird,1.8136414105427685,0.9,21,19
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",boat,1.8136414105427685,0.875,15,17
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",bottle,1.8136414105427685,0.5217391304347826,24,22
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",bus,1.8136414105427685,1.0,18,18
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",car,1.8136414105427685,0.6666666666666666,42,39
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",cat,1.8136414105427685,0.9285714285714286,28,28
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",chair,1.8136414105427685,0.65,37,43
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",cow,1.8136414105427685,0.7647058823529411,16,18
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",diningtable,1.8136414105427685,0.6666666666666666,16,17
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",dog,1.8136414105427685,0.9111111111111111,47,43
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",horse,1.8136414105427685,0.926829268292683,21,20
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",motorbike,1.8136414105427685,0.9302325581395349,21,22
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",person,1.8136414105427685,0.8535825545171339,161,160
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",pottedplant,1.8136414105427685,0.7272727272727273,21,23
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",sheep,1.8136414105427685,0.6428571428571429,14,14
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",sofa,1.8136414105427685,0.7419354838709677,26,36
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",train,1.8136414105427685,0.9285714285714286,14,14
+distortion_aware_resnet50,overexposure_L4,overexposure,4,L4,"{'factor': 2.0, 'bias': 50}",tvmonitor,1.8136414105427685,0.6976744186046512,21,22
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",aeroplane,0.1316232095770829,0.9411764705882353,27,24
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",bicycle,0.1316232095770829,0.7222222222222222,20,16
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",bird,0.1316232095770829,0.8780487804878049,21,20
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",boat,0.1316232095770829,0.6451612903225806,15,16
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",bottle,0.1316232095770829,0.4444444444444444,24,12
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",bus,0.1316232095770829,0.9142857142857143,18,17
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",car,0.1316232095770829,0.6086956521739131,42,27
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",cat,0.1316232095770829,0.8,28,32
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",chair,0.1316232095770829,0.6075949367088608,37,42
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",cow,0.1316232095770829,0.7586206896551724,16,13
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",diningtable,0.1316232095770829,0.5833333333333334,16,8
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",dog,0.1316232095770829,0.8536585365853658,47,35
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",horse,0.1316232095770829,0.8421052631578947,21,17
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",motorbike,0.1316232095770829,0.8780487804878049,21,20
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",person,0.1316232095770829,0.8172757475083057,161,140
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",pottedplant,0.1316232095770829,0.5625,21,11
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",sheep,0.1316232095770829,0.64,14,11
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",sofa,0.1316232095770829,0.6923076923076923,26,26
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",train,0.1316232095770829,0.896551724137931,14,15
+clean_control_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",tvmonitor,0.1316232095770829,0.7027027027027027,21,16
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",aeroplane,0.1316232095770829,0.9818181818181818,27,28
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",bicycle,0.1316232095770829,0.8108108108108109,20,17
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",bird,0.1316232095770829,0.9,21,19
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",boat,0.1316232095770829,0.7741935483870968,15,16
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",bottle,0.1316232095770829,0.5365853658536586,24,17
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",bus,0.1316232095770829,0.9714285714285714,18,17
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",car,0.1316232095770829,0.6575342465753424,42,31
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",cat,0.1316232095770829,0.8571428571428571,28,28
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",chair,0.1316232095770829,0.6666666666666666,37,47
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",cow,0.1316232095770829,0.7777777777777778,16,20
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",diningtable,0.1316232095770829,0.6451612903225806,16,15
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",dog,0.1316232095770829,0.8666666666666667,47,43
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",horse,0.1316232095770829,0.8780487804878049,21,20
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",motorbike,0.1316232095770829,0.9047619047619048,21,21
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",person,0.1316232095770829,0.8333333333333334,161,163
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",pottedplant,0.1316232095770829,0.6842105263157895,21,17
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",sheep,0.1316232095770829,0.6923076923076923,14,12
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",sofa,0.1316232095770829,0.7457627118644068,26,33
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",train,0.1316232095770829,0.9285714285714286,14,14
+distortion_aware_resnet50,overexposure_L5,overexposure,5,L5,"{'factor': 2.5, 'bias': 75}",tvmonitor,0.1316232095770829,0.8292682926829268,21,20
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",aeroplane,-0.9093894429088687,0.7441860465116279,27,16
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",bicycle,-0.9093894429088687,0.4666666666666667,20,10
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",bird,-0.9093894429088687,0.8095238095238095,21,21
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",boat,-0.9093894429088687,0.6666666666666666,15,12
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",bottle,-0.9093894429088687,0.3870967741935484,24,7
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",bus,-0.9093894429088687,0.8823529411764706,18,16
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",car,-0.9093894429088687,0.5,42,22
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",cat,-0.9093894429088687,0.7666666666666667,28,32
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",chair,-0.9093894429088687,0.4507042253521127,37,34
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",cow,-0.9093894429088687,0.4,16,4
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",diningtable,-0.9093894429088687,0.38095238095238093,16,5
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",dog,-0.9093894429088687,0.6944444444444444,47,25
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",horse,-0.9093894429088687,0.7647058823529411,21,13
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",motorbike,-0.9093894429088687,0.75,21,19
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",person,-0.9093894429088687,0.7418181818181818,161,114
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",pottedplant,-0.9093894429088687,0.5333333333333333,21,9
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",sheep,-0.9093894429088687,0.3,14,6
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",sofa,-0.9093894429088687,0.723404255319149,26,21
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",train,-0.9093894429088687,0.7407407407407407,14,13
+clean_control_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",tvmonitor,-0.9093894429088687,0.6842105263157895,21,17
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",aeroplane,-0.9093894429088687,0.9259259259259259,27,27
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",bicycle,-0.9093894429088687,0.7777777777777778,20,16
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",bird,-0.9093894429088687,0.7727272727272727,21,23
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",boat,-0.9093894429088687,0.6470588235294118,15,19
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",bottle,-0.9093894429088687,0.5454545454545454,24,20
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",bus,-0.9093894429088687,0.9142857142857143,18,17
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",car,-0.9093894429088687,0.6216216216216216,42,32
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",cat,-0.9093894429088687,0.819672131147541,28,33
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",chair,-0.9093894429088687,0.6172839506172839,37,44
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",cow,-0.9093894429088687,0.6666666666666666,16,17
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",diningtable,-0.9093894429088687,0.6451612903225806,16,15
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",dog,-0.9093894429088687,0.7954545454545454,47,41
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",horse,-0.9093894429088687,0.8205128205128205,21,18
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",motorbike,-0.9093894429088687,0.7906976744186046,21,22
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",person,-0.9093894429088687,0.7886435331230284,161,156
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",pottedplant,-0.9093894429088687,0.7027027027027027,21,16
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",sheep,-0.9093894429088687,0.5925925925925926,14,13
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",sofa,-0.9093894429088687,0.75,26,30
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",train,-0.9093894429088687,0.9285714285714286,14,14
+distortion_aware_resnet50,overexposure_L6,overexposure,6,L6,"{'factor': 3.2, 'bias': 100}",tvmonitor,-0.9093894429088687,0.75,21,19
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},aeroplane,21.40820765733719,0.9629629629629629,27,27
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},bicycle,21.40820765733719,0.8333333333333334,20,16
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},bird,21.40820765733719,0.8780487804878049,21,20
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},boat,21.40820765733719,0.9032258064516129,15,16
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},bottle,21.40820765733719,0.5,24,24
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},bus,21.40820765733719,0.972972972972973,18,19
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},car,21.40820765733719,0.7341772151898734,42,37
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},cat,21.40820765733719,0.9473684210526315,28,29
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},chair,21.40820765733719,0.6111111111111112,37,35
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},cow,21.40820765733719,0.75,16,16
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},diningtable,21.40820765733719,0.7272727272727273,16,17
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},dog,21.40820765733719,0.9090909090909091,47,41
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},horse,21.40820765733719,0.9302325581395349,21,22
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},motorbike,21.40820765733719,0.9047619047619048,21,21
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},person,21.40820765733719,0.8726114649681529,161,153
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},pottedplant,21.40820765733719,0.5853658536585366,21,20
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},sheep,21.40820765733719,0.7692307692307693,14,12
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},sofa,21.40820765733719,0.6818181818181818,26,18
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},train,21.40820765733719,0.896551724137931,14,15
+clean_control_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},tvmonitor,21.40820765733719,0.7,21,19
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},aeroplane,21.40820765733719,0.9642857142857143,27,29
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},bicycle,21.40820765733719,0.8888888888888888,20,16
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},bird,21.40820765733719,0.926829268292683,21,20
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},boat,21.40820765733719,0.8387096774193549,15,16
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},bottle,21.40820765733719,0.5925925925925926,24,30
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},bus,21.40820765733719,0.972972972972973,18,19
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},car,21.40820765733719,0.7441860465116279,42,44
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},cat,21.40820765733719,0.9090909090909091,28,27
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},chair,21.40820765733719,0.6829268292682927,37,45
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},cow,21.40820765733719,0.8,16,19
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},diningtable,21.40820765733719,0.7222222222222222,16,20
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},dog,21.40820765733719,0.9213483146067416,47,42
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},horse,21.40820765733719,0.95,21,19
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},motorbike,21.40820765733719,0.9333333333333333,21,24
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},person,21.40820765733719,0.8507936507936508,161,154
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},pottedplant,21.40820765733719,0.6190476190476191,21,21
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},sheep,21.40820765733719,0.7692307692307693,14,12
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},sofa,21.40820765733719,0.75,26,22
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},train,21.40820765733719,0.9285714285714286,14,14
+distortion_aware_resnet50,salt_pepper_L1,salt_pepper,1,L1,{'amount': 0.005},tvmonitor,21.40820765733719,0.7317073170731707,21,20
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},aeroplane,18.40486337661743,0.9818181818181818,27,28
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},bicycle,18.40486337661743,0.8571428571428571,20,15
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},bird,18.40486337661743,0.8571428571428571,21,21
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},boat,18.40486337661743,0.9032258064516129,15,16
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},bottle,18.40486337661743,0.5777777777777777,24,21
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},bus,18.40486337661743,0.9444444444444444,18,18
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},car,18.40486337661743,0.6835443037974683,42,37
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},cat,18.40486337661743,0.8928571428571429,28,28
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},chair,18.40486337661743,0.6086956521739131,37,32
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},cow,18.40486337661743,0.75,16,16
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},diningtable,18.40486337661743,0.6,16,14
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},dog,18.40486337661743,0.8735632183908046,47,40
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},horse,18.40486337661743,0.9047619047619048,21,21
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},motorbike,18.40486337661743,0.8780487804878049,21,20
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},person,18.40486337661743,0.8664495114006515,161,146
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},pottedplant,18.40486337661743,0.5641025641025641,21,18
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},sheep,18.40486337661743,0.7407407407407407,14,13
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},sofa,18.40486337661743,0.6666666666666666,26,16
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},train,18.40486337661743,0.896551724137931,14,15
+clean_control_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},tvmonitor,18.40486337661743,0.6842105263157895,21,17
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},aeroplane,18.40486337661743,0.9,27,33
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},bicycle,18.40486337661743,0.8888888888888888,20,16
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},bird,18.40486337661743,0.8780487804878049,21,20
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},boat,18.40486337661743,0.8666666666666667,15,15
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},bottle,18.40486337661743,0.5660377358490566,24,29
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},bus,18.40486337661743,0.972972972972973,18,19
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},car,18.40486337661743,0.6823529411764706,42,43
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},cat,18.40486337661743,0.8928571428571429,28,28
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},chair,18.40486337661743,0.6578947368421053,37,39
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},cow,18.40486337661743,0.7647058823529411,16,18
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},diningtable,18.40486337661743,0.7058823529411765,16,18
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},dog,18.40486337661743,0.9213483146067416,47,42
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},horse,18.40486337661743,0.926829268292683,21,20
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},motorbike,18.40486337661743,0.9333333333333333,21,24
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},person,18.40486337661743,0.8517350157728707,161,156
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},pottedplant,18.40486337661743,0.6190476190476191,21,21
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},sheep,18.40486337661743,0.7407407407407407,14,13
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},sofa,18.40486337661743,0.6818181818181818,26,18
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},train,18.40486337661743,0.896551724137931,14,15
+distortion_aware_resnet50,salt_pepper_L2,salt_pepper,2,L2,{'amount': 0.01},tvmonitor,18.40486337661743,0.6829268292682927,21,20
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},aeroplane,13.676547238826751,0.9230769230769231,27,25
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},bicycle,13.676547238826751,0.7777777777777778,20,16
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},bird,13.676547238826751,0.8780487804878049,21,20
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},boat,13.676547238826751,0.9032258064516129,15,16
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},bottle,13.676547238826751,0.6,24,16
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},bus,13.676547238826751,0.9444444444444444,18,18
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},car,13.676547238826751,0.6756756756756757,42,32
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},cat,13.676547238826751,0.8813559322033898,28,31
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},chair,13.676547238826751,0.5277777777777778,37,35
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},cow,13.676547238826751,0.6666666666666666,16,17
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},diningtable,13.676547238826751,0.64,16,9
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},dog,13.676547238826751,0.8333333333333334,47,37
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},horse,13.676547238826751,0.9,21,19
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},motorbike,13.676547238826751,0.8717948717948718,21,18
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},person,13.676547238826751,0.8448844884488449,161,142
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},pottedplant,13.676547238826751,0.6060606060606061,21,12
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},sheep,13.676547238826751,0.7692307692307693,14,12
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},sofa,13.676547238826751,0.4864864864864865,26,11
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},train,13.676547238826751,0.8666666666666667,14,16
+clean_control_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},tvmonitor,13.676547238826751,0.7222222222222222,21,15
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},aeroplane,13.676547238826751,0.9454545454545454,27,28
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},bicycle,13.676547238826751,0.918918918918919,20,17
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},bird,13.676547238826751,0.8780487804878049,21,20
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},boat,13.676547238826751,0.9032258064516129,15,16
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},bottle,13.676547238826751,0.5531914893617021,24,23
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},bus,13.676547238826751,0.9473684210526315,18,20
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},car,13.676547238826751,0.7435897435897436,42,36
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},cat,13.676547238826751,0.8620689655172413,28,30
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},chair,13.676547238826751,0.6582278481012658,37,42
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},cow,13.676547238826751,0.6857142857142857,16,19
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},diningtable,13.676547238826751,0.6666666666666666,16,17
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},dog,13.676547238826751,0.898876404494382,47,42
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},horse,13.676547238826751,0.9,21,19
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},motorbike,13.676547238826751,0.8444444444444444,21,24
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},person,13.676547238826751,0.842443729903537,161,150
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},pottedplant,13.676547238826751,0.6,21,19
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},sheep,13.676547238826751,0.7407407407407407,14,13
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},sofa,13.676547238826751,0.7755102040816326,26,23
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},train,13.676547238826751,0.8571428571428571,14,14
+distortion_aware_resnet50,salt_pepper_L3,salt_pepper,3,L3,{'amount': 0.03},tvmonitor,13.676547238826751,0.6666666666666666,21,21
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},aeroplane,10.0974344111979,0.8085106382978723,27,20
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},bicycle,10.0974344111979,0.7647058823529411,20,14
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},bird,10.0974344111979,0.8571428571428571,21,21
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},boat,10.0974344111979,0.7407407407407407,15,12
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},bottle,10.0974344111979,0.42105263157894735,24,14
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},bus,10.0974344111979,0.9444444444444444,18,18
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},car,10.0974344111979,0.6285714285714286,42,28
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},cat,10.0974344111979,0.8214285714285714,28,28
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},chair,10.0974344111979,0.5217391304347826,37,32
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},cow,10.0974344111979,0.6206896551724138,16,13
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},diningtable,10.0974344111979,0.3157894736842105,16,3
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},dog,10.0974344111979,0.7654320987654321,47,34
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},horse,10.0974344111979,0.8717948717948718,21,18
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},motorbike,10.0974344111979,0.8717948717948718,21,18
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},person,10.0974344111979,0.8609271523178808,161,141
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},pottedplant,10.0974344111979,0.5454545454545454,21,12
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},sheep,10.0974344111979,0.6666666666666666,14,10
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},sofa,10.0974344111979,0.2,26,4
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},train,10.0974344111979,0.8387096774193549,14,17
+clean_control_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},tvmonitor,10.0974344111979,0.6470588235294118,21,13
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},aeroplane,10.0974344111979,0.9629629629629629,27,27
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},bicycle,10.0974344111979,0.8648648648648649,20,17
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},bird,10.0974344111979,0.8571428571428571,21,21
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},boat,10.0974344111979,0.9032258064516129,15,16
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},bottle,10.0974344111979,0.5957446808510638,24,23
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},bus,10.0974344111979,0.918918918918919,18,19
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},car,10.0974344111979,0.7160493827160493,42,39
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},cat,10.0974344111979,0.8771929824561403,28,29
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},chair,10.0974344111979,0.691358024691358,37,44
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},cow,10.0974344111979,0.6666666666666666,16,20
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},diningtable,10.0974344111979,0.5714285714285714,16,19
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},dog,10.0974344111979,0.8636363636363636,47,41
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},horse,10.0974344111979,0.9,21,19
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},motorbike,10.0974344111979,0.8636363636363636,21,23
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},person,10.0974344111979,0.8626198083067093,161,152
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},pottedplant,10.0974344111979,0.5641025641025641,21,18
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},sheep,10.0974344111979,0.7142857142857143,14,14
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},sofa,10.0974344111979,0.7346938775510204,26,23
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},train,10.0974344111979,0.896551724137931,14,15
+distortion_aware_resnet50,salt_pepper_L4,salt_pepper,4,L4,{'amount': 0.07},tvmonitor,10.0974344111979,0.6829268292682927,21,20
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},aeroplane,6.9753650592267515,0.6666666666666666,27,15
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},bicycle,6.9753650592267515,0.5161290322580645,20,11
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},bird,6.9753650592267515,0.7727272727272727,21,23
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},boat,6.9753650592267515,0.7692307692307693,15,11
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},bottle,6.9753650592267515,0.3448275862068966,24,5
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},bus,6.9753650592267515,0.9714285714285714,18,17
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},car,6.9753650592267515,0.6285714285714286,42,28
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},cat,6.9753650592267515,0.8235294117647058,28,23
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},chair,6.9753650592267515,0.42857142857142855,37,19
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},cow,6.9753650592267515,0.5833333333333334,16,8
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},diningtable,6.9753650592267515,0.11764705882352941,16,1
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},dog,6.9753650592267515,0.7012987012987013,47,30
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},horse,6.9753650592267515,0.6666666666666666,21,12
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},motorbike,6.9753650592267515,0.7567567567567568,21,16
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},person,6.9753650592267515,0.8096885813148789,161,128
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},pottedplant,6.9753650592267515,0.37037037037037035,21,6
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},sheep,6.9753650592267515,0.5,14,6
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},sofa,6.9753650592267515,0.07407407407407407,26,1
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},train,6.9753650592267515,0.8,14,16
+clean_control_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},tvmonitor,6.9753650592267515,0.6875,21,11
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},aeroplane,6.9753650592267515,0.9019607843137255,27,24
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},bicycle,6.9753650592267515,0.8333333333333334,20,16
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},bird,6.9753650592267515,0.8181818181818182,21,23
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},boat,6.9753650592267515,0.875,15,17
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},bottle,6.9753650592267515,0.6521739130434783,24,22
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},bus,6.9753650592267515,0.8947368421052632,18,20
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},car,6.9753650592267515,0.7160493827160493,42,39
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},cat,6.9753650592267515,0.8571428571428571,28,28
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},chair,6.9753650592267515,0.6588235294117647,37,48
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},cow,6.9753650592267515,0.6285714285714286,16,19
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},diningtable,6.9753650592267515,0.6060606060606061,16,17
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},dog,6.9753650592267515,0.7872340425531915,47,47
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},horse,6.9753650592267515,0.7894736842105263,21,17
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},motorbike,6.9753650592267515,0.8837209302325582,21,22
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},person,6.9753650592267515,0.8349514563106796,161,148
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},pottedplant,6.9753650592267515,0.5853658536585366,21,20
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},sheep,6.9753650592267515,0.64,14,11
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},sofa,6.9753650592267515,0.7169811320754716,26,27
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},train,6.9753650592267515,0.896551724137931,14,15
+distortion_aware_resnet50,salt_pepper_L5,salt_pepper,5,L5,{'amount': 0.15},tvmonitor,6.9753650592267515,0.6829268292682927,21,20
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},aeroplane,4.316552363075316,0.25806451612903225,27,4
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},bicycle,4.316552363075316,0.41379310344827586,20,9
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},bird,4.316552363075316,0.7391304347826086,21,25
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},boat,4.316552363075316,0.6363636363636364,15,7
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},bottle,4.316552363075316,0.15384615384615385,24,2
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},bus,4.316552363075316,0.8387096774193549,18,13
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},car,4.316552363075316,0.41935483870967744,42,20
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},cat,4.316552363075316,0.6222222222222222,28,17
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},chair,4.316552363075316,0.23255813953488372,37,6
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},cow,4.316552363075316,0.2222222222222222,16,2
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},diningtable,4.316552363075316,0.0,16,0
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},dog,4.316552363075316,0.6133333333333333,47,28
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},horse,4.316552363075316,0.42857142857142855,21,7
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},motorbike,4.316552363075316,0.7272727272727273,21,12
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},person,4.316552363075316,0.7636363636363637,161,114
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},pottedplant,4.316552363075316,0.17391304347826086,21,2
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},sheep,4.316552363075316,0.43478260869565216,14,9
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},sofa,4.316552363075316,0.0,26,0
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},train,4.316552363075316,0.43478260869565216,14,9
+clean_control_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},tvmonitor,4.316552363075316,0.6,21,9
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},aeroplane,4.316552363075316,0.84,27,23
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},bicycle,4.316552363075316,0.7692307692307693,20,19
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},bird,4.316552363075316,0.8,21,24
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},boat,4.316552363075316,0.875,15,17
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},bottle,4.316552363075316,0.5263157894736842,24,14
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},bus,4.316552363075316,0.9444444444444444,18,18
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},car,4.316552363075316,0.6329113924050633,42,37
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},cat,4.316552363075316,0.8571428571428571,28,28
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},chair,4.316552363075316,0.5555555555555556,37,53
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},cow,4.316552363075316,0.6470588235294118,16,18
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},diningtable,4.316552363075316,0.6060606060606061,16,17
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},dog,4.316552363075316,0.7560975609756098,47,35
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},horse,4.316552363075316,0.7368421052631579,21,17
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},motorbike,4.316552363075316,0.9,21,19
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},person,4.316552363075316,0.8397435897435898,161,151
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},pottedplant,4.316552363075316,0.65,21,19
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},sheep,4.316552363075316,0.6153846153846154,14,12
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},sofa,4.316552363075316,0.6382978723404256,26,21
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},train,4.316552363075316,0.7857142857142857,14,14
+distortion_aware_resnet50,salt_pepper_L6,salt_pepper,6,L6,{'amount': 0.3},tvmonitor,4.316552363075316,0.7317073170731707,21,20
