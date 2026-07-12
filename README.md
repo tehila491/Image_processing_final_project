@@ -779,6 +779,21 @@ For Overexposure, both models achieved the same F1-score. This example
 illustrates that the benefit of distortion-aware fine-tuning depends on the
 distortion type, while showing clear improvement under noise and blur.
 
+---
+
+### Task 3 Summary: ResNet50 Multi-Label Classification
+
+The following figure summarizes the complete evaluation pipeline for the deep-learning task. It compares the clean-image baseline with performance on distorted images, restored images, and distorted images evaluated using the distortion-aware fine-tuned model.
+
+<img width="630" height="337" alt="task3" src="https://github.com/user-attachments/assets/20b35b50-a2fc-4ce1-a064-dccbabecc3a9" />
+
+The results show that the most effective improvement method depends on the distortion type.
+
+- For **Salt & Pepper Noise**, image restoration produced the best result and nearly recovered the clean-image baseline.
+- For **Overexposure**, distortion-aware fine-tuning achieved the highest F1-score and slightly exceeded the clean baseline.
+- For **Motion Blur**, fine-tuning produced a substantial improvement and fully recovered the lost classification performance.
+
+Overall, restoration was particularly effective for impulse noise, while distortion-aware fine-tuning was more effective for distortions that were difficult to correct through preprocessing, especially Motion Blur.
 
 ## 8. Overall Project Summary and Conclusions
 
