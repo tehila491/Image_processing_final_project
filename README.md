@@ -291,8 +291,9 @@ Salt & Pepper noise creates many false local structures, Motion Blur removes fin
 
 ---
 
-### Performance Grouped by Target Object Class Under Distortions
-We also grouped the image-level results by the target object class, defined as the largest annotated object in each image. For ResNet50, the multi-label F1-score is calculated over all labels in the image and then grouped by this target class.
+### Per-Class Performance Under Distortions
+
+We also analyzed average performance per target object class across the distorted images.
 
 <img width="2384" height="880" alt="image" src="https://github.com/user-attachments/assets/e34a6440-66bb-4d0e-883b-8150efcbc080" />
 
@@ -451,9 +452,10 @@ Overall, Salt & Pepper and Overexposure benefit most from enhancement, while Mot
 
 ---
 
-### Performance Grouped by Target Object Class on Enhanced Images
+### Per-Class Performance on Enhanced Images
 
-The enhanced-image results were grouped by the target object class, defined as the largest annotated object in each image. For ResNet50, the multi-label F1-score was calculated over all labels in the image and then grouped according to this target class.
+We also measured enhanced-image performance per target object class.
+This analysis helps identify which classes benefit more from restoration and which classes remain sensitive to distortions.
 
 #### Enhanced Canny Edge-Map IoU per Class
 
