@@ -305,15 +305,16 @@ Only classes represented in the selected segmentation subset are shown.
 For ResNet50, a separate binary F1-score was calculated for each of the 20 PASCAL VOC classes on a fixed 400-image evaluation subset. For each distortion type, predictions from all six severity levels were combined to measure class-specific robustness across the complete distortion range.
 
 ##### Salt & Pepper Noise
-<img width="1000" height="425" alt="3_1_1" src="https://github.com/user-attachments/assets/2f4928fe-3770-48fb-a6df-fb28b4b1e3c9" />
+<img width="1000" height="425" alt="3_1_1" src="https://github.com/user-attachments/assets/d8e163f9-da57-407f-a1a6-8b37db6744b7" />
+
 
 ##### Overexposure
+<img width="1000" height="425" alt="3_1_2" src="https://github.com/user-attachments/assets/e53fd101-9368-4341-bb06-eb104faa78a0" />
 
-<img width="1000" height="425" alt="3_1_2" src="https://github.com/user-attachments/assets/abe93e75-285a-4fbc-ba0b-0c2404940289" />
 
 ##### Motion Blur
+<img width="1000" height="425" alt="3_1_3" src="https://github.com/user-attachments/assets/7983a511-9670-4cd1-abda-7d818a870bf3" />
 
-<img width="1000" height="425" alt="3_1_3" src="https://github.com/user-attachments/assets/bd6ffb74-9f66-48f5-96a9-c1235b94d06d" />
 
 Across all six severity levels, Overexposure preserved the highest mean per-class ResNet50 F1-score at **0.754**. Salt & Pepper Noise achieved a mean per-class F1-score of **0.652**, while Motion Blur achieved **0.635**. These results show that classification robustness varies across object categories and distortion types.
 
@@ -489,17 +490,23 @@ This analysis helps identify which classes benefit more from restoration and whi
 
 <img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/787baef7-954e-4ab8-b37d-b572d773e869" />
 
-#### Enhanced ResNet50 Multi-Label F1-Score per Class
+#### ResNet50 Class-Specific F1: Distorted vs. Restored
 
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/838d6281-0078-4a10-8245-5474e12d75d0" />
+For ResNet50, a separate binary F1-score was calculated for each of the 20 PASCAL VOC classes on a fixed 400-image evaluation subset. The same images, model checkpoint, prediction threshold, and ground-truth labels were used before and after restoration.
 
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/6d3ca5e9-21db-45e6-ae29-016caa66b735" />
+##### Salt & Pepper Noise
 
-<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/192be864-778e-447c-a4b6-66ba332e558d" />
+<img width="1000" height="463" alt="4_1" src="https://github.com/user-attachments/assets/070ab134-0e30-43b6-9574-f8a3895d3510" />
 
-The per-class results show that restoration does not affect all object categories equally.  
-Classes with clearer shapes and stronger foreground-background separation tend to benefit more from restoration, especially for GrabCut.  
-Smaller objects or visually complex categories remain more sensitive to distortion.
+##### Overexposure
+
+<img width="1000" height="463" alt="4_2" src="https://github.com/user-attachments/assets/de8d65e5-a8d6-4382-9601-5c36f583e01c" />
+
+##### Motion Blur
+
+<img width="1000" height="463" alt="4_3" src="https://github.com/user-attachments/assets/cc0e357e-9cad-4ae8-b597-84ed1c380d48" />
+
+The class-specific analysis shows that restoration improved the mean per-class ResNet50 F1-score for all three distortion types. Median filtering produced the strongest improvement under Salt & Pepper Noise, increasing the mean F1-score from **0.673 to 0.759**. Overexposure restoration improved the score from **0.810 to 0.823**, while Motion Blur restoration produced a smaller improvement from **0.623 to 0.630**. These results indicate that the effectiveness of restoration depends strongly on the distortion type.
 
 ---
 
