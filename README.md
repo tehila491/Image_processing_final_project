@@ -313,7 +313,7 @@ For ResNet50, a separate binary F1-score was calculated for each of the 20 PASCA
 
 
 ##### Motion Blur
-<img width="1000" height="425" alt="3_1_3" src="https://github.com/user-attachments/assets/7983a511-9670-4cd1-abda-7d818a870bf3" />
+<img width="1280" height="544" alt="3_1_3" src="https://github.com/user-attachments/assets/95494442-c585-44d9-bc46-bf5328c27fa0" />
 
 
 Across all six severity levels, Overexposure preserved the highest mean per-class ResNet50 F1-score at **0.754**. Salt & Pepper Noise achieved a mean per-class F1-score of **0.652**, while Motion Blur achieved **0.635**. These results show that classification robustness varies across object categories and distortion types.
