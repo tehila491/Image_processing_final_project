@@ -293,13 +293,28 @@ Salt & Pepper noise creates many false local structures, Motion Blur removes fin
 
 ### Per-Class Performance Under Distortions
 
-We also analyzed average performance per target object class across the distorted images.
+#### Canny and GrabCut Performance by Target Object Class
 
-<img width="2384" height="880" alt="image" src="https://github.com/user-attachments/assets/e34a6440-66bb-4d0e-883b-8150efcbc080" />
+For Canny and GrabCut, the results are grouped according to the target object class, defined as the largest annotated object in each image. Canny is evaluated using Edge-Map IoU against the clean edge reference, while GrabCut is evaluated using Segmentation IoU against the ground-truth mask.
 
+<img width="1000" height="371" alt="3_8" src="https://github.com/user-attachments/assets/a85b28ee-cdcc-4e67-abd7-7180c1183139" />
 
-The per-class analysis shows that some object categories are more robust to distortions than others.  
-Classes with clearer shapes and stronger foreground/background separation tend to preserve better performance, while visually complex or smaller objects are more sensitive to degradation.
+#### True ResNet50 Per-Class Performance
+
+For ResNet50, a separate binary F1-score was calculated for each of the 20 PASCAL VOC classes on a fixed 400-image evaluation subset. For each distortion type, predictions from all six severity levels were combined to measure class-specific robustness across the complete distortion range.
+
+##### Salt & Pepper Noise
+<img width="1000" height="425" alt="3_1_1" src="https://github.com/user-attachments/assets/2f4928fe-3770-48fb-a6df-fb28b4b1e3c9" />
+
+##### Overexposure
+
+<img width="1000" height="425" alt="3_1_2" src="https://github.com/user-attachments/assets/abe93e75-285a-4fbc-ba0b-0c2404940289" />
+
+##### Motion Blur
+
+<img width="1000" height="425" alt="3_1_3" src="https://github.com/user-attachments/assets/bd6ffb74-9f66-48f5-96a9-c1235b94d06d" />
+
+Across all six severity levels, Overexposure preserved the highest mean per-class ResNet50 F1-score at **0.754**. Salt & Pepper Noise achieved a mean per-class F1-score of **0.652**, while Motion Blur achieved **0.635**. These results show that classification robustness varies across object categories and distortion types.
 
 ---
 
