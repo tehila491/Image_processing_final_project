@@ -850,3 +850,25 @@ GrabCut benefited strongly from restoration, especially after median filtering o
 For ResNet50, distortion-aware fine-tuning was more effective than classical image restoration under severe degradation. The largest gains were observed for Motion Blur and strong Salt & Pepper Noise.
 
 Overall, the results show that no single improvement method is optimal for every task. Classical restoration is effective when the distortion can be reduced directly, while distortion-aware fine-tuning provides stronger robustness for high-level deep-learning models.
+
+## Hardware Requirements
+
+The traditional computer vision notebooks can run on CPU.
+
+A CUDA-enabled GPU is strongly recommended for the ResNet50 training and
+distortion-aware fine-tuning stages, especially for:
+
+- `02_clean_baseline.ipynb`
+- `03_distortions.ipynb`
+- `04_restoration.ipynb`
+- `05_finetuning_distorted.ipynb`
+
+The notebooks were designed to run in Google Colab.
+
+To enable a GPU in Google Colab:
+
+1. Open `Runtime`
+2. Select `Change runtime type`
+3. Choose `T4 GPU` as the hardware accelerator
+
+The code automatically uses a GPU when one is available and falls back to CPU otherwise.
