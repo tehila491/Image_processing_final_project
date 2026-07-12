@@ -291,9 +291,8 @@ Salt & Pepper noise creates many false local structures, Motion Blur removes fin
 
 ---
 
-### Per-Class Performance Under Distortions
-
-We also analyzed average performance per target object class across the distorted images.
+### Performance Grouped by Target Object Class Under Distortions
+We also grouped the image-level results by the target object class, defined as the largest annotated object in each image. For ResNet50, the multi-label F1-score is calculated over all labels in the image and then grouped by this target class.
 
 <img width="2384" height="880" alt="image" src="https://github.com/user-attachments/assets/e34a6440-66bb-4d0e-883b-8150efcbc080" />
 
