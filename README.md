@@ -1,3 +1,4 @@
+<img width="790" height="470" alt="overall_baseline_clean" src="https://github.com/user-attachments/assets/4c58008f-85d9-44af-8348-ccc09fcb2c04" />
 # Evaluating Robustness of Computer Vision Models 👁️
 
 ## 1. Project Overview
@@ -58,9 +59,9 @@ This stage establishes the clean baseline performance, which will later be used 
 
 | Task / Model | Evaluation Metric | Baseline Score |
 | :--- | :--- | :--- |
-| Canny Edge Detection | Mean Edge Density |0.0968 |
-| GrabCut Segmentation | Mean IoU | 65.22% |
-| ResNet50 Multi-Label Classification | Mean Multi-label IoU / Jaccard | 61.12% |
+| Canny Edge Detection | Mean Edge Density |9.68% |
+| GrabCut Segmentation | Mean IoU | 65.96% |
+| ResNet50 Multi-Label Classification | Mean Multi-label IoU / Jaccard | 57.44% |
 
 ### Baseline Methodology
 
@@ -81,7 +82,7 @@ For the clean-image baseline, we evaluated three different computer vision tasks
 
 The following plot summarizes the clean-image baseline scores for the three selected tasks.
 
-<img width="790" height="490" alt="overall_baseline_clean" src="https://github.com/user-attachments/assets/50cd1363-cac1-4b33-aba3-169a3718ef16" />
+<img width="790" height="470" alt="overall_baseline_clean" src="https://github.com/user-attachments/assets/7ded7ede-e048-4a81-837a-5330f270e44a" />
 
 ---
 
