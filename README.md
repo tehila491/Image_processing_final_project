@@ -866,9 +866,7 @@ The complete evaluation included:
 | :--- | :--- | :--- | :--- |
 | Canny Edge Detection | Noise introduced false edges, while Motion Blur removed and shifted edge structure | Distortion-specific image restoration | Restoration improved Edge-Map IoU under all distortions, but did not fully recover the clean reference |
 | GrabCut Segmentation | Distortions damaged object boundaries and foreground-background color separation | Distortion-specific image restoration | Restoration improved Segmentation IoU under all distortions, with the strongest recovery under Salt & Pepper Noise |
-| ResNet50 Multi-Label Classification | Severe Motion Blur and Salt & Pepper Noise caused the largest classification degradation | Distortion-aware fine-tuning | Fine-tuning provided the strongest and most consistent robustness;
-restoration was similarly effective for Salt & Pepper Noise but much less
-effective for Motion Blur |
+| ResNet50 Multi-Label Classification | Severe Motion Blur and Salt & Pepper Noise caused the largest classification degradation | Distortion-aware fine-tuning | Fine-tuning provided the strongest and most consistent robustness; restoration was similarly effective for Salt & Pepper Noise but much less effective for Motion Blur |
 
 ### Main Conclusions
 
