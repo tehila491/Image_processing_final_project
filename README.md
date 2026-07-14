@@ -805,20 +805,49 @@ illustrates that the benefit of distortion-aware fine-tuning depends on the
 distortion type, while showing clear improvement under noise and blur.
 
 ---
+### Task 3 Summary: Restoration vs. Fine-Tuned Model
 
-### Task 3 Summary: ResNet50 Multi-Label Classification
+To directly compare the two robustness-improvement strategies, all methods
+were evaluated on the same 400 PASCAL VOC validation images.
 
-The following figure summarizes the complete evaluation pipeline for the deep-learning task. It compares the clean-image baseline with performance on distorted images, restored images, and distorted images evaluated using the distortion-aware fine-tuned model.
+For each representative distortion condition, we compared:
 
-<img width="630" height="337" alt="task3" src="https://github.com/user-attachments/assets/20b35b50-a2fc-4ce1-a064-dccbabecc3a9" />
+1. Distorted images evaluated by the Clean-Control model
+2. Restored images evaluated by the same Clean-Control model
+3. Distorted images evaluated by the Distortion-Aware Fine-Tuned model
 
-The results show that the most effective improvement method depends on the distortion type.
+<img width="1189" height="640" alt="5_final" src="https://github.com/user-attachments/assets/cbd4eea1-4543-4f1d-8fd5-df4424445d79" />
 
-- For **Salt & Pepper Noise**, image restoration produced the best result and nearly recovered the clean-image baseline.
-- For **Overexposure**, distortion-aware fine-tuning achieved the highest F1-score and slightly exceeded the clean baseline.
-- For **Motion Blur**, fine-tuning produced a substantial improvement and fully recovered the lost classification performance.
 
-Overall, restoration was particularly effective for impulse noise, while distortion-aware fine-tuning was more effective for distortions that were difficult to correct through preprocessing, especially Motion Blur.
+| Distortion Condition | Distorted + Clean-Control | Restored + Clean-Control | Distorted + Fine-Tuned Model |
+| :--- | ---: | ---: | ---: |
+| Salt & Pepper L4 | 0.720 | 0.805 | **0.810** |
+| Overexposure L3 | 0.843 | 0.829 | **0.848** |
+| Motion Blur L4 | 0.701 | 0.709 | **0.819** |
+
+For **Salt & Pepper Noise**, restoration and fine-tuning produced strong and
+nearly identical improvements, with a small advantage for the Fine-Tuned model.
+
+For **Overexposure**, the Clean-Control model was already highly robust.
+Restoration slightly reduced the classification score, while the Fine-Tuned
+model achieved the best result.
+
+For **Motion Blur**, classical restoration produced only a small improvement,
+whereas distortion-aware fine-tuning substantially improved classification
+performance.
+
+Across the three representative conditions, the mean F1-score was approximately
+**0.755** for distorted images with the Clean-Control model, **0.781** after
+restoration, and **0.826** with the Distortion-Aware Fine-Tuned model.
+
+These representative moderate-to-strong conditions were selected for the
+direct restoration-versus-fine-tuning comparison. Performance across all six
+severity levels is reported separately in the complete fine-tuning evaluation.
+
+Overall, restoration is effective when the distortion can be reliably removed,
+while distortion-aware fine-tuning provides stronger and more consistent
+robustness for high-level classification.
+
 
 ## 8. Overall Project Summary and Conclusions
 
@@ -837,7 +866,9 @@ The complete evaluation included:
 | :--- | :--- | :--- | :--- |
 | Canny Edge Detection | Noise introduced false edges, while Motion Blur removed and shifted edge structure | Distortion-specific image restoration | Restoration improved Edge-Map IoU under all distortions, but did not fully recover the clean reference |
 | GrabCut Segmentation | Distortions damaged object boundaries and foreground-background color separation | Distortion-specific image restoration | Restoration improved Segmentation IoU under all distortions, with the strongest recovery under Salt & Pepper Noise |
-| ResNet50 Multi-Label Classification | Severe Motion Blur and Salt & Pepper Noise caused the largest classification degradation | Distortion-aware fine-tuning | Fine-tuning substantially improved robustness, especially at severe distortion levels, while preserving clean-image performance |
+| ResNet50 Multi-Label Classification | Severe Motion Blur and Salt & Pepper Noise caused the largest classification degradation | Distortion-aware fine-tuning | Fine-tuning provided the strongest and most consistent robustness;
+restoration was similarly effective for Salt & Pepper Noise but much less
+effective for Motion Blur |
 
 ### Main Conclusions
 
@@ -847,7 +878,15 @@ Canny was the most sensitive method because it depends directly on local intensi
 
 GrabCut benefited strongly from restoration, especially after median filtering of Salt & Pepper Noise. In this condition, the restored segmentation score slightly exceeded the clean baseline, likely because smoothing produced more stable foreground and background regions.
 
-For ResNet50, distortion-aware fine-tuning was more effective than classical image restoration under severe degradation. The largest gains were observed for Motion Blur and strong Salt & Pepper Noise.
+For ResNet50, the direct comparison on the same 400 validation images showed
+a mean F1-score of approximately **0.755** for distorted inputs with the
+Clean-Control model, **0.781** after restoration, and **0.826** with the
+Distortion-Aware Fine-Tuned model.
+
+Fine-tuning was especially advantageous for Motion Blur, while restoration
+and fine-tuning achieved nearly identical recovery under Salt & Pepper Noise.
+Under Overexposure, the Clean-Control model was already highly robust, and
+restoration slightly reduced the classification score.
 
 Overall, the results show that no single improvement method is optimal for every task. Classical restoration is effective when the distortion can be reduced directly, while distortion-aware fine-tuning provides stronger robustness for high-level deep-learning models.
 
