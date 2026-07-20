@@ -8,7 +8,7 @@
 - [4. Part 1 – Baseline Performance on Clean Images](#4-baseline-performance-clean-images)
 - [5. Part 2 – Evaluation on Distorted Images](#5-evaluating-robustness-on-distorted-images)
 - [6. Part 3 – Image Enhancement and Restoration](#6-image-enhancement-and-restoration)
-- [7. Part 4 – Distortion-Aware Fine-Tuning](#7-distortion-aware-fine-tuning)
+- [7. Part 4 – Fine-Tuning Models on Distorted Images](#7-fine-tuning-models-on-distorted-images-distortion-aware-fine-tuning)
 - [8. Overall Project Summary and Conclusions](#8-overall-project-summary-and-conclusions)
 - [Hardware Requirements](#hardware-requirements)
 - [How to Run](#how-to-run)
@@ -582,7 +582,7 @@ GrabCut performance is measured using Segmentation IoU against the PASCAL VOC gr
 
 Across all three distortion types, restoration improved both traditional computer vision tasks. GrabCut showed the strongest recovery under Salt & Pepper Noise and slightly exceeded its clean baseline after restoration. Canny also improved in every condition, although its restored edge maps remained below the clean reference, indicating that lost edge structure is more difficult to reconstruct completely.
 
-## 7. Distortion-Aware Fine-Tuning
+## 7. Fine-Tuning Models on Distorted Images (Distortion-Aware Fine-Tuning)
 
 After evaluating image restoration as a preprocessing approach, we investigated a second method for improving deep-learning robustness: fine-tuning the ResNet50 classifier directly on distorted images.
 
