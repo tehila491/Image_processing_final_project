@@ -1,6 +1,6 @@
 # Evaluating Robustness of Computer Vision Models 👁️
 
-**Team Members:** Tehila Segal and Hadar Cemama (also spelled Semama)
+**Team Members:** Tehila Segal and Hadar Cemama (also spelled Semama) 
 
 ## Table of Contents
 
