@@ -919,10 +919,9 @@ Run the notebooks in the following order:
 4. `04_restoration.ipynb`
 5. `05_finetuning_distorted.ipynb`
 
-The project can be run either in Google Colab or locally using Jupyter Notebook / VS Code.
+The project can be run either in Google Colab or locally using Jupyter Notebook or VS Code.
 
 GPU acceleration is recommended for training and evaluating the deep-learning models.
 
-The PASCAL VOC 2012 dataset is required. Saved model checkpoints are stored in the `models` directory, while generated figures and result tables are stored in the `results` directory.
-
-
+The notebooks include the required package-installation commands.  
+The PASCAL VOC 2012 dataset is stored or downloaded into the `data` directory. Saved model checkpoints are stored in the `models` directory, while generated figures and result tables are stored in the `results` directory.
