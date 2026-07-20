@@ -1,0 +1,1201 @@
+sample_index,condition,distortion_type,severity_level,clean_reference_f1,distorted_clean_control_f1,restored_clean_control_f1,distorted_distortion_aware_f1
+1676,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+526,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3278,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4933,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4362,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+186,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5815,Salt & Pepper L4,salt_pepper,4,0.5,0.5,0.5,0.5
+2589,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5330,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1008,Salt & Pepper L4,salt_pepper,4,0.8571428656578064,0.8571428656578064,1.0,0.8571428656578064
+3531,Salt & Pepper L4,salt_pepper,4,0.5,0.5,0.0,0.5
+4002,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+165,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1000,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,1.0,1.0
+1247,Salt & Pepper L4,salt_pepper,4,1.0,0.5,0.800000011920929,1.0
+4037,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.800000011920929,0.800000011920929,1.0
+890,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4523,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.0,0.800000011920929,0.800000011920929
+2411,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4139,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3654,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2786,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5406,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.6666666865348816,0.800000011920929
+22,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.6666666865348816,0.6666666865348816
+1391,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3259,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+2804,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+714,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5282,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3027,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,1.0,1.0
+5437,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.6666666865348816,0.5,1.0
+1659,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5761,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.6666666865348816,0.800000011920929,0.800000011920929
+3972,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4169,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+534,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+761,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,1.0,0.6666666865348816
+2925,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2702,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+4,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3808,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5118,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1788,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5457,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+45,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,1.0,1.0
+855,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3617,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.6666666865348816,1.0
+3751,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.800000011920929,1.0,0.800000011920929
+2196,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+99,Salt & Pepper L4,salt_pepper,4,1.0,1.0,0.800000011920929,1.0
+3462,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2215,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,1.0,1.0
+4167,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2847,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2084,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.6666666865348816,0.800000011920929,0.800000011920929
+4237,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+43,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4460,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3140,Salt & Pepper L4,salt_pepper,4,0.5,0.0,0.5,0.800000011920929
+4340,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3628,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2122,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3280,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5470,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.0,0.0,0.0
+3283,Salt & Pepper L4,salt_pepper,4,1.0,1.0,0.6666666865348816,1.0
+3647,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+944,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2878,Salt & Pepper L4,salt_pepper,4,1.0,1.0,0.0,1.0
+5549,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+4498,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4413,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5430,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.5,1.0
+1777,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2474,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.4000000059604645,0.6666666865348816,0.8571428656578064
+1441,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+623,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1107,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5694,Salt & Pepper L4,salt_pepper,4,1.0,0.4000000059604645,0.800000011920929,0.5
+3759,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2457,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.800000011920929
+954,Salt & Pepper L4,salt_pepper,4,1.0,1.0,0.800000011920929,1.0
+3245,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,1.0
+4372,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+4995,Salt & Pepper L4,salt_pepper,4,0.8571428656578064,0.4000000059604645,0.6666666865348816,0.8571428656578064
+3404,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5784,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,0.6666666865348816
+4730,Salt & Pepper L4,salt_pepper,4,0.4000000059604645,0.0,0.5,0.0
+593,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+864,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+851,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1053,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.6666666865348816,0.6666666865348816
+5067,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1553,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2871,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5566,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.800000011920929
+4735,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,1.0,1.0
+145,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2181,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1749,Salt & Pepper L4,salt_pepper,4,0.5714285969734192,0.800000011920929,0.4000000059604645,0.75
+2624,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3813,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+916,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3885,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.800000011920929,0.800000011920929,0.6666666865348816
+3670,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+2573,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.0,0.6666666865348816,0.0
+4141,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,0.0
+2691,Salt & Pepper L4,salt_pepper,4,1.0,0.800000011920929,1.0,0.800000011920929
+2811,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4704,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+847,Salt & Pepper L4,salt_pepper,4,1.0,0.800000011920929,0.800000011920929,0.800000011920929
+252,Salt & Pepper L4,salt_pepper,4,0.5,0.5,0.5,0.5
+3149,Salt & Pepper L4,salt_pepper,4,1.0,1.0,0.6666666865348816,1.0
+2416,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3548,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3626,Salt & Pepper L4,salt_pepper,4,1.0,0.0,0.0,1.0
+4712,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3431,Salt & Pepper L4,salt_pepper,4,0.5,0.6666666865348816,0.5,0.5
+5305,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,1.0,0.6666666865348816
+1075,Salt & Pepper L4,salt_pepper,4,1.0,0.0,0.0,0.0
+100,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2388,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4090,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4574,Salt & Pepper L4,salt_pepper,4,0.5,0.0,0.5,0.5
+530,Salt & Pepper L4,salt_pepper,4,1.0,0.0,0.75,0.6666666865348816
+1402,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+408,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,1.0,1.0
+573,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.5
+2302,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,0.800000011920929
+459,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2595,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1525,Salt & Pepper L4,salt_pepper,4,0.5,0.5,0.6666666865348816,0.6666666865348816
+1019,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,1.0,0.6666666865348816
+1263,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1060,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,0.0
+3870,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1449,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.6666666865348816,0.6666666865348816
+3856,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4271,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,0.6666666865348816
+1092,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1127,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5131,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+4693,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+591,Salt & Pepper L4,salt_pepper,4,1.0,0.0,0.6666666865348816,0.6666666865348816
+1597,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2450,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,0.0
+3705,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2309,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+4021,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.5,0.800000011920929,0.800000011920929
+3678,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+3901,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5202,Salt & Pepper L4,salt_pepper,4,0.75,0.5714285969734192,0.75,0.75
+957,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2144,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2227,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1268,Salt & Pepper L4,salt_pepper,4,0.8571428656578064,0.6666666865348816,0.6666666865348816,1.0
+3725,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2370,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5686,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1446,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.6666666865348816,1.0,0.800000011920929
+3674,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+4258,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,1.0,0.6666666865348816
+3997,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+2168,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.0,0.6666666865348816,0.6666666865348816
+2576,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.5,0.5
+4219,Salt & Pepper L4,salt_pepper,4,1.0,1.0,0.6666666865348816,1.0
+4621,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+5335,Salt & Pepper L4,salt_pepper,4,0.8571428656578064,0.6666666865348816,0.75,0.75
+352,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.0,0.6666666865348816,0.6666666865348816
+1570,Salt & Pepper L4,salt_pepper,4,1.0,0.0,0.6666666865348816,0.6666666865348816
+5755,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3672,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1260,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+2192,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.0,0.800000011920929,0.800000011920929
+4643,Salt & Pepper L4,salt_pepper,4,1.0,0.800000011920929,0.800000011920929,0.800000011920929
+2247,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,0.0
+503,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.4000000059604645,0.5714285969734192,0.6666666865348816
+216,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,1.0,0.5
+3746,Salt & Pepper L4,salt_pepper,4,1.0,0.0,0.6666666865348816,1.0
+2372,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4305,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.4000000059604645,0.4000000059604645,0.6666666865348816
+2269,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3093,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1497,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,1.0,0.6666666865348816
+3469,Salt & Pepper L4,salt_pepper,4,1.0,1.0,0.0,1.0
+1715,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+812,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,0.6666666865348816
+4110,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.6666666865348816,1.0
+3699,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+841,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2621,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4278,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,0.0
+4674,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1608,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2296,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5294,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.0,0.6666666865348816,0.6666666865348816
+3118,Salt & Pepper L4,salt_pepper,4,1.0,1.0,0.800000011920929,1.0
+3823,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+793,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1768,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+3217,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+743,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3008,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+894,Salt & Pepper L4,salt_pepper,4,0.4000000059604645,0.6666666865348816,1.0,0.5
+1767,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+5274,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,1.0,1.0
+2342,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3520,Salt & Pepper L4,salt_pepper,4,0.5,0.5,0.4000000059604645,0.5
+265,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1887,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,1.0,0.8571428656578064
+1342,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+1599,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.0,0.6666666865348816,0.6666666865348816
+3229,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4009,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5480,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.5,0.6666666865348816,0.6666666865348816
+2265,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.5,0.800000011920929,0.5
+4996,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5084,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2889,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3310,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3523,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.5
+5772,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4655,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,0.6666666865348816
+32,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,0.800000011920929
+2979,Salt & Pepper L4,salt_pepper,4,1.0,0.5,0.6666666865348816,0.6666666865348816
+5447,Salt & Pepper L4,salt_pepper,4,0.8571428656578064,0.5,0.8571428656578064,0.8571428656578064
+5590,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.4000000059604645,0.6666666865348816,0.6666666865348816
+2264,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2961,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4943,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1205,Salt & Pepper L4,salt_pepper,4,1.0,0.0,0.800000011920929,1.0
+178,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+3125,Salt & Pepper L4,salt_pepper,4,1.0,0.0,0.0,0.6666666865348816
+5561,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+247,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.4000000059604645,1.0,0.800000011920929
+3646,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+1388,Salt & Pepper L4,salt_pepper,4,0.800000011920929,1.0,1.0,0.800000011920929
+4889,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+567,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4121,Salt & Pepper L4,salt_pepper,4,1.0,0.800000011920929,1.0,1.0
+1472,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3248,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1826,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,1.0,0.6666666865348816
+1657,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+306,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+471,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,1.0,1.0
+690,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.5,0.800000011920929,0.6666666865348816
+4741,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+74,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+5053,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2566,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4685,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+491,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,0.6666666865348816
+4483,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1274,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+964,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1844,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.6666666865348816
+3195,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.5,0.5,0.800000011920929
+4623,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3859,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3271,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3749,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.4000000059604645,0.5714285969734192,0.6666666865348816
+5545,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.0,0.0,0.0
+984,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,1.0,0.6666666865348816
+4865,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,0.6666666865348816
+5415,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1418,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+494,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.5,0.6666666865348816
+1226,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+5060,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3477,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+358,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3353,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5646,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.6666666865348816,0.6666666865348816
+1839,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3443,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2355,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3936,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1603,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4357,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,1.0,1.0
+4457,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.0,0.6666666865348816
+3110,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+5681,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+55,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5542,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.5,0.5,1.0
+4874,Salt & Pepper L4,salt_pepper,4,0.5,0.0,0.0,0.5
+2080,Salt & Pepper L4,salt_pepper,4,0.5,0.6666666865348816,0.5,0.5
+2074,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3717,Salt & Pepper L4,salt_pepper,4,1.0,1.0,0.6666666865348816,1.0
+4072,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,1.0,0.6666666865348816
+152,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2626,Salt & Pepper L4,salt_pepper,4,1.0,0.800000011920929,1.0,0.800000011920929
+2841,Salt & Pepper L4,salt_pepper,4,0.5,0.6666666865348816,0.5,0.5
+742,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2911,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.0,0.6666666865348816,1.0
+5538,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2021,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3371,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3559,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2510,Salt & Pepper L4,salt_pepper,4,1.0,0.800000011920929,1.0,1.0
+4444,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+919,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4914,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2349,Salt & Pepper L4,salt_pepper,4,0.5,0.0,0.4000000059604645,0.0
+1135,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1439,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+791,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1232,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+663,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2335,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.6666666865348816,0.6666666865348816
+4903,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,0.0
+2908,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,0.0
+5656,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+4584,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+413,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1503,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1269,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3132,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.6666666865348816,0.5
+4832,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2298,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,0.0
+4485,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+3236,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5260,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3061,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.0,0.6666666865348816,0.5
+493,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.0,1.0,0.6666666865348816
+3067,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4726,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+511,Salt & Pepper L4,salt_pepper,4,1.0,0.5,0.6666666865348816,1.0
+2633,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4427,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2169,Salt & Pepper L4,salt_pepper,4,1.0,0.800000011920929,1.0,0.800000011920929
+1145,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+720,Salt & Pepper L4,salt_pepper,4,1.0,0.0,0.6666666865348816,1.0
+266,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2316,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3156,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1835,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,1.0,1.0
+2940,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.0,0.6666666865348816
+912,Salt & Pepper L4,salt_pepper,4,0.5,0.6666666865348816,0.6666666865348816,0.5
+2968,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4670,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5645,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+734,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+3237,Salt & Pepper L4,salt_pepper,4,1.0,1.0,0.6666666865348816,1.0
+1048,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2366,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1459,Salt & Pepper L4,salt_pepper,4,0.5,0.6666666865348816,0.5,0.4000000059604645
+5284,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1622,Salt & Pepper L4,salt_pepper,4,1.0,0.0,1.0,1.0
+966,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4518,Salt & Pepper L4,salt_pepper,4,0.5,0.5,0.5,0.5
+2775,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4417,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,1.0,1.0
+1658,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1100,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,0.5
+5074,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2469,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.0,0.0,0.6666666865348816
+3057,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4392,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4662,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1997,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.5,1.0
+4595,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+4251,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+892,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,0.800000011920929
+3631,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2963,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2642,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5435,Salt & Pepper L4,salt_pepper,4,0.3333333432674408,0.3333333432674408,0.3333333432674408,0.3333333432674408
+3720,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.5
+1555,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3436,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2855,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5129,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.5,0.800000011920929,0.800000011920929
+1855,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,0.5,0.800000011920929
+1933,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2188,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,1.0,0.6666666865348816
+775,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.5,0.6666666865348816,0.800000011920929
+68,Salt & Pepper L4,salt_pepper,4,0.5,0.6666666865348816,0.5,0.5
+2173,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.5,0.6666666865348816
+437,Salt & Pepper L4,salt_pepper,4,1.0,0.5,1.0,0.800000011920929
+4998,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5062,Salt & Pepper L4,salt_pepper,4,1.0,0.0,0.0,1.0
+108,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2603,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3938,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.0,0.0,0.6666666865348816
+5707,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4273,Salt & Pepper L4,salt_pepper,4,0.5,0.5,0.5,0.4000000059604645
+332,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.5,0.5,0.6666666865348816
+610,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+631,Salt & Pepper L4,salt_pepper,4,0.0,0.0,0.0,0.0
+4742,Salt & Pepper L4,salt_pepper,4,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+614,Salt & Pepper L4,salt_pepper,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3555,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+2097,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+1696,Salt & Pepper L4,salt_pepper,4,0.8571428656578064,0.8571428656578064,0.6666666865348816,0.8571428656578064
+4332,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+5304,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+3349,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3914,Salt & Pepper L4,salt_pepper,4,1.0,1.0,0.6666666865348816,1.0
+5256,Salt & Pepper L4,salt_pepper,4,1.0,1.0,1.0,1.0
+564,Salt & Pepper L4,salt_pepper,4,0.6666666865348816,1.0,1.0,0.5
+1676,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.0,0.6666666865348816
+526,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3278,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4933,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4362,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+186,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5815,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.5
+2589,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5330,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1008,Overexposure L3,overexposure,3,0.8571428656578064,0.800000011920929,0.800000011920929,0.800000011920929
+3531,Overexposure L3,overexposure,3,0.5,1.0,1.0,1.0
+4002,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+165,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1000,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1247,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4037,Overexposure L3,overexposure,3,0.800000011920929,1.0,0.800000011920929,1.0
+890,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4523,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+2411,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4139,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3654,Overexposure L3,overexposure,3,0.6666666865348816,1.0,0.6666666865348816,0.6666666865348816
+2786,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5406,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+22,Overexposure L3,overexposure,3,0.6666666865348816,1.0,1.0,0.6666666865348816
+1391,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3259,Overexposure L3,overexposure,3,1.0,0.0,0.0,0.0
+2804,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+714,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5282,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3027,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5437,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,0.5
+1659,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5761,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+3972,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4169,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+534,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+761,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2925,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2702,Overexposure L3,overexposure,3,0.800000011920929,1.0,0.6666666865348816,1.0
+4,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3808,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5118,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1788,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5457,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+45,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+855,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3617,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3751,Overexposure L3,overexposure,3,0.800000011920929,1.0,0.800000011920929,1.0
+2196,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+99,Overexposure L3,overexposure,3,1.0,1.0,0.800000011920929,1.0
+3462,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2215,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4167,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2847,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2084,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+4237,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+43,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4460,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3140,Overexposure L3,overexposure,3,0.5,0.0,0.6666666865348816,0.5
+4340,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3628,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.0,0.5
+2122,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3280,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5470,Overexposure L3,overexposure,3,0.6666666865348816,0.0,0.0,0.0
+3283,Overexposure L3,overexposure,3,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3647,Overexposure L3,overexposure,3,0.0,0.0,0.0,0.0
+944,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.5
+2878,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5549,Overexposure L3,overexposure,3,1.0,1.0,0.6666666865348816,1.0
+4498,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4413,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5430,Overexposure L3,overexposure,3,0.6666666865348816,0.5,0.5,0.800000011920929
+1777,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2474,Overexposure L3,overexposure,3,0.6666666865348816,0.5,0.0,0.6666666865348816
+1441,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+623,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1107,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5694,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3759,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2457,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+954,Overexposure L3,overexposure,3,1.0,0.800000011920929,0.5,1.0
+3245,Overexposure L3,overexposure,3,0.0,1.0,0.6666666865348816,1.0
+4372,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4995,Overexposure L3,overexposure,3,0.8571428656578064,0.6666666865348816,0.6666666865348816,0.8571428656578064
+3404,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5784,Overexposure L3,overexposure,3,1.0,0.6666666865348816,0.5,0.5
+4730,Overexposure L3,overexposure,3,0.4000000059604645,0.4000000059604645,0.4000000059604645,0.800000011920929
+593,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+864,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+851,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1053,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5067,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1553,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2871,Overexposure L3,overexposure,3,1.0,0.6666666865348816,1.0,0.6666666865348816
+5566,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.800000011920929
+4735,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+145,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2181,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1749,Overexposure L3,overexposure,3,0.5714285969734192,0.6666666865348816,0.5714285969734192,0.5714285969734192
+2624,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3813,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+916,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3885,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+3670,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2573,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,1.0,0.0
+4141,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2691,Overexposure L3,overexposure,3,1.0,0.800000011920929,1.0,0.800000011920929
+2811,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4704,Overexposure L3,overexposure,3,0.0,0.0,0.0,0.0
+847,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+252,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.5
+3149,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2416,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3548,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3626,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4712,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3431,Overexposure L3,overexposure,3,0.5,0.5,1.0,0.5
+5305,Overexposure L3,overexposure,3,0.6666666865348816,1.0,1.0,1.0
+1075,Overexposure L3,overexposure,3,1.0,0.6666666865348816,1.0,1.0
+100,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2388,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4090,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4574,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.5
+530,Overexposure L3,overexposure,3,1.0,0.8571428656578064,0.75,0.8571428656578064
+1402,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+408,Overexposure L3,overexposure,3,1.0,0.800000011920929,1.0,1.0
+573,Overexposure L3,overexposure,3,0.6666666865348816,1.0,1.0,1.0
+2302,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+459,Overexposure L3,overexposure,3,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2595,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1525,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.6666666865348816
+1019,Overexposure L3,overexposure,3,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1263,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1060,Overexposure L3,overexposure,3,1.0,0.0,0.0,0.0
+3870,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1449,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3856,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4271,Overexposure L3,overexposure,3,1.0,0.0,0.0,0.0
+1092,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1127,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5131,Overexposure L3,overexposure,3,0.0,0.0,0.0,0.0
+4693,Overexposure L3,overexposure,3,0.0,0.0,0.0,0.6666666865348816
+591,Overexposure L3,overexposure,3,1.0,0.6666666865348816,1.0,1.0
+1597,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2450,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3705,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2309,Overexposure L3,overexposure,3,0.0,0.0,0.0,0.0
+4021,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,1.0
+3678,Overexposure L3,overexposure,3,0.0,0.6666666865348816,0.0,1.0
+3901,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5202,Overexposure L3,overexposure,3,0.75,0.75,0.75,0.75
+957,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2144,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2227,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1268,Overexposure L3,overexposure,3,0.8571428656578064,0.8571428656578064,0.8571428656578064,0.8571428656578064
+3725,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2370,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5686,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1446,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,1.0,0.800000011920929
+3674,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+4258,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.0
+3997,Overexposure L3,overexposure,3,1.0,1.0,1.0,0.6666666865348816
+2168,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+2576,Overexposure L3,overexposure,3,1.0,1.0,0.6666666865348816,0.6666666865348816
+4219,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4621,Overexposure L3,overexposure,3,0.0,0.0,0.0,0.0
+5335,Overexposure L3,overexposure,3,0.8571428656578064,0.8571428656578064,0.8571428656578064,0.8571428656578064
+352,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1570,Overexposure L3,overexposure,3,1.0,1.0,0.6666666865348816,1.0
+5755,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3672,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1260,Overexposure L3,overexposure,3,0.0,0.0,0.0,0.0
+2192,Overexposure L3,overexposure,3,0.800000011920929,1.0,0.800000011920929,1.0
+4643,Overexposure L3,overexposure,3,1.0,0.800000011920929,0.800000011920929,1.0
+2247,Overexposure L3,overexposure,3,1.0,1.0,1.0,0.6666666865348816
+503,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+216,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3746,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2372,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4305,Overexposure L3,overexposure,3,0.6666666865348816,0.8571428656578064,0.6666666865348816,0.8571428656578064
+2269,Overexposure L3,overexposure,3,1.0,0.6666666865348816,1.0,0.6666666865348816
+3093,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1497,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3469,Overexposure L3,overexposure,3,1.0,1.0,1.0,0.6666666865348816
+1715,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+812,Overexposure L3,overexposure,3,1.0,1.0,1.0,0.6666666865348816
+4110,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,1.0,0.6666666865348816
+3699,Overexposure L3,overexposure,3,0.6666666865348816,1.0,0.6666666865348816,1.0
+841,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2621,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4278,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4674,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1608,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2296,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5294,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3118,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3823,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+793,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1768,Overexposure L3,overexposure,3,0.0,0.0,0.0,1.0
+3217,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+743,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3008,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+894,Overexposure L3,overexposure,3,0.4000000059604645,0.5,0.6666666865348816,0.5
+1767,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5274,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,1.0,0.6666666865348816
+2342,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3520,Overexposure L3,overexposure,3,0.5,0.4000000059604645,0.4000000059604645,0.5
+265,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1887,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1342,Overexposure L3,overexposure,3,0.0,0.0,0.0,0.0
+1599,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,1.0,1.0
+3229,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4009,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5480,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2265,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.5,0.5
+4996,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5084,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2889,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3310,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3523,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.5
+5772,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4655,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+32,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2979,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5447,Overexposure L3,overexposure,3,0.8571428656578064,0.8571428656578064,1.0,0.8571428656578064
+5590,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.8571428656578064
+2264,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2961,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4943,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1205,Overexposure L3,overexposure,3,1.0,0.800000011920929,1.0,1.0
+178,Overexposure L3,overexposure,3,0.6666666865348816,1.0,0.6666666865348816,1.0
+3125,Overexposure L3,overexposure,3,1.0,1.0,0.0,0.6666666865348816
+5561,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+247,Overexposure L3,overexposure,3,0.800000011920929,1.0,0.800000011920929,1.0
+3646,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1388,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+4889,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+567,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4121,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1472,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3248,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1826,Overexposure L3,overexposure,3,0.6666666865348816,1.0,0.6666666865348816,0.6666666865348816
+1657,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+306,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+471,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+690,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+4741,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+74,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5053,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2566,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4685,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+491,Overexposure L3,overexposure,3,1.0,1.0,1.0,0.6666666865348816
+4483,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1274,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+964,Overexposure L3,overexposure,3,1.0,0.6666666865348816,1.0,0.6666666865348816
+1844,Overexposure L3,overexposure,3,0.0,0.0,0.0,1.0
+3195,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,0.6666666865348816
+4623,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3859,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3271,Overexposure L3,overexposure,3,1.0,0.6666666865348816,0.0,1.0
+3749,Overexposure L3,overexposure,3,0.6666666865348816,0.75,0.800000011920929,0.5714285969734192
+5545,Overexposure L3,overexposure,3,0.6666666865348816,1.0,0.0,1.0
+984,Overexposure L3,overexposure,3,0.6666666865348816,1.0,1.0,0.6666666865348816
+4865,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5415,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1418,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+494,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.5
+1226,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5060,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3477,Overexposure L3,overexposure,3,1.0,1.0,1.0,0.6666666865348816
+358,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3353,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5646,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1839,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3443,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2355,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3936,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1603,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4357,Overexposure L3,overexposure,3,0.6666666865348816,1.0,1.0,0.6666666865348816
+4457,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3110,Overexposure L3,overexposure,3,0.0,0.0,0.0,0.0
+5681,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+55,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5542,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,0.6666666865348816
+4874,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.5
+2080,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.5
+2074,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3717,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4072,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+152,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2626,Overexposure L3,overexposure,3,1.0,1.0,0.800000011920929,1.0
+2841,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.5
+742,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2911,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5538,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2021,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3371,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3559,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2510,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4444,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+919,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4914,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2349,Overexposure L3,overexposure,3,0.5,0.6666666865348816,0.6666666865348816,0.5
+1135,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1439,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+791,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1232,Overexposure L3,overexposure,3,1.0,0.6666666865348816,1.0,0.6666666865348816
+663,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2335,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4903,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2908,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5656,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4584,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+413,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1503,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1269,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3132,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4832,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2298,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4485,Overexposure L3,overexposure,3,0.0,0.0,0.0,0.0
+3236,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5260,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3061,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+493,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3067,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4726,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+511,Overexposure L3,overexposure,3,1.0,0.6666666865348816,1.0,1.0
+2633,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4427,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2169,Overexposure L3,overexposure,3,1.0,0.800000011920929,1.0,1.0
+1145,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+720,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+266,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2316,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3156,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1835,Overexposure L3,overexposure,3,0.6666666865348816,1.0,1.0,1.0
+2940,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+912,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.5
+2968,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4670,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5645,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+734,Overexposure L3,overexposure,3,0.0,0.0,0.5,0.6666666865348816
+3237,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1048,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2366,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1459,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.5
+5284,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1622,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+966,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4518,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.5
+2775,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4417,Overexposure L3,overexposure,3,1.0,1.0,0.5,1.0
+1658,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1100,Overexposure L3,overexposure,3,1.0,1.0,1.0,0.6666666865348816
+5074,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2469,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3057,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4392,Overexposure L3,overexposure,3,1.0,1.0,0.0,1.0
+4662,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1997,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+4595,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+4251,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+892,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3631,Overexposure L3,overexposure,3,1.0,1.0,0.6666666865348816,0.6666666865348816
+2963,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2642,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5435,Overexposure L3,overexposure,3,0.3333333432674408,0.3333333432674408,0.3333333432674408,0.3333333432674408
+3720,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1555,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3436,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2855,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5129,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+1855,Overexposure L3,overexposure,3,0.6666666865348816,1.0,1.0,1.0
+1933,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2188,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+775,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+68,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.5
+2173,Overexposure L3,overexposure,3,0.6666666865348816,0.5,1.0,1.0
+437,Overexposure L3,overexposure,3,1.0,0.8571428656578064,0.5,0.8571428656578064
+4998,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5062,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+108,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2603,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3938,Overexposure L3,overexposure,3,0.800000011920929,1.0,1.0,1.0
+5707,Overexposure L3,overexposure,3,1.0,1.0,0.6666666865348816,1.0
+4273,Overexposure L3,overexposure,3,0.5,0.5,0.5,0.4000000059604645
+332,Overexposure L3,overexposure,3,0.6666666865348816,0.5,0.6666666865348816,0.5
+610,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+631,Overexposure L3,overexposure,3,0.0,0.0,0.0,0.0
+4742,Overexposure L3,overexposure,3,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+614,Overexposure L3,overexposure,3,1.0,1.0,0.6666666865348816,1.0
+3555,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+2097,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+1696,Overexposure L3,overexposure,3,0.8571428656578064,0.6666666865348816,0.6666666865348816,0.8571428656578064
+4332,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+5304,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+3349,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3914,Overexposure L3,overexposure,3,1.0,0.6666666865348816,1.0,1.0
+5256,Overexposure L3,overexposure,3,1.0,1.0,1.0,1.0
+564,Overexposure L3,overexposure,3,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1676,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,1.0,0.6666666865348816
+526,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3278,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4933,Motion Blur L4,motion_blur,4,1.0,0.0,1.0,1.0
+4362,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+186,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5815,Motion Blur L4,motion_blur,4,0.5,0.5,0.5,0.4000000059604645
+2589,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5330,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,1.0
+1008,Motion Blur L4,motion_blur,4,0.8571428656578064,0.0,0.5,0.800000011920929
+3531,Motion Blur L4,motion_blur,4,0.5,0.6666666865348816,0.5,1.0
+4002,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,0.6666666865348816
+165,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1000,Motion Blur L4,motion_blur,4,1.0,1.0,0.6666666865348816,0.6666666865348816
+1247,Motion Blur L4,motion_blur,4,1.0,0.5,0.5,0.800000011920929
+4037,Motion Blur L4,motion_blur,4,0.800000011920929,0.5,0.5,0.800000011920929
+890,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4523,Motion Blur L4,motion_blur,4,0.800000011920929,0.800000011920929,0.800000011920929,0.6666666865348816
+2411,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4139,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3654,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,1.0,0.6666666865348816
+2786,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5406,Motion Blur L4,motion_blur,4,0.6666666865348816,0.5,0.5,0.3333333432674408
+22,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+1391,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3259,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2804,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+714,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5282,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,1.0
+3027,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,0.800000011920929,0.6666666865348816
+5437,Motion Blur L4,motion_blur,4,0.800000011920929,0.6666666865348816,0.6666666865348816,1.0
+1659,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,1.0
+5761,Motion Blur L4,motion_blur,4,0.800000011920929,0.6666666865348816,1.0,0.5714285969734192
+3972,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+4169,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+534,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+761,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,1.0
+2925,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2702,Motion Blur L4,motion_blur,4,0.800000011920929,1.0,1.0,0.800000011920929
+4,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3808,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5118,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.6666666865348816
+1788,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5457,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+45,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+855,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3617,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,1.0
+3751,Motion Blur L4,motion_blur,4,0.800000011920929,1.0,1.0,1.0
+2196,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+99,Motion Blur L4,motion_blur,4,1.0,0.800000011920929,0.6666666865348816,1.0
+3462,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2215,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4167,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2847,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2084,Motion Blur L4,motion_blur,4,0.800000011920929,0.5,0.5,0.800000011920929
+4237,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+43,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4460,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+3140,Motion Blur L4,motion_blur,4,0.5,0.0,0.0,0.800000011920929
+4340,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3628,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2122,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3280,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,0.6666666865348816
+5470,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,0.0
+3283,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3647,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+944,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.4000000059604645
+2878,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,1.0
+5549,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,0.6666666865348816
+4498,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4413,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5430,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.5,1.0
+1777,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,0.6666666865348816
+2474,Motion Blur L4,motion_blur,4,0.6666666865348816,0.5,0.5,0.8571428656578064
+1441,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+623,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1107,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,0.6666666865348816
+5694,Motion Blur L4,motion_blur,4,1.0,0.5,0.5,0.800000011920929
+3759,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,1.0
+2457,Motion Blur L4,motion_blur,4,0.6666666865348816,0.800000011920929,0.800000011920929,0.5
+954,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,0.800000011920929
+3245,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,1.0
+4372,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,1.0
+4995,Motion Blur L4,motion_blur,4,0.8571428656578064,0.4000000059604645,0.4000000059604645,0.8571428656578064
+3404,Motion Blur L4,motion_blur,4,1.0,1.0,0.6666666865348816,1.0
+5784,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+4730,Motion Blur L4,motion_blur,4,0.4000000059604645,0.6666666865348816,0.6666666865348816,0.5
+593,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+864,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,0.6666666865348816
+851,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1053,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,0.6666666865348816
+5067,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1553,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,1.0
+2871,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5566,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.800000011920929
+4735,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+145,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2181,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+1749,Motion Blur L4,motion_blur,4,0.5714285969734192,0.6666666865348816,0.6666666865348816,0.5714285969734192
+2624,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3813,Motion Blur L4,motion_blur,4,1.0,1.0,0.6666666865348816,1.0
+916,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3885,Motion Blur L4,motion_blur,4,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+3670,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.6666666865348816
+2573,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4141,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2691,Motion Blur L4,motion_blur,4,1.0,0.800000011920929,0.800000011920929,1.0
+2811,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4704,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+847,Motion Blur L4,motion_blur,4,1.0,0.800000011920929,0.800000011920929,0.800000011920929
+252,Motion Blur L4,motion_blur,4,0.5,0.6666666865348816,0.6666666865348816,0.800000011920929
+3149,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+2416,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,1.0
+3548,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3626,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,1.0
+4712,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3431,Motion Blur L4,motion_blur,4,0.5,0.6666666865348816,0.6666666865348816,0.5
+5305,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,0.6666666865348816
+1075,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,1.0
+100,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2388,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4090,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4574,Motion Blur L4,motion_blur,4,0.5,0.5,0.5,0.5
+530,Motion Blur L4,motion_blur,4,1.0,0.4000000059604645,0.5714285969734192,1.0
+1402,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,1.0
+408,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+573,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,0.800000011920929
+2302,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+459,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2595,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1525,Motion Blur L4,motion_blur,4,0.5,0.4000000059604645,0.5,0.5
+1019,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1263,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1060,Motion Blur L4,motion_blur,4,1.0,0.0,1.0,1.0
+3870,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1449,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,0.6666666865348816
+3856,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4271,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.6666666865348816
+1092,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1127,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5131,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+4693,Motion Blur L4,motion_blur,4,0.0,0.6666666865348816,0.6666666865348816,0.5
+591,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.6666666865348816
+1597,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2450,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,0.6666666865348816
+3705,Motion Blur L4,motion_blur,4,1.0,1.0,0.0,1.0
+2309,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+4021,Motion Blur L4,motion_blur,4,0.800000011920929,0.800000011920929,0.5,0.800000011920929
+3678,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+3901,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5202,Motion Blur L4,motion_blur,4,0.75,0.5,0.6666666865348816,0.75
+957,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,1.0,0.6666666865348816
+2144,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,1.0
+2227,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1268,Motion Blur L4,motion_blur,4,0.8571428656578064,0.4000000059604645,0.6666666865348816,0.8571428656578064
+3725,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2370,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5686,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1446,Motion Blur L4,motion_blur,4,0.800000011920929,1.0,0.800000011920929,1.0
+3674,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+4258,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,0.6666666865348816
+3997,Motion Blur L4,motion_blur,4,1.0,1.0,0.6666666865348816,0.6666666865348816
+2168,Motion Blur L4,motion_blur,4,0.800000011920929,0.0,0.6666666865348816,0.800000011920929
+2576,Motion Blur L4,motion_blur,4,1.0,0.5,0.5,0.5
+4219,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.0
+4621,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+5335,Motion Blur L4,motion_blur,4,0.8571428656578064,0.6666666865348816,0.8571428656578064,0.8571428656578064
+352,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1570,Motion Blur L4,motion_blur,4,1.0,0.0,0.6666666865348816,0.6666666865348816
+5755,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,0.6666666865348816
+3672,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1260,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+2192,Motion Blur L4,motion_blur,4,0.800000011920929,0.0,0.0,1.0
+4643,Motion Blur L4,motion_blur,4,1.0,0.800000011920929,0.800000011920929,0.800000011920929
+2247,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,0.6666666865348816
+503,Motion Blur L4,motion_blur,4,0.6666666865348816,0.4000000059604645,0.4000000059604645,0.4000000059604645
+216,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,1.0
+3746,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.6666666865348816
+2372,Motion Blur L4,motion_blur,4,0.6666666865348816,0.5,0.5,0.5
+4305,Motion Blur L4,motion_blur,4,0.6666666865348816,0.4000000059604645,0.4000000059604645,0.5714285969734192
+2269,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3093,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1497,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,0.800000011920929
+3469,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.0
+1715,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+812,Motion Blur L4,motion_blur,4,1.0,0.0,1.0,1.0
+4110,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+3699,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,0.6666666865348816,1.0
+841,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2621,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4278,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,1.0
+4674,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1608,Motion Blur L4,motion_blur,4,1.0,0.800000011920929,0.6666666865348816,0.6666666865348816
+2296,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5294,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3118,Motion Blur L4,motion_blur,4,1.0,1.0,0.800000011920929,0.800000011920929
+3823,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,0.6666666865348816
+793,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.5,0.6666666865348816
+1768,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+3217,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+743,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,0.6666666865348816
+3008,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.0,1.0
+894,Motion Blur L4,motion_blur,4,0.4000000059604645,0.6666666865348816,0.6666666865348816,0.5
+1767,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5274,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2342,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3520,Motion Blur L4,motion_blur,4,0.5,0.6666666865348816,0.4000000059604645,0.5
+265,Motion Blur L4,motion_blur,4,1.0,1.0,0.6666666865348816,1.0
+1887,Motion Blur L4,motion_blur,4,1.0,0.8571428656578064,0.8571428656578064,0.8571428656578064
+1342,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+1599,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,0.6666666865348816
+3229,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,0.800000011920929
+4009,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5480,Motion Blur L4,motion_blur,4,0.6666666865348816,0.5,0.800000011920929,0.6666666865348816
+2265,Motion Blur L4,motion_blur,4,0.800000011920929,0.800000011920929,0.800000011920929,0.5
+4996,Motion Blur L4,motion_blur,4,1.0,1.0,0.6666666865348816,1.0
+5084,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2889,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3310,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3523,Motion Blur L4,motion_blur,4,0.6666666865348816,0.5,0.6666666865348816,0.6666666865348816
+5772,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4655,Motion Blur L4,motion_blur,4,1.0,1.0,0.6666666865348816,1.0
+32,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2979,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5447,Motion Blur L4,motion_blur,4,0.8571428656578064,0.5,0.4000000059604645,0.6666666865348816
+5590,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2264,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,0.6666666865348816
+2961,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4943,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1205,Motion Blur L4,motion_blur,4,1.0,1.0,0.800000011920929,0.800000011920929
+178,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+3125,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.0
+5561,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+247,Motion Blur L4,motion_blur,4,0.800000011920929,1.0,0.800000011920929,1.0
+3646,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1388,Motion Blur L4,motion_blur,4,0.800000011920929,1.0,0.6666666865348816,0.800000011920929
+4889,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+567,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4121,Motion Blur L4,motion_blur,4,1.0,0.800000011920929,0.800000011920929,1.0
+1472,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3248,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1826,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,1.0
+1657,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+306,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+471,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+690,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4741,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+74,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.800000011920929
+5053,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2566,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4685,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+491,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4483,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1274,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+964,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+1844,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+3195,Motion Blur L4,motion_blur,4,0.800000011920929,0.6666666865348816,0.5,0.800000011920929
+4623,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3859,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+3271,Motion Blur L4,motion_blur,4,1.0,1.0,0.0,1.0
+3749,Motion Blur L4,motion_blur,4,0.6666666865348816,0.2857142984867096,0.3333333432674408,0.8888888955116272
+5545,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,1.0
+984,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,0.6666666865348816
+4865,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5415,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1418,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+494,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,0.5
+1226,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,1.0
+5060,Motion Blur L4,motion_blur,4,1.0,0.800000011920929,0.800000011920929,1.0
+3477,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+358,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.5,1.0
+3353,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+5646,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,0.6666666865348816
+1839,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3443,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2355,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3936,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1603,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+4357,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,1.0,1.0
+4457,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,0.0
+3110,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+5681,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+55,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5542,Motion Blur L4,motion_blur,4,0.800000011920929,0.6666666865348816,0.5,0.5
+4874,Motion Blur L4,motion_blur,4,0.5,0.0,0.0,0.800000011920929
+2080,Motion Blur L4,motion_blur,4,0.5,0.6666666865348816,0.6666666865348816,0.5
+2074,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3717,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4072,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+152,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2626,Motion Blur L4,motion_blur,4,1.0,0.5,0.5,0.800000011920929
+2841,Motion Blur L4,motion_blur,4,0.5,0.5,0.5,0.5
+742,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2911,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,1.0
+5538,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.6666666865348816,0.6666666865348816
+2021,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3371,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3559,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2510,Motion Blur L4,motion_blur,4,1.0,1.0,0.800000011920929,1.0
+4444,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.6666666865348816
+919,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4914,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2349,Motion Blur L4,motion_blur,4,0.5,1.0,0.6666666865348816,0.4000000059604645
+1135,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1439,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+791,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1232,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+663,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2335,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+4903,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2908,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.6666666865348816
+5656,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4584,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+413,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,0.6666666865348816
+1503,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1269,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3132,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,0.0,1.0
+4832,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2298,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,1.0
+4485,Motion Blur L4,motion_blur,4,0.0,0.6666666865348816,0.0,0.6666666865348816
+3236,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+5260,Motion Blur L4,motion_blur,4,1.0,1.0,0.0,1.0
+3061,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,0.6666666865348816
+493,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.0,1.0
+3067,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4726,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+511,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2633,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4427,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2169,Motion Blur L4,motion_blur,4,1.0,0.800000011920929,0.800000011920929,1.0
+1145,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+720,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+266,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.6666666865348816
+2316,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.6666666865348816
+3156,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1835,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,1.0,1.0
+2940,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,0.0
+912,Motion Blur L4,motion_blur,4,0.5,0.5,0.5,0.4000000059604645
+2968,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4670,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5645,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+734,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+3237,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1048,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2366,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+1459,Motion Blur L4,motion_blur,4,0.5,0.5,0.5,0.800000011920929
+5284,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.5
+1622,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.6666666865348816
+966,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4518,Motion Blur L4,motion_blur,4,0.5,0.5,0.5,0.5
+2775,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4417,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+1658,Motion Blur L4,motion_blur,4,1.0,0.5,0.6666666865348816,1.0
+1100,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,0.6666666865348816
+5074,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2469,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,0.6666666865348816
+3057,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4392,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4662,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,1.0
+1997,Motion Blur L4,motion_blur,4,0.6666666865348816,0.0,0.0,0.4000000059604645
+4595,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+4251,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+892,Motion Blur L4,motion_blur,4,1.0,0.800000011920929,0.800000011920929,0.8571428656578064
+3631,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2963,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2642,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,1.0,1.0
+5435,Motion Blur L4,motion_blur,4,0.3333333432674408,0.5714285969734192,0.5714285969734192,0.3333333432674408
+3720,Motion Blur L4,motion_blur,4,0.6666666865348816,0.5,0.5,0.5
+1555,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,0.6666666865348816
+3436,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2855,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5129,Motion Blur L4,motion_blur,4,0.800000011920929,0.4000000059604645,0.4000000059604645,0.800000011920929
+1855,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,1.0
+1933,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2188,Motion Blur L4,motion_blur,4,0.6666666865348816,1.0,0.6666666865348816,0.6666666865348816
+775,Motion Blur L4,motion_blur,4,0.6666666865348816,0.800000011920929,0.800000011920929,0.6666666865348816
+68,Motion Blur L4,motion_blur,4,0.5,0.6666666865348816,0.6666666865348816,0.6666666865348816
+2173,Motion Blur L4,motion_blur,4,0.6666666865348816,0.5,0.5,1.0
+437,Motion Blur L4,motion_blur,4,1.0,0.0,0.5,0.5
+4998,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,0.6666666865348816
+5062,Motion Blur L4,motion_blur,4,1.0,0.0,0.0,1.0
+108,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2603,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+3938,Motion Blur L4,motion_blur,4,0.800000011920929,0.0,0.0,0.5
+5707,Motion Blur L4,motion_blur,4,1.0,0.0,0.6666666865348816,1.0
+4273,Motion Blur L4,motion_blur,4,0.5,0.5,0.5,0.5
+332,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.5,0.5
+610,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+631,Motion Blur L4,motion_blur,4,0.0,0.0,0.0,0.0
+4742,Motion Blur L4,motion_blur,4,0.800000011920929,0.800000011920929,0.800000011920929,0.800000011920929
+614,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,1.0
+3555,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+2097,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+1696,Motion Blur L4,motion_blur,4,0.8571428656578064,0.6666666865348816,0.8571428656578064,0.6666666865348816
+4332,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+5304,Motion Blur L4,motion_blur,4,1.0,0.0,1.0,1.0
+3349,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,0.6666666865348816,0.6666666865348816
+3914,Motion Blur L4,motion_blur,4,1.0,0.6666666865348816,0.6666666865348816,0.6666666865348816
+5256,Motion Blur L4,motion_blur,4,1.0,1.0,1.0,1.0
+564,Motion Blur L4,motion_blur,4,0.6666666865348816,0.6666666865348816,1.0,0.5
