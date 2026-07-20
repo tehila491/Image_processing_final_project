@@ -900,7 +900,7 @@ distortion-aware fine-tuning stages, especially for:
 - `04_restoration.ipynb`
 - `05_finetuning_distorted.ipynb`
 
-The notebooks were designed to run in Google Colab.
+The project was developed and tested in Google Colab and was also run locally using Jupyter Notebook / VS Code.
 
 To enable a GPU in Google Colab:
 
@@ -913,11 +913,11 @@ The code automatically uses a GPU when one is available and falls back to CPU ot
 
 Run the notebooks in the following order:
 
-1. `01_dataset_visualization.ipynb`
-2. `02_clean_baseline.ipynb`
-3. `03_distortions.ipynb`
-4. `04_restoration.ipynb`
-5. `05_finetuning_distorted.ipynb`
+1. `notebooks/01_dataset_visualization.ipynb`
+2. `notebooks/02_clean_baseline.ipynb`
+3. `notebooks/03_distortions.ipynb`
+4. `notebooks/04_restoration.ipynb`
+5. `notebooks/05_finetuning_distorted.ipynb`
 
 The project can be run either in Google Colab or locally using Jupyter Notebook or VS Code.
 
