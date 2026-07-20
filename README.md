@@ -909,3 +909,20 @@ To enable a GPU in Google Colab:
 3. Choose `T4 GPU` as the hardware accelerator
 
 The code automatically uses a GPU when one is available and falls back to CPU otherwise.
+## How to Run
+
+Run the notebooks in the following order:
+
+1. `01_dataset_visualization.ipynb`
+2. `02_clean_baseline.ipynb`
+3. `03_distortions.ipynb`
+4. `04_restoration.ipynb`
+5. `05_finetuning_distorted.ipynb`
+
+The project can be run either in Google Colab or locally using Jupyter Notebook / VS Code.
+
+GPU acceleration is recommended for training and evaluating the deep-learning models.
+
+The PASCAL VOC 2012 dataset is required. Saved model checkpoints are stored in the `models` directory, while generated figures and result tables are stored in the `results` directory.
+
+
