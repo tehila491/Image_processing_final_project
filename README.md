@@ -1,5 +1,7 @@
 # Evaluating Robustness of Computer Vision Models 👁️
 
+**Team Members:** Tehila Segal and Hadar Cemama (also spelled Semama)
+
 ## Table of Contents
 
 - [1. Project Overview](#1-project-overview)
@@ -36,7 +38,6 @@ The selected distortions are:
 For each task, we first measure performance on clean images, then evaluate performance degradation under distorted images, and finally test whether image restoration/enhancement methods can recover part of the lost performance.  
 For the deep learning task, we also evaluate model behavior under distortions and compare it with the clean-image baseline.
 
-**Team Members:** Tehila Segal and Hadar Cemama (also spelled Semama)
 
 ## 2. Project Decisions & Setup
 
