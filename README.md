@@ -1,5 +1,21 @@
 # Evaluating Robustness of Computer Vision Models 👁️
 
+## Table of Contents
+
+- [1. Project Overview](#1-project-overview)
+- [2. Project Decisions & Setup](#2-project-decisions--setup)
+- [3. Exploratory Data Analysis (EDA)](#3-exploratory-data-analysis-eda)
+- [4. Baseline Performance (Clean Images)](#4-baseline-performance-clean-images)
+- [5. Evaluating Robustness on Distorted Images](#5-evaluating-robustness-on-distorted-images)
+- [6. Image Enhancement and Restoration](#6-image-enhancement-and-restoration)
+- [7. Distortion-Aware Fine-Tuning](#7-distortion-aware-fine-tuning)
+- [8. Overall Project Summary and Conclusions](#8-overall-project-summary-and-conclusions)
+- [Hardware Requirements](#hardware-requirements)
+- [How to Run](#how-to-run)
+
+---
+
+
 ## 1. Project Overview
 
 This project evaluates the robustness of classical image processing algorithms and deep learning models under different image distortions.  
