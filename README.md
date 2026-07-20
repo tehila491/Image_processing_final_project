@@ -927,4 +927,4 @@ The notebooks include the required package-installation commands.
 
 The full PASCAL VOC 2012 dataset is not included in the repository because of its size. It is downloaded and prepared in the `data` directory by running `01_dataset_visualization.ipynb`.
 
-Saved model checkpoints are stored in the `models` directory, while generated figures and result tables are stored in the `results` directory.
+During execution, trained model checkpoints are saved to the `models` directory. The checkpoint files are not included in this repository because of their size. Generated figures and result tables are stored in the `results` directory.
