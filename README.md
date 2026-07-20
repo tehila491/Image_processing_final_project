@@ -923,5 +923,8 @@ The project can be run either in Google Colab or locally using Jupyter Notebook 
 
 GPU acceleration is recommended for training and evaluating the deep-learning models.
 
-The notebooks include the required package-installation commands.  
-The PASCAL VOC 2012 dataset is stored or downloaded into the `data` directory. Saved model checkpoints are stored in the `models` directory, while generated figures and result tables are stored in the `results` directory.
+The notebooks include the required package-installation commands.
+
+The full PASCAL VOC 2012 dataset is not included in the repository because of its size. It is downloaded and prepared in the `data` directory by running `01_dataset_visualization.ipynb`.
+
+Saved model checkpoints are stored in the `models` directory, while generated figures and result tables are stored in the `results` directory.
